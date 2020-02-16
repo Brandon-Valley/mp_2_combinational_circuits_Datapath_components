@@ -1,100 +1,73 @@
+-- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__NAND4.do
 
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+-- aqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-
-entity NAND4 is
-  port ( i_a : in  std_logic;
-         i_b : in  std_logic;
-         i_c : in  std_logic;
-         i_d : in  std_logic;
-         o_f : out std_logic);
-end NAND4;
-
-
---------------------------------
--- Equation Model
---------------------------------
-
-architecture equation of NAND4 is
-  begin
-    o_f <= not (i_a and i_b and i_c and i_d);
-end architecture equation;
-
-
-
---------------------------------
--- Behavior Model
---------------------------------
-architecture behavior of NAND4 is
-  begin
-    o_f <= '0' when (i_a = '1' and 
-                     i_b = '1' and 
-                     i_c = '1' and 
-                     i_d = '1')
-               else
-           '1';
-end architecture behavior;
-
-
-
---------------------------------
--- Component Model - Primitive
---------------------------------
-architecture cmpnt_prim of NAND4 is
-  component AND2 is
-    port ( i_a : in  std_logic;
-           i_b : in  std_logic;
-           o_f : out std_logic);
-  end component AND2;
-    
-  component NOT1 is
-    port ( i_a : in  std_logic;
-           o_f : out std_logic);
-  end component NOT1;
-    
-  -- temp outs for AND2s
-  signal f_1_o : std_logic; 
-  signal f_2_o : std_logic; 
-  signal f_3_o : std_logic; 
+entity NAND4_tb is
+end entity NAND4_tb;
+architecture verify of NAND4_tb is
+  signal i_a   : std_logic;
+  signal i_b   : std_logic;
+  signal i_c   : std_logic;
+  signal i_d   : std_logic;
+  signal o_f   : std_logic;
+  signal input : std_logic_vector (3 downto 0) := "0000";
+begin
+  -- Model Options:  cmpnt_prim, cmpnt_self, equation, behavior
+  duv: entity work.NAND4(cmpnt_self)
+    port map( i_a => i_a,
+              i_b => i_b,
+              i_c => i_c,
+              i_d => i_d,
+              o_f => o_f);
+              
+  apply_test_cases : process is
+    procedure apply_test
+      ( a_test, b_test, c_test, d_test : in std_logic) is
+    begin 
+      i_a <= a_test;
+      i_b <= b_test;
+      i_c <= c_test;
+      i_d <= d_test;
+      wait for 1 ms;
+    end procedure apply_test;
     
   begin
-    AND2_1 : AND2 port map (i_a,   i_b,   f_1_o);
-    AND2_2 : AND2 port map (i_c,   i_d,   f_2_o);
-    AND2_3 : AND2 port map (f_1_o, f_2_o, f_3_o);
-    NOT1_1 : NOT1 port map (f_3_o, o_f);
-end architecture cmpnt_prim;
+    for i in 0 to 16 loop
+      apply_test(input(3), input(2), input(1), input(0));
+      input <= input + "0001";
+     end loop;
+
+    
+    wait;
+end process apply_test_cases;
+
+end architecture verify;
+
     
     
---------------------------------
--- Component Model - 2 Input Self
---------------------------------
-architecture cmpnt_self of NAND4 is
-  component NAND2 is
-    port ( i_a : in  std_logic;
-           i_b : in  std_logic;
-           o_f : out std_logic);
-  end component NAND2;
     
-  -- temp outs for AND2s
-  signal f_1_o : std_logic; 
-  signal f_2_o : std_logic; 
-  signal f_3_o : std_logic; 
-  signal f_4_o : std_logic; 
     
-  begin
-    NAND2_1 : NAND2 port map (i_a,   i_b,   f_1_o);
-    NAND2_2 : NAND2 port map (f_1_o, f_1_o, f_2_o); -- NOT
-    NAND2_3 : NAND2 port map (i_c,   i_d,   f_3_o);
-    NAND2_4 : NAND2 port map (f_3_o, f_3_o, f_4_o); -- NOT
-    NAND2_5 : NAND2 port map (f_2_o, f_4_o, o_f);
-end architecture cmpnt_self;
+    
+    
+    
+
+    
+
+    
+
+
+    
+
+
+
     
 
 
 
 
-
-
-
+  
+  
 
