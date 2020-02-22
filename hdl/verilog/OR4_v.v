@@ -1,4 +1,4 @@
-
+// python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__OR4_v.do
 
 ////////////////////////////////
 // Equation Model

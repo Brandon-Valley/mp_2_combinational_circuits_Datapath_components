@@ -9,11 +9,12 @@ module OR4_tb_v;
   reg [1:4] d_in = 4'b0000;
   integer i;
   
-  // duv options: OR4_v__equation
-  //              OR4_v__behavior
-  //              OR4_v__cmpnt_self
-
+  // duv options: 
+  // OR4_v__equation   duv (.i_a(i_a), .i_b(i_b), .i_c(i_c), .i_d(i_d), .o_f(o_f)); // port map
+  // OR4_v__behavior   duv (.i_a(i_a), .i_b(i_b), .i_c(i_c), .i_d(i_d), .o_f(o_f)); // port map
   OR4_v__cmpnt_self duv (.i_a(i_a), .i_b(i_b), .i_c(i_c), .i_d(i_d), .o_f(o_f)); // port map
+
+
 
   //procedure statement
   initial begin
