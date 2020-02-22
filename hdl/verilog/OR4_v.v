@@ -19,7 +19,8 @@ module OR4_v__behavior
   (input i_a, i_b, i_c, i_d,
    output o_f);
    
-  assign o_f = 1 ? i_a | i_b | i_c | i_d : 0;
+  // assign o_f = 1 ? i_a | i_b | i_c | i_d : 0;
+  assign o_f = i_a | i_b | i_c | i_d ? 1 : 0;
   
 endmodule
 
