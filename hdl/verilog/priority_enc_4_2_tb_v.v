@@ -9,7 +9,7 @@ module priority_enc_4_2_tb_v;
   wire       o_valid;  
   
   // reg i_a, i_b, i_c, i_d;
-  reg [0:3] d_in = 4'b0000;
+  reg [3:0] d_in = 4'b0000;
   integer i;
   
   // duv port map options:
@@ -20,7 +20,11 @@ module priority_enc_4_2_tb_v;
       
       
       // #1000 i_code = 4'b1111;
+      // #1000 i_code = 4'b1111;
+      // #1000 i_code = 4'b1111;
       // #1000 i_code = 4'b0100;
+      // #1000 i_code = 4'b0101;
+      // #1000 i_code = 4'b0001;
       // #1000 i_code = 4'b0000;
       
       

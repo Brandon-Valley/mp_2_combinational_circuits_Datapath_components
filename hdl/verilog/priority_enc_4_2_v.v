@@ -16,9 +16,9 @@ module priority_enc_4_2_v__equation__no_always
                   2'b00;
                   
   assign o_valid  = i_code[0] |
-                  i_code[1] |
-                  i_code[2] |
-                  i_code[3];
+                    i_code[1] |
+                    i_code[2] |
+                    i_code[3];
                  
 endmodule
 
