@@ -19,7 +19,6 @@ module XOR4_v__behavior
   (input i_a, i_b, i_c, i_d,
    output o_f);
    
-  // assign o_f = ~ i_a & ~ i_b & ~ i_c &   i_d ? 1 : 
   assign o_f = (~ i_a & ~ i_b & ~ i_c &   i_d) | 
                (~ i_a & ~ i_b &   i_c & ~ i_d) |
                (~ i_a &   i_b & ~ i_c & ~ i_d) |
@@ -28,29 +27,26 @@ module XOR4_v__behavior
                (  i_a &   i_b & ~ i_c &   i_d) |
                (  i_a & ~ i_b &   i_c &   i_d) |
                (~ i_a &   i_b &   i_c &   i_d) ? 1 : 0;
-  // assign o_f = 0 ? i_a & i_b & i_c & i_d : 1;
-  // assign o_f = 0 ? i_a  : 1;
   
 endmodule
 
 
 
-// ////////////////////////////////
-// // Component Model - Self
-// ////////////////////////////////
-// module XOR4_v__cmpnt_self
-  // (input i_a, i_b, i_c, i_d,
-  // output o_f);
+////////////////////////////////
+// Component Model - Self
+////////////////////////////////
+module XOR4_v__cmpnt_self
+  (input i_a, i_b, i_c, i_d,
+  output o_f);
    
-  // wire fi1, fi2, fi3, fi4; // internal outputs
+  wire fi1, fi2; // internal outputs
    
-  // NAND2_v nand1 (i_a, i_b, fi1);
-  // NAND2_v nand2 (fi1, fi1, fi2); // NOT
-  // NAND2_v nand3 (i_c, i_d, fi3);
-  // NAND2_v XOR4 (fi3, fi3, fi4); // NOT
-  // NAND2_v nand5 (fi2, fi4, o_f);
+  XOR2_v xor1 (i_a, i_b, fi1);
+  XOR2_v xor2 (i_c, i_d, fi2);
+  XOR2_v xor3 (fi1, fi2, o_f);
+
     
-// endmodule
+endmodule
 
 
 // ////////////////////////////////
