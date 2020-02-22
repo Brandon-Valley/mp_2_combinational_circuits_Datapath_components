@@ -12,18 +12,26 @@ module XOR4_v__equation
 endmodule
 
 
-// ////////////////////////////////
-// // Behavior Model
-// ////////////////////////////////
-// module XOR4_v__behavior
-  // (input i_a, i_b, i_c, i_d,
-   // output o_f);
+////////////////////////////////
+// Behavior Model
+////////////////////////////////
+module XOR4_v__behavior
+  (input i_a, i_b, i_c, i_d,
+   output o_f);
    
-  // assign o_f = i_a & i_b & i_c & i_d ? 0 : 1;
-  // // assign o_f = 0 ? i_a & i_b & i_c & i_d : 1;
-  // // assign o_f = 0 ? i_a  : 1;
+  // assign o_f = ~ i_a & ~ i_b & ~ i_c &   i_d ? 1 : 
+  assign o_f = (~ i_a & ~ i_b & ~ i_c &   i_d) | 
+               (~ i_a & ~ i_b &   i_c & ~ i_d) |
+               (~ i_a &   i_b & ~ i_c & ~ i_d) |
+               (  i_a & ~ i_b & ~ i_c & ~ i_d) |
+               (  i_a &   i_b &   i_c & ~ i_d) |
+               (  i_a &   i_b & ~ i_c &   i_d) |
+               (  i_a & ~ i_b &   i_c &   i_d) |
+               (~ i_a &   i_b &   i_c &   i_d) ? 1 : 0;
+  // assign o_f = 0 ? i_a & i_b & i_c & i_d : 1;
+  // assign o_f = 0 ? i_a  : 1;
   
-// endmodule
+endmodule
 
 
 
