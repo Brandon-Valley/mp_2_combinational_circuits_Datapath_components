@@ -35,23 +35,32 @@ module NAND4_v__cmpnt_self
   output o_f);
    
   wire fi1, fi2, fi3, fi4; // internal outputs
-  
-    // NAND2_1 : NAND2 port map (i_a,   i_b,   f_1_o);
-    // NAND2_2 : NAND2 port map (f_1_o, f_1_o, f_2_o); -- NOT
-    // NAND2_3 : NAND2 port map (i_c,   i_d,   f_3_o);
-    // NAND2_4 : NAND2 port map (f_3_o, f_3_o, f_4_o); -- NOT
-    // NAND2_5 : NAND2 port map (f_2_o, f_4_o, o_f);
    
   NAND2_v nand1 (i_a, i_b, fi1);
   NAND2_v nand2 (fi1, fi1, fi2); // NOT
   NAND2_v nand3 (i_c, i_d, fi3);
   NAND2_v nand4 (fi3, fi3, fi4); // NOT
   NAND2_v nand5 (fi2, fi4, o_f);
-  
-  // assign o_f = 1 ? i_a | i_b | i_c | i_d : 0;
-  
+    
 endmodule
 
+
+////////////////////////////////
+// Component Model - Primative
+////////////////////////////////
+module NAND4_v__cmpnt_prim
+  (input i_a, i_b, i_c, i_d,
+  output o_f);
+   
+  wire fi1, fi2, fi3; // internal outputs
+   
+  AND2_v and1 (i_a, i_b, fi1);
+  AND2_v and2 (i_c, i_d, fi2);
+  AND2_v and3 (fi1, fi2, fi3);
+  NOT1_v not1 (fi3, o_f);
+
+    
+endmodule
 
 
 
