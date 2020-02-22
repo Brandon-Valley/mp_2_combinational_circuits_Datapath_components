@@ -29,45 +29,27 @@ endmodule
 module priority_enc_4_2_v__always (
   input  [3:0] i_code,
   output reg [1:0] o_code,
-  output       o_valid);
-   
+  output reg     o_valid);
+
   always @*
     case (i_code)
-      4'b0000 : o_code = 2'b00;
-      4'b0001 : o_code = 2'b00;
-      4'b0010 : o_code = 2'b01;
-      4'b0011 : o_code = 2'b00;
-      4'b0100 : o_code = 2'b10;
-      4'b0101 : o_code = 2'b00;
-      4'b0110 : o_code = 2'b01;
-      4'b0111 : o_code = 2'b00;
-      4'b1000 : o_code = 2'b11;
-      4'b1001 : o_code = 2'b00;
-      4'b1010 : o_code = 2'b01;
-      4'b1011 : o_code = 2'b00;
-      4'b1100 : o_code = 2'b10;
-      4'b1101 : o_code = 2'b00;
-      4'b1110 : o_code = 2'b01;
-      4'b1111 : o_code = 2'b00;
+      4'b0000 : begin o_code = 2'b00; o_valid = 0; end
+      4'b0001 : begin o_code = 2'b00; o_valid = 1; end
+      4'b0010 : begin o_code = 2'b01; o_valid = 1; end
+      4'b0011 : begin o_code = 2'b00; o_valid = 1; end
+      4'b0100 : begin o_code = 2'b10; o_valid = 1; end
+      4'b0101 : begin o_code = 2'b00; o_valid = 1; end
+      4'b0110 : begin o_code = 2'b01; o_valid = 1; end
+      4'b0111 : begin o_code = 2'b00; o_valid = 1; end
+      4'b1000 : begin o_code = 2'b11; o_valid = 1; end
+      4'b1001 : begin o_code = 2'b00; o_valid = 1; end
+      4'b1010 : begin o_code = 2'b01; o_valid = 1; end
+      4'b1011 : begin o_code = 2'b00; o_valid = 1; end
+      4'b1100 : begin o_code = 2'b10; o_valid = 1; end
+      4'b1101 : begin o_code = 2'b00; o_valid = 1; end
+      4'b1110 : begin o_code = 2'b01; o_valid = 1; end
+      4'b1111 : begin o_code = 2'b00; o_valid = 1; end
     endcase
-   
-  assign o_valid = i_code[0];
-   
-   
-   
-   
-   
-  // // line 0 hase highest priority
-  // assign o_code = i_code[0] ? 2'b00:
-                  // i_code[1] ? 2'b01:
-                  // i_code[2] ? 2'b10:
-                  // i_code[3] ? 2'b11:
-                  // 2'b00;
-                  
-  // assign o_valid  = i_code[0] |
-                    // i_code[1] |
-                    // i_code[2] |
-                    // i_code[3];
                  
 endmodule
 
