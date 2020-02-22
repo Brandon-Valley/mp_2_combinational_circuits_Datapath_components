@@ -33,7 +33,7 @@ endmodule
 
 
 ////////////////////////////////
-// Component Model - Self
+// Component Model - Self - made of primatives
 ////////////////////////////////
 module XOR4_v__cmpnt_self
   (input i_a, i_b, i_c, i_d,
@@ -49,22 +49,6 @@ module XOR4_v__cmpnt_self
 endmodule
 
 
-// ////////////////////////////////
-// // Component Model - Primative
-// ////////////////////////////////
-// module XOR4_v__cmpnt_prim
-  // (input i_a, i_b, i_c, i_d,
-  // output o_f);
-   
-  // wire fi1, fi2, fi3; // internal outputs
-   
-  // AND2_v and1 (i_a, i_b, fi1);
-  // AND2_v and2 (i_c, i_d, fi2);
-  // AND2_v and3 (fi1, fi2, fi3);
-  // NOT1_v not1 (fi3, o_f);
-
-    
-// endmodule
 
 
 
