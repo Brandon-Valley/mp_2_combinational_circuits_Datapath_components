@@ -4,4 +4,14 @@ module OR4_v
    
   assign o_f = i_a | i_b | i_c | i_d;
   
-  endmodule
+endmodule
+
+
+
+module OR4_v_TEST
+  (input i_a, i_b, i_c, i_d,
+   output o_f);
+   
+  assign o_f = i_a & i_b & i_c & i_d;
+  
+endmodule
