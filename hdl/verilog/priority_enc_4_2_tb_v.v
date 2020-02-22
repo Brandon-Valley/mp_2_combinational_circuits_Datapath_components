@@ -9,27 +9,26 @@ module priority_enc_4_2_tb_v;
   wire       o_valid;  
   
   // reg i_a, i_b, i_c, i_d;
-  reg [1:4] d_in = 4'b0000;
+  reg [0:3] d_in = 4'b0000;
   integer i;
   
   // duv port map options:
   priority_enc_4_2_v__equation__no_always duv (.i_code(i_code), .o_code(o_code), .o_valid(o_valid)); 
-  // priority_enc_4_2_v__behavior   duv (.i_a(i_a), .i_b(i_b), .i_c(i_c), .i_d(i_d), .o_f(o_f)); 
-  // priority_enc_4_2_v__cmpnt_self duv (.i_a(i_a), .i_b(i_b), .i_c(i_c), .i_d(i_d), .o_f(o_f)); // uses primatives
-
+  
   //procedure statement
   initial begin
       
       
-      #1000 i_code = 4'b1111;
-      #1000 i_code = 4'b0100;
-      #1000 i_code = 4'b0000;
+      // #1000 i_code = 4'b1111;
+      // #1000 i_code = 4'b0100;
+      // #1000 i_code = 4'b0000;
       
       
-      // for (i = 0 ; i < 18 ; i = i + 1) begin
-        // #1000 i_a = d_in[1]; i_b = d_in[2]; i_c = d_in[3]; i_d = d_in[4];
-        // d_in = d_in + 1;
-      // end
+      for (i = 0 ; i < 18 ; i = i + 1) begin
+        #1000 i_code = d_in;
+        // #1000 o_code[0] = d_in[0]; o_code[1] = d_in[1]; o_code[2] = d_in[]; i_d = d_in[4];
+        d_in = d_in + 1;
+      end
           
     end
 
