@@ -211,7 +211,7 @@ r1
 Z66 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v|
 Z67 o-work work -O0
 Z68 n@o@r2_v
-Z69 !s108 1582384494.451000
+Z69 !s108 1582384884.457000
 Z70 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v|
 !i10b 1
 !s85 0
@@ -324,23 +324,23 @@ R12
 R13
 !i10b 1
 vOR4_tb_v
-Z97 !s100 Z4I>9O]IRocVnPHlT6m:n0
-Z98 I]EGE`4W;BCbga<e<GU_G:1
-Z99 V9HR@SLh78OG`UcEV@YGML3
+Z97 I@7<Q?KZ;=Ybel`zm5_Pg[1
+Z98 V9HR@SLh78OG`UcEV@YGML3
 R4
-Z100 w1582384221
-Z101 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
-Z102 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
+Z99 w1582384879
+Z100 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
+Z101 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
 L0 6
 R65
 r1
 31
-Z103 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v|
+Z102 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v|
 R67
-Z104 n@o@r4_tb_v
+Z103 n@o@r4_tb_v
 !i10b 1
+Z104 !s100 >6DOh@lESII;@a>J60I@Q3
 !s85 0
-Z105 !s108 1582384494.569000
+Z105 !s108 1582384884.584000
 Z106 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v|
 !s101 -O0
 vOR4_v
@@ -357,7 +357,7 @@ R65
 r1
 !s85 0
 31
-!s108 1582384494.689000
+!s108 1582384884.741000
 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v|
 Z113 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v|
 !s101 -O0
