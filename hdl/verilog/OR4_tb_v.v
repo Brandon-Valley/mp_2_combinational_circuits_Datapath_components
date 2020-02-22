@@ -11,8 +11,8 @@ module OR4_tb_v;
   
   // duv options: OR4_v__equation
   //              OR4_v__behavior
-  //              OR4_v__cmpnt_prim
   //              OR4_v__cmpnt_self
+
   OR4_v__cmpnt_self duv (.i_a(i_a), .i_b(i_b), .i_c(i_c), .i_d(i_d), .o_f(o_f)); // port map
 
   //procedure statement
