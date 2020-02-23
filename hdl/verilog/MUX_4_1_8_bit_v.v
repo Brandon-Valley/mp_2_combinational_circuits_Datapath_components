@@ -1,26 +1,40 @@
 // -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__MUX_4_1_8_bit_v.do
 
+// sim:/MUX_4_1_8_bit_tb_v/i_en \
+// sim:/MUX_4_1_8_bit_tb_v/i_code_0 \
+// sim:/MUX_4_1_8_bit_tb_v/i_code_1 \
+// sim:/MUX_4_1_8_bit_tb_v/i_code_2 \
+// sim:/MUX_4_1_8_bit_tb_v/i_code_3 \
+// sim:/MUX_4_1_8_bit_tb_v/i_sel_code \
+// sim:/MUX_4_1_8_bit_tb_v/o_code
 
 
-///////////////////////////////////////////
 //  Behavior Model
-///////////////////////////////////////////
-module MUX_4_1_8_bit_v__behavior
+module MUX_4_1_8_bit_v
   (
   input        i_en,
-  input  [7:0] i_code,
-  input  [2:0] i_sel_code, 
-  output       o_f);
+  input  [7:0] i_code_0,
+  input  [7:0] i_code_1,
+  input  [7:0] i_code_2,
+  input  [7:0] i_code_3,
+  input  [1:0] i_sel_code, 
+  output [7:0] o_code);
+  
+  
+  assign o_code = 8'b00000010;
+  // assign i_code_ = 8'b00000010;
+  // assign i_code_ = 8'b00000010;
+  // assign i_code_ = 8'b00000010;
   
 
-  assign o_f = i_sel_code == 3'b000 & i_code[0] & i_en ? 1 :
-               i_sel_code == 3'b001 & i_code[1] & i_en ? 1 :
-               i_sel_code == 3'b010 & i_code[2] & i_en ? 1 :
-               i_sel_code == 3'b011 & i_code[3] & i_en ? 1 :
-               i_sel_code == 3'b100 & i_code[4] & i_en ? 1 :
-               i_sel_code == 3'b101 & i_code[5] & i_en ? 1 :
-               i_sel_code == 3'b110 & i_code[6] & i_en ? 1 :
-               i_sel_code == 3'b111 & i_code[7] & i_en ? 1 : 0;
+  // assign o_f = i_sel_code == 3'b000 & i_code[0] & i_en ? 1 :
+               // i_sel_code == 3'b001 & i_code[1] & i_en ? 1 :
+               // i_sel_code == 3'b010 & i_code[2] & i_en ? 1 :
+               // i_sel_code == 3'b011 & i_code[3] & i_en ? 1 :
+               // i_sel_code == 3'b100 & i_code[4] & i_en ? 1 :
+               // i_sel_code == 3'b101 & i_code[5] & i_en ? 1 :
+               // i_sel_code == 3'b110 & i_code[6] & i_en ? 1 :
+               // i_sel_code == 3'b111 & i_code[7] & i_en ? 1 : 0;
   
 endmodule
 
