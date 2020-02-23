@@ -31,7 +31,7 @@ module SN74145_tb_v;
   //procedure statement
   initial begin
       
-      for (i = 0 ; i < 36 ; i = i + 1) begin
+      for (i = 0 ; i < 64 ; i = i + 1) begin
         #1000 i_a = d_in[0]; i_b = d_in[1]; i_c = d_in[2]; i_d = d_in[3]; i_cs = d_in[4]; i_n_cs_0 = d_in[5]; i_n_cs_1 = d_in[6];
         d_in = d_in + 1;
       end

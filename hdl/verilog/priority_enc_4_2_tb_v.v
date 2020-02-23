@@ -18,15 +18,7 @@ module priority_enc_4_2_tb_v;
   
   //procedure statement
   initial begin
-      
-      
-      // #1000 i_code = 4'b1111;
-      // #1000 i_code = 4'b1111;
-      // #1000 i_code = 4'b1111;
-      // #1000 i_code = 4'b0100;
-      // #1000 i_code = 4'b0101;
-      // #1000 i_code = 4'b0001;
-      // #1000 i_code = 4'b0000;
+
       
       
       for (i = 0 ; i < 18 ; i = i + 1) begin

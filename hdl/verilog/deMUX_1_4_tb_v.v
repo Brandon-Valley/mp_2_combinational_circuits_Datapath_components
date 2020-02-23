@@ -2,40 +2,50 @@
 
 `timescale 1ms/1ms
 
+
+  // input  i_a,
+  // input  reg i_sel_code, 
+  // output o_code);
+
 module deMUX_1_4_tb_v;
   
-  reg  i_a, i_b, i_c, i_d;
-  reg  i_cs, i_n_cs_0, i_n_cs_1;
-  wire o_0, o_1, o_2, o_3, o_4, o_5, o_6, o_7, o_8, o_9;
+  reg  i_a;
+  reg  [3:0] i_sel_code;
+  wire o_code;
  
   
-  // reg i_a, i_b, i_c, i_d;
-  reg [6:0] d_in = 4'b0000;
+  // reg i_a, i_sel_code, o_code, i_d;
+  reg [4:0] d_in = 5'b00000;
   integer i;
   
   // duv port map options:
-  // deMUX_1_4_v__no_always duv (.i_code(i_code), .o_code(o_code), .o_valid(o_valid)); 
-  deMUX_1_4_v duv (.i_a(i_a), .i_b(i_b), .i_c(i_c), .i_d(i_d),
-                                  .i_cs(i_cs), .i_n_cs_0(i_n_cs_0), .i_n_cs_1(i_n_cs_1),
-                                  .o_0 (o_0 ),
-                                  .o_1 (o_1 ),
-                                  .o_2 (o_2 ),
-                                  .o_3 (o_3 ),
-                                  .o_4 (o_4 ),
-                                  .o_5 (o_5 ),
-                                  .o_6 (o_6 ),
-                                  .o_7 (o_7 ),
-                                  .o_8 (o_8 ),
-                                  .o_9 (o_9 )); 
+  deMUX_1_4_v duv (.i_a(i_a), .i_sel_code(i_sel_code), .o_code(o_code)); 
   
   //procedure statement
   initial begin
       
-      for (i = 0 ; i < 36 ; i = i + 1) begin
-        #1000 i_a = d_in[0]; i_b = d_in[1]; i_c = d_in[2]; i_d = d_in[3]; i_cs = d_in[4]; i_n_cs_0 = d_in[5]; i_n_cs_1 = d_in[6];
+      for (i = 0 ; i < 33 ; i = i + 1) begin
+        #1000 i_sel_code[0] = d_in[0];
+              i_sel_code[1] = d_in[1];
+              i_sel_code[2] = d_in[2];
+              i_sel_code[3] = d_in[3];
+              i_a           = d_in[4];
+
+        // i_sel_code[0] = d_in[1]; o_code = d_in[2]; i_d = d_in[3]; o_codes = d_in[4]; i_n_cs_0 = d_in[5]; ;
         d_in = d_in + 1;
       end
           
     end
 
 endmodule
+
+
+
+
+
+
+
+
+
+
+
