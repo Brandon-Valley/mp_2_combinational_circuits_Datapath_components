@@ -1,41 +1,33 @@
 // -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__MUX_8_1_v.do
 
-////////////////////////////////
+
+
+
+
+
+// sim:/deMUX_1_8_tb_v/i_code \
+// sim:/deMUX_1_8_tb_v/i_sel_code \
+// sim:/deMUX_1_8_tb_v/o_f 
+
 //  Behavior Model
-////////////////////////////////
 module MUX_8_1_v__behavior
   (
-  input  i_a,
-  input  [7:0] i_sel_code, 
-  output [7:0] o_code);
+  input  [7:0] i_code,
+  input  [2:0] i_sel_code, 
+  output       o_f);
   
-  assign o_code[0] = (i_a & i_sel_code[0]) ? 1 : 0;
-  assign o_code[1] = (i_a & i_sel_code[1]) ? 1 : 0;
-  assign o_code[2] = (i_a & i_sel_code[2]) ? 1 : 0;
-  assign o_code[3] = (i_a & i_sel_code[3]) ? 1 : 0;
-  assign o_code[4] = (i_a & i_sel_code[4]) ? 1 : 0;
-  assign o_code[5] = (i_a & i_sel_code[5]) ? 1 : 0;
-  assign o_code[6] = (i_a & i_sel_code[6]) ? 1 : 0;
-  assign o_code[7] = (i_a & i_sel_code[7]) ? 1 : 0;
-  
-endmodule
-
-
-
-////////////////////////////////
-//  Component Model - Using 4:1 deMUX's
-////////////////////////////////
-module MUX_8_1_v__cmpnt
-  (
-  input  i_a,
-  input  [7:0] i_sel_code, 
-  output [7:0] o_code);
-  
-  
-  deMUX_1_4_v demux1 (i_a, i_sel_code[3:0], o_code[3:0]);
-  deMUX_1_4_v demux2 (i_a, i_sel_code[7:4], o_code[7:4]);
+  assign o_f = i_sel_code == 3'b010 ? 1 : 0;
+  // assign o_f = (i_a & i_sel_code[1]) ? 1 : 0;
+  // assign o_f = (i_a & i_sel_code[2]) ? 1 : 0;
+  // assign o_f = (i_a & i_sel_code[3]) ? 1 : 0;
+  // assign o_f = (i_a & i_sel_code[4]) ? 1 : 0;
+  // assign o_f = (i_a & i_sel_code[5]) ? 1 : 0;
+  // assign o_f = (i_a & i_sel_code[6]) ? 1 : 0;
+  // assign o_f = (i_a & i_sel_code[7]) ? 1 : 0;
   
 endmodule
+
+
 
 
 
