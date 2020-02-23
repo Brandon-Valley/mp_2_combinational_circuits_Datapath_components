@@ -4,6 +4,35 @@
 // sim:/deMUX_1_4_tb_v/i_sel_code \
 // sim:/deMUX_1_4_tb_v/o_code
 
+
+// // -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__deMUX_1_4_v.do
+
+
+// // behavior model
+// module deMUX_1_4_v
+  // (
+  // input  i_a, i_b, i_c, i_d,
+  // input  i_cs, i_n_cs_0, i_n_cs_1, 
+  // output o_0, o_1, o_2, o_3, o_4, o_5, o_6, o_7, o_8, o_9);
+   
+  
+  // // assign o_0 = ( ~ i_a & ~ i_b & ~ i_c & ~ i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_0 = 1;
+  // assign o_1 = ( ~ i_a & ~ i_b & ~ i_c &   i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_2 = ( ~ i_a & ~ i_b &   i_c & ~ i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_3 = ( ~ i_a & ~ i_b &   i_c &   i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_4 = ( ~ i_a &   i_b & ~ i_c & ~ i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_5 = ( ~ i_a &   i_b & ~ i_c &   i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_6 = ( ~ i_a &   i_b &   i_c & ~ i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_7 = ( ~ i_a &   i_b &   i_c &   i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_8 = (   i_a & ~ i_b & ~ i_c & ~ i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+  // assign o_9 = (   i_a & ~ i_b & ~ i_c &   i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
+                 
+// endmodule
+
+
+
+
 // behavior model
 module deMUX_1_4_v
   (
@@ -13,16 +42,15 @@ module deMUX_1_4_v
   output o_a,
   output o_b,
   output o_c,
-  output o_d
-  );
-  // assert o_a = 1;
-  // assert o_b = 1;
-  // assert o_c = 1;
-  // assert o_d = 1;
-  assert o_a = i_a;
-  assert o_b = i_a;
-  assert o_c = i_a;
-  assert o_d = i_a;
+  output o_d);
+  assign o_a = 1;
+  assign o_b = 1;
+  assign o_c = 1;
+  assign o_d = 1;
+  // assert o_a = i_a;
+  // assert o_b = i_a;
+  // assert o_c = i_a;
+  // assert o_d = i_a;
   // assert o_a = 1'b1;
   // assert o_b = 1'b1;
   // assert o_c = 1'b1;
