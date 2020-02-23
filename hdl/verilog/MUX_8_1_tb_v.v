@@ -11,7 +11,7 @@ module MUX_8_1_tb_v;
   wire       o_f;
   
   
-  reg [10:0] d_in = 1'b0;
+  reg [11:0] d_in = 1'b0;
   integer i;
   
   // duv port map options:
@@ -20,7 +20,7 @@ module MUX_8_1_tb_v;
   //procedure statement
   initial begin
       
-      for (i = 0 ; i < 2050 ; i = i + 1) begin
+      for (i = 0 ; i < 4098 ; i = i + 1) begin
         #1000 i_code[0 ] = d_in[0 ];
               i_code[1 ] = d_in[1 ];
               i_code[2 ] = d_in[2 ];
@@ -32,6 +32,7 @@ module MUX_8_1_tb_v;
               i_sel_code[1 ] = d_in[8 ];
               i_sel_code[0 ] = d_in[9 ];
               i_sel_code[2 ] = d_in[10];
+              i_en           = d_in[11];
 
 
         // i_sel_code[0] = d_in[1]; o_code = d_in[2]; i_d = d_in[3]; o_codes = d_in[4]; i_n_cs_0 = d_in[5]; ;
