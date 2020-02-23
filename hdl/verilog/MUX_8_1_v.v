@@ -1,9 +1,9 @@
-// -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__deMUX_1_8_v.do
+// -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__MUX_8_1_v.do
 
 ////////////////////////////////
 //  Behavior Model
 ////////////////////////////////
-module deMUX_1_8_v__behavior
+module MUX_8_1_v__behavior
   (
   input  i_a,
   input  [7:0] i_sel_code, 
@@ -25,7 +25,7 @@ endmodule
 ////////////////////////////////
 //  Component Model - Using 4:1 deMUX's
 ////////////////////////////////
-module deMUX_1_8_v__cmpnt
+module MUX_8_1_v__cmpnt
   (
   input  i_a,
   input  [7:0] i_sel_code, 
