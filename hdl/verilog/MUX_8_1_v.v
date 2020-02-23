@@ -1,16 +1,6 @@
 // -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__MUX_8_1_v.do
 
 
-
-
-
-
-// sim:/deMUX_1_8_tb_v/i_code \
-// sim:/deMUX_1_8_tb_v/i_sel_code \
-// sim:/deMUX_1_8_tb_v/o_f 
-
-
-
 ///////////////////////////////////////////
 //  Behavior Model
 ///////////////////////////////////////////
@@ -33,15 +23,6 @@ module MUX_8_1_v__behavior
   
 endmodule
 
-
-
-
-
-  // NAND2_v nand1 (i_a, i_b, fi1);
-  // NAND2_v nand2 (fi1, fi1, fi2); // NOT
-  // NAND2_v nand3 (i_c, i_d, fi3);
-  // NAND2_v nand4 (fi3, fi3, fi4); // NOT
-  // NAND2_v nand5 (fi2, fi4, o_f);
 
 ///////////////////////////////////////////
 //  Component Model - Using 2:1 MUXs

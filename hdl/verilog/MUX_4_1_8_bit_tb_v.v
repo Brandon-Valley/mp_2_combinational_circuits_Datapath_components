@@ -2,13 +2,6 @@
 
 `timescale 1ms/1ms
 
-// input        i_en,
-  // input  [7:0] i_code_0,
-  // input  [7:0] i_code_1,
-  // input  [7:0] i_code_2,
-  // input  [7:0] i_code_3,
-  // input  [1:0] i_sel_code, 
-  // output       o_code);
   
 module MUX_4_1_8_bit_tb_v;
   
@@ -39,11 +32,7 @@ module MUX_4_1_8_bit_tb_v;
   initial begin
       
       for (i = 0 ; i < 10 ; i = i + 1) begin
-        // #1000 i_sel_code[0] = d_in[0];
-              // i_sel_code[1] = d_in[1];
-              // i_sel_code[2] = d_in[2];
-              // i_sel_code[3] = d_in[3];
-              // i_en          = d_in[4];
+
         #1000 i_sel_code[0] = d_in[0];
               i_sel_code[1] = d_in[1];
               i_en          = d_in[2];
