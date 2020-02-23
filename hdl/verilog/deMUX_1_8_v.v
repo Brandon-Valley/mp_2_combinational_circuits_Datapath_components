@@ -2,16 +2,20 @@
 
 
 // behavior model
-module deMUX_1_8_v
+module deMUX_1_8_v__behavior
   (
   input  i_a,
-  input  [3:0] i_sel_code, 
-  output [3:0] o_code);
+  input  [7:0] i_sel_code, 
+  output [7:0] o_code);
   
   assign o_code[0] = (i_a & i_sel_code[0]) ? 1 : 0;
   assign o_code[1] = (i_a & i_sel_code[1]) ? 1 : 0;
   assign o_code[2] = (i_a & i_sel_code[2]) ? 1 : 0;
   assign o_code[3] = (i_a & i_sel_code[3]) ? 1 : 0;
+  assign o_code[4] = (i_a & i_sel_code[4]) ? 1 : 0;
+  assign o_code[5] = (i_a & i_sel_code[5]) ? 1 : 0;
+  assign o_code[6] = (i_a & i_sel_code[6]) ? 1 : 0;
+  assign o_code[7] = (i_a & i_sel_code[7]) ? 1 : 0;
   
 endmodule
 
