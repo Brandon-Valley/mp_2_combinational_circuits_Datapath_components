@@ -5,20 +5,17 @@
 
 module MUX_8_1_tb_v;
   
-  // input  [7:0] i_code,
-  // input  [7:0] i_sel_code, 
-  // output       o_f);
-  
+  reg        i_en;
   reg  [7:0] i_code;
   reg  [2:0] i_sel_code;
   wire       o_f;
   
-  // reg i_a, i_sel_code, o_code, i_d;
-  reg [10:0] d_in = 1'b0; //???????????????????????????????????????????????
+  
+  reg [10:0] d_in = 1'b0;
   integer i;
   
   // duv port map options:
-  MUX_8_1_v__behavior duv (.i_code(i_code), .i_sel_code(i_sel_code), .o_f(o_f));
+  MUX_8_1_v__behavior duv (.i_en(i_en), .i_code(i_code), .i_sel_code(i_sel_code), .o_f(o_f));
   
   //procedure statement
   initial begin
