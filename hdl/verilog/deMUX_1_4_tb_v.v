@@ -11,24 +11,14 @@ module deMUX_1_4_tb_v;
   
   reg  i_a;
   reg  [3:0] i_sel_code;
-  // wire [3:0] o_code;
-  wire o_a ;
-  wire o_b ;
-  wire o_c ;
-  wire o_d ;
+  wire [3:0] o_code;
   
   // reg i_a, i_sel_code, o_code, i_d;
   reg [4:0] d_in = 5'b00000;
   integer i;
   
   // duv port map options:
-  deMUX_1_4_v duv (.i_a(i_a), .i_sel_code(i_sel_code), //.o_code(o_code)
-                   .o_a(o_a),
-                   .o_b(o_b),
-                   .o_c(o_c),
-                   .o_d(o_d)
-  
-  ); 
+  deMUX_1_4_v duv (.i_a(i_a), .i_sel_code(i_sel_code), .o_code(o_code)); 
   
   //procedure statement
   initial begin
