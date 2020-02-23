@@ -3,60 +3,41 @@
 ////////////////////////////////
 // Not Using Always
 ////////////////////////////////
-module priority_enc_8_3_v__no_always
-  (input  [3:0] i_code,
-   output [1:0] o_code,
-   output       o_valid);
+module priority_enc_8_3_v
+  (
+  input  [7:0] i_code,
+  output [2:0] o_code);
+  
+  assign o_code = 3'b010;
    
-  // behavior model
-  // line 0 hase highest priority
-  assign o_code = i_code[0] ? 2'b00:
-                  i_code[1] ? 2'b01:
-                  i_code[2] ? 2'b11:
-                  2'b00;
+   
+   
+   
+   
+   
+  // // behavior model
+  // // line 0 hase highest priority
+  // assign o_code = i_code[0] ? 2'b00:
+                  // i_code[1] ? 2'b01:
+                  // i_code[2] ? 2'b11:
+                  // 2'b00;
            
-  // equation model
-  assign o_valid  = i_code[0] |
-                    i_code[1] |
-                    i_code[2] |
-                    i_code[3];
+  // // equation model
+  // assign o_valid  = i_code[0] |
+                    // i_code[1] |
+                    // i_code[2] |
+                    // i_code[3];
                  
 endmodule
 
-
-////////////////////////////////
-// Using Always
-////////////////////////////////
-module priority_enc_8_3_v__always (
-  input  [3:0] i_code,
-  output reg [1:0] o_code,
-  output reg     o_valid);
-
-  always @*
-    case (i_code)
-      4'b0000 : begin o_code = 2'b00; o_valid = 0; end
-      4'b0001 : begin o_code = 2'b00; o_valid = 1; end
-      4'b0010 : begin o_code = 2'b01; o_valid = 1; end
-      4'b0011 : begin o_code = 2'b00; o_valid = 1; end
-      4'b0100 : begin o_code = 2'b10; o_valid = 1; end
-      4'b0101 : begin o_code = 2'b00; o_valid = 1; end
-      4'b0110 : begin o_code = 2'b01; o_valid = 1; end
-      4'b0111 : begin o_code = 2'b00; o_valid = 1; end
-      4'b1000 : begin o_code = 2'b11; o_valid = 1; end
-      4'b1001 : begin o_code = 2'b00; o_valid = 1; end
-      4'b1010 : begin o_code = 2'b01; o_valid = 1; end
-      4'b1011 : begin o_code = 2'b00; o_valid = 1; end
-      4'b1100 : begin o_code = 2'b10; o_valid = 1; end
-      4'b1101 : begin o_code = 2'b00; o_valid = 1; end
-      4'b1110 : begin o_code = 2'b01; o_valid = 1; end
-      4'b1111 : begin o_code = 2'b00; o_valid = 1; end
-    endcase
-                 
-endmodule
-
-
-
-
+   
+  // wire fi1, fi2, fi3, fi4; // internal outputs
+   
+  // NAND2_v nand1 (i_a, i_b, fi1);
+  // NAND2_v nand2 (fi1, fi1, fi2); // NOT
+  // NAND2_v nand3 (i_c, i_d, fi3);
+  // NAND2_v nand4 (fi3, fi3, fi4); // NOT
+  // NAND2_v nand5 (fi2, fi4, o_f);
 
 
 

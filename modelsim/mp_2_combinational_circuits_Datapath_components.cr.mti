@@ -82,6 +82,13 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 Top level modules:
 	deMUX_1_8_tb_v
 
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module priority_enc_8_3_v
+
+Top level modules:
+	priority_enc_8_3_v
+
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling module MUX_4_1_2_bit_tb_v
@@ -116,6 +123,13 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 
 Top level modules:
 	OR4_tb_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module MUX_2_1_v
+
+Top level modules:
+	MUX_2_1_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
@@ -176,6 +190,13 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 
 Top level modules:
 	MUX_4_1_8_bit_tb_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module priority_enc_2_1_v
+
+Top level modules:
+	priority_enc_2_1_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012

@@ -4,28 +4,28 @@
 
 module priority_enc_8_3_tb_v;
   
-  reg  [3:0] i_code;
-  wire [1:0] o_code;
-  wire       o_valid;  
+  reg  [7:0] i_code;
+  wire [2:0] o_code;
   
   // reg i_a, i_b, i_c, i_d;
-  reg [3:0] d_in = 4'b0000;
+  reg [7:0] d_in = 4'b0000;
   integer i;
   
   // duv port map options:
-  // priority_enc_8_3_v__no_always duv (.i_code(i_code), .o_code(o_code), .o_valid(o_valid)); 
-  priority_enc_8_3_v__always duv (.i_code(i_code), .o_code(o_code), .o_valid(o_valid)); 
+  priority_enc_8_3_v duv (.i_code(i_code), .o_code(o_code)); 
   
   //procedure statement
   initial begin
 
-      
-      
-      for (i = 0 ; i < 18 ; i = i + 1) begin
+      for (i = 0 ; i < 258 ; i = i + 1) begin
         #1000 i_code = d_in;
         // #1000 o_code[0] = d_in[0]; o_code[1] = d_in[1]; o_code[2] = d_in[]; i_d = d_in[4];
         d_in = d_in + 1;
       end
+
+      
+      
+      
           
     end
 
