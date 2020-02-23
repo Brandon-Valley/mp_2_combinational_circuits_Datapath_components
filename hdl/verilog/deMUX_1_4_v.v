@@ -1,4 +1,5 @@
 // -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__deMUX_1_4_v.do
+
 // sim:/deMUX_1_4_tb_v/i_a \
 // sim:/deMUX_1_4_tb_v/i_sel_code \
 // sim:/deMUX_1_4_tb_v/o_code
@@ -7,10 +8,60 @@
 module deMUX_1_4_v
   (
   input  i_a,
-  input  reg [3:0] i_sel_code, 
-  output o_code);
+  input  [3:0] i_sel_code, 
+  // output o_code);
+  output o_a,
+  output o_b,
+  output o_c,
+  output o_d
+  );
+  // assert o_a = 1;
+  // assert o_b = 1;
+  // assert o_c = 1;
+  // assert o_d = 1;
+  assert o_a = i_a;
+  assert o_b = i_a;
+  assert o_c = i_a;
+  assert o_d = i_a;
+  // assert o_a = 1'b1;
+  // assert o_b = 1'b1;
+  // assert o_c = 1'b1;
+  // assert o_d = 1'b1;
   
-  assign o_code = 4'b0010;
+  
+  // assign o_code = 4'b0010;
+  
+  // assert o_code[0] = (i_a & i_sel_code[0]) ? 1 : 0;
+  // assert o_code[1] = (i_a & i_sel_code[1]) ? 1 : 0;
+  // assert o_code[2] = (i_a & i_sel_code[2]) ? 1 : 0;
+  // assert o_code[3] = (i_a & i_sel_code[3]) ? 1 : 0;
+  
+  // assert o_code[0] = 1;
+  // assert o_code[1] = 1;
+  // assert o_code[2] = 1;
+  // assert oo_code[0] = 1;
+  // // o_code[0] = 1;
+  // // o_code[1] = 1;
+  // // o_code[2] = 1;
+  // // o_code[3] = 1;
+  
+  
+  // assert o_code =  ~i_a | ( ~i_sel_code[0] & ~i_sel_code[1] & ~i_sel_code[2] & ~i_sel_code[3] ) ? 4'b0000 :
+                  // i_sel_code[0] ? 4'b0
+  
+  
+  
+  
+  // assign o_code = ~i_a | ( ~i_sel_code[0] & ~i_sel_code[1] & ~i_sel_code[2] & ~i_sel_code[3] ) ? 4'b0000 :
+    // begin
+  // // assign o_code = i_code[0] ? 2'b00:
+                  // // i_code[1] ? 2'b01:
+                  // // i_code[2] ? 2'b11:
+      
+      
+      
+      
+    // end
    
   // assign o_0 = ( ~ i_a & ~ i_b & ~ i_c & ~ i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
   // assign o_1 = ( ~ i_a & ~ i_b & ~ i_c &   i_d ) & (i_cs | ~i_n_cs_0 | ~i_n_cs_1) ? 0 : 1;
