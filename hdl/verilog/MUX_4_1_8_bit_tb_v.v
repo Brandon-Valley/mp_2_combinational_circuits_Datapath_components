@@ -22,7 +22,7 @@ module MUX_4_1_8_bit_tb_v;
   wire [7:0] o_code;
   
   
-  reg [4:0] d_in = 1'b0;
+  reg [2:0] d_in = 1'b0;
   integer i;
   
   // duv port map options:
@@ -38,33 +38,21 @@ module MUX_4_1_8_bit_tb_v;
   //procedure statement
   initial begin
       
-      for (i = 0 ; i < 34 ; i = i + 1) begin
+      for (i = 0 ; i < 10 ; i = i + 1) begin
+        // #1000 i_sel_code[0] = d_in[0];
+              // i_sel_code[1] = d_in[1];
+              // i_sel_code[2] = d_in[2];
+              // i_sel_code[3] = d_in[3];
+              // i_en          = d_in[4];
         #1000 i_sel_code[0] = d_in[0];
               i_sel_code[1] = d_in[1];
-              i_sel_code[2] = d_in[2];
-              i_sel_code[3] = d_in[3];
-              i_en          = d_in[4];
+              i_en          = d_in[2];
               
-              i_code_0 = 8'b00000000;
-              i_code_1 = 8'b00000001;
-              i_code_2 = 8'b00000010;
-              i_code_3 = 8'b00000011;
+              i_code_0 = 8'b10000000;
+              i_code_1 = 8'b01000000;
+              i_code_2 = 8'b11000000;
+              i_code_3 = 8'b00100000;
         
-        
-        
-        // #1000 i_code[0 ] = d_in[0 ];
-              // i_code[1 ] = d_in[1 ];
-              // i_code[2 ] = d_in[2 ];
-              // i_code[3 ] = d_in[3 ];
-              // i_code[4 ] = d_in[4 ];
-              // i_code[5 ] = d_in[5 ];
-              // i_code[6 ] = d_in[6 ];
-              // i_code[7 ] = d_in[7 ];
-              // i_sel_code[1 ] = d_in[8 ];
-              // i_sel_code[0 ] = d_in[9 ];
-              // i_sel_code[2 ] = d_in[10];
-              // i_en           = d_in[11];
-
 
         // i_sel_code[0] = d_in[1]; o_code = d_in[2]; i_d = d_in[3]; o_codes = d_in[4]; i_n_cs_0 = d_in[5]; ;
         d_in = d_in + 1;
