@@ -24,6 +24,12 @@
     <ClInclude Include="nand2_tb_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="nand4_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nand4_gate__tb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="run_main_tb.cpp">

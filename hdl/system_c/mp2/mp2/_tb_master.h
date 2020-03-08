@@ -7,7 +7,10 @@
 using namespace std;
 
 
-string const TB_TO_RUN = "nand2";  string const MODEL = "b";
+//string const TB_TO_RUN = "nand2";  string const MODEL = "dddb";
+//string const TB_TO_RUN = "nand4_gate";  string const MODEL = "cbn";
+string const TB_TO_RUN = "nand4_gate";  char MODEL[3] = "ns";
+//string const TB_TO_RUN = "nand4_gate";  string const MODEL = "cbn";
 
 
 

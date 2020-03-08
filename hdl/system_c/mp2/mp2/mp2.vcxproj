@@ -141,6 +141,8 @@
   <ItemGroup>
     <ClInclude Include="nand2.h" />
     <ClInclude Include="nand2_tb_test.h" />
+    <ClInclude Include="nand4_gate.h" />
+    <ClInclude Include="nand4_gate__tb.h" />
     <ClInclude Include="_tb_master.h" />
   </ItemGroup>
   <ItemGroup>
