@@ -1,5 +1,5 @@
 // -- python C:\Users\Brandon\Documents\Personal_Projects\my_utils\modelsim_utils\auto_run.py -d run_cmd__priority_enc_4_2_v.do
-
+//
 ////////////////////////////////
 // Not Using Always
 ////////////////////////////////
@@ -12,7 +12,8 @@ module priority_enc_4_2_v__no_always
   // line 0 hase highest priority
   assign o_code = i_code[0] ? 2'b00:
                   i_code[1] ? 2'b01:
-                  i_code[2] ? 2'b11:
+                  i_code[2] ? 2'b10:
+                  i_code[3] ? 2'b11:
                   2'b00;
            
   // equation model

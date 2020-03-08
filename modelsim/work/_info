@@ -2,1313 +2,1870 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_1_simple_gates_using_vhdl
+dC:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_1_simple_gates_using_vhdl
 vAND2_v
-Z1 !s100 Dl:lJRcYfco6k<hYAA0XG0
-Z2 I5E4082G3J_NY3ML7dB]H@2
-Z3 V22Zfkm8^eYYoa@BX7mQF?0
-Z4 dC:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_2_combinational_circuits_Datapath_components\modelsim
-Z5 w1582389847
-Z6 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v
-Z7 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v
+I5E4082G3J_NY3ML7dB]H@2
+V22Zfkm8^eYYoa@BX7mQF?0
+Z0 dC:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_2_combinational_circuits_Datapath_components\modelsim
+w1582389847
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v
 L0 3
-Z8 OV;L;10.1b;51
+Z1 OV;L;10.1b;51
 r1
 31
-Z9 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v|
-Z10 o-work work -O0
-Z11 n@a@n@d2_v
-Z12 !s108 1582465579.243000
-Z13 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v|
+Z2 o-work work -O0
+n@a@n@d2_v
+!s100 Dl:lJRcYfco6k<hYAA0XG0
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v|
+!s108 1582511819.805000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vdeMUX_1_4_tb_v
-Z14 !s100 7k[e=bDedoIokONbT]XcV0
-Z15 ICE5HcY=]`6EaJU`2bZl8B3
-Z16 VGHbO[Mj0z81[WOfoL<bDz1
+Edecoder_2_4_active_low_out
+Z3 w1582494820
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_2_combinational_circuits_Datapath_components\modelsim
+Z7 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out.vhd
+Z8 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out.vhd
+l0
+L6
+Vd^^8hO3R85A]SVe5W=SIC3
+Z9 OV;C;10.1b;51
+32
+Z10 !s108 1582511826.844000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out.vhd|
+Z12 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out.vhd|
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+!s100 `z7Ie];[VCGWFjkK]_0b80
+!i10b 1
+Aequation
 R4
-Z17 w1582430169
-Z18 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v
-Z19 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v
+R5
+Z15 DEx4 work 26 decoder_2_4_active_low_out 0 22 d^^8hO3R85A]SVe5W=SIC3
+l16
+L15
+VFgP=_feRQX;H5KE`h:GLa0
+R9
+32
+R10
+R11
+R12
+R13
+R14
+!s100 fL=5^zPzT[E0MTXF40oZ:3
+!i10b 1
+Edecoder_2_4_active_low_out_tb
+Z16 w1582494421
+Z17 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z18 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R4
+R5
+R6
+Z19 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out_tb.vhd
+Z20 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out_tb.vhd
+l0
+L8
+VdNnIdc>E_TfA41[X0L22A0
+R9
+32
+Z21 !s108 1582511827.081000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out_tb.vhd|
+Z23 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out_tb.vhd|
+R13
+R14
+!s100 5eN>N0EG8;ekm@W61UGW`1
+!i10b 1
+Averify
+R15
+R17
+R18
+R4
+R5
+DEx4 work 29 decoder_2_4_active_low_out_tb 0 22 dNnIdc>E_TfA41[X0L22A0
+l20
+L11
+VFU=6NB?=9d43YSk:dh9UA1
+R9
+32
+R21
+R22
+R23
+R13
+R14
+!s100 mjOjd?F_1maU3a;AlS2zb1
+!i10b 1
+vdeMUX_1_4_tb_v
+ICE5HcY=]`6EaJU`2bZl8B3
+VGHbO[Mj0z81[WOfoL<bDz1
+R6
+w1582430169
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v
 L0 10
-R8
+R1
 r1
 31
-Z20 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v|
-R10
-Z21 nde@m@u@x_1_4_tb_v
-Z22 !s108 1582465580.479000
-Z23 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v|
+R2
+nde@m@u@x_1_4_tb_v
+!s100 7k[e=bDedoIokONbT]XcV0
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v|
+!s108 1582511821.601000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdeMUX_1_4_v
-Z24 !s100 `KHOBcSEA;NEOSlcYYQVJ0
-Z25 IjWKiUOjZF_KKMJ;hO_;G60
-Z26 VF5I@oF7Y>;L[Ba8>mNmIk3
-R4
-Z27 w1582430153
-Z28 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v
-Z29 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v
+IjWKiUOjZF_KKMJ;hO_;G60
+VF5I@oF7Y>;L[Ba8>mNmIk3
+R6
+w1582430153
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v
 L0 5
-R8
+R1
 r1
 31
-Z30 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v|
-R10
-Z31 nde@m@u@x_1_4_v
-Z32 !s108 1582465580.596000
-Z33 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v|
+R2
+nde@m@u@x_1_4_v
+!s100 `KHOBcSEA;NEOSlcYYQVJ0
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v|
+!s108 1582511821.762000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdeMUX_1_8_tb_v
-Z34 !s100 BJf0o_88YR5aBP1FV3PAB0
-Z35 IZXWQ2<7<=2Q4E=ke5;]Eo1
-Z36 Vi^f2<zK=]>NW]L48j<>Vi1
-R4
-Z37 w1582450698
-Z38 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v
-Z39 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v
+IZXWQ2<7<=2Q4E=ke5;]Eo1
+Vi^f2<zK=]>NW]L48j<>Vi1
+R6
+w1582450698
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v
 L0 6
-R8
+R1
 r1
 31
-Z40 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v|
-R10
-Z41 nde@m@u@x_1_8_tb_v
-Z42 !s108 1582465580.712000
-Z43 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v|
+R2
+nde@m@u@x_1_8_tb_v
+!s100 BJf0o_88YR5aBP1FV3PAB0
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v|
+!s108 1582511821.932000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vdeMUX_1_8_v
-Z44 I@]Thi1PVGRddCjizme<d]1
-Z45 VeR2hcWE>7SkHhPZfdZQgN2
-R4
-Z46 w1582448014
-Z47 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v
-Z48 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v
+I@]Thi1PVGRddCjizme<d]1
+VeR2hcWE>7SkHhPZfdZQgN2
+R6
+w1582448014
+Z24 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v
+Z25 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v
 L0 5
-R8
+R1
 r1
 31
-R10
-Z49 nde@m@u@x_1_8_v
-Z50 !s100 Z;K?75<SIcPVJbW>GOQ5i0
-Z51 !s108 1582448169.495000
-Z52 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v|
-Z53 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v|
+R2
+nde@m@u@x_1_8_v
+Z26 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v|
+Z27 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v|
+!s100 Z;K?75<SIcPVJbW>GOQ5i0
+!s108 1582448169.495000
 !i10b 1
 !s85 0
 !s101 -O0
 vdeMUX_1_8_v__behavior
-Z54 !s100 Si70JG;oo`1enJK;[l6Xo0
-Z55 I2f]Q]hJXQcP3RPCX]fFkf2
-Z56 VA>Z^9]cQTF>Q?5?@<5J0c3
-R4
-Z57 w1582451189
-R47
-R48
+I2f]Q]hJXQcP3RPCX]fFkf2
+VA>Z^9]cQTF>Q?5?@<5J0c3
+R6
+Z28 w1582451189
+R24
+R25
 L0 6
-R8
+R1
 r1
 31
-Z58 !s108 1582465580.854000
-R52
-R53
-R10
-Z59 nde@m@u@x_1_8_v__behavior
+Z29 !s108 1582511822.103000
+R26
+R27
+R2
+nde@m@u@x_1_8_v__behavior
+!s100 Si70JG;oo`1enJK;[l6Xo0
 !i10b 1
 !s85 0
 !s101 -O0
 vdeMUX_1_8_v__cmpnt
-Z60 !s100 VQ;6:[NLR5<]j`ZNDMCD83
-Z61 IJ`<08WnCM:1zQ8kLRB4KP1
-Z62 VO=EMM5C3KV`JmmX3j2zN>0
-R4
-R57
-R47
-R48
+IJ`<08WnCM:1zQ8kLRB4KP1
+VO=EMM5C3KV`JmmX3j2zN>0
+R6
+R28
+R24
+R25
 L0 28
-R8
+R1
 r1
 31
-R58
-R52
-R53
-R10
-Z63 nde@m@u@x_1_8_v__cmpnt
+R29
+R26
+R27
+R2
+nde@m@u@x_1_8_v__cmpnt
+!s100 VQ;6:[NLR5<]j`ZNDMCD83
 !i10b 1
 !s85 0
 !s101 -O0
-vmicro_tb_v
-Z64 !s100 I`P=7Wik;ZQ^V>cg^>Ef60
-Z65 I6gX2NDDQ7eXQa;Sc0g3V?0
-Z66 VB4FYA6L?ATRN^gZ4b@nd:0
+Emicro
+Z30 w1582493306
 R4
-Z67 w1582463756
-Z68 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v
-Z69 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v
+R5
+R6
+Z31 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro.vhd
+Z32 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro.vhd
+l0
+L6
+Va_Rm7T?K@a2oP2Nn?<1lk2
+R9
+32
+Z33 !s108 1582511826.338000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro.vhd|
+Z35 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro.vhd|
+R13
+R14
+!s100 ]8c6B>5F1XHT<Xa]h<Rl01
+!i10b 1
+Aequation
+R4
+R5
+Z36 DEx4 work 5 micro 0 22 a_Rm7T?K@a2oP2Nn?<1lk2
+l19
+L18
+VX=5@Y=4bYkld?gNM>Rhch0
+R9
+32
+R33
+R34
+R35
+R13
+R14
+!s100 CaL3nKQSEzemj^6Rl[mAD2
+!i10b 1
+Emicro_tb
+Z37 w1582492790
+R17
+R18
+R4
+R5
+R6
+Z38 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro_tb.vhd
+Z39 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro_tb.vhd
+l0
+L8
+VO619h3QSeIBWOBIH_LAWE0
+R9
+32
+Z40 !s108 1582511826.576000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro_tb.vhd|
+Z42 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro_tb.vhd|
+R13
+R14
+!s100 Mm=?6T_1=5hK>hoGbYn1S0
+!i10b 1
+Averify
+R36
+R17
+R18
+R4
+R5
+DEx4 work 8 micro_tb 0 22 O619h3QSeIBWOBIH_LAWE0
+l34
+L11
+V1KoYCj?mPD?:XLOX@7lG>1
+R9
+32
+R40
+R41
+R42
+R13
+R14
+!s100 FKbGlAOKcQagIo<iCi4m33
+!i10b 1
+vmicro_tb_v
+I6gX2NDDQ7eXQa;Sc0g3V?0
+VB4FYA6L?ATRN^gZ4b@nd:0
+R6
+w1582463756
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v
 L0 6
-R8
+R1
 r1
 31
-Z70 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v|
-R10
-Z71 !s108 1582465582.070000
-Z72 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v|
+R2
+!s100 I`P=7Wik;ZQ^V>cg^>Ef60
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v|
+!s108 1582511823.958000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vmicro_v
-Z73 !s100 PY^gIj83aXn5nU@J^_=_c3
-Z74 IhRbPaPQQmPYEWloaU<JBg1
-Z75 VN^74A275mg<DTU=[g8N0F0
-R4
-Z76 w1582463620
-Z77 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v
-Z78 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v
+IhRbPaPQQmPYEWloaU<JBg1
+VN^74A275mg<DTU=[g8N0F0
+R6
+w1582463620
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v
 L0 5
-R8
+R1
 r1
 31
-Z79 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v|
-R10
-Z80 !s108 1582465582.184000
-Z81 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v|
+R2
+!s100 PY^gIj83aXn5nU@J^_=_c3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v|
+!s108 1582511824.154000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_2_1_v
-Z82 !s100 V0zIQY65Qi:3c^DRa_ZLI0
-Z83 IS4@WbiA:`XfBFXRcSCgaD3
-Z84 VCSEP5@`ji2ON>3c94ViX11
-R4
-Z85 w1582464518
-Z86 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v
-Z87 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v
+IS4@WbiA:`XfBFXRcSCgaD3
+VCSEP5@`ji2ON>3c94ViX11
+R6
+w1582464518
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v
 L0 5
-R8
+R1
 r1
 31
-Z88 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v|
-R10
-Z89 n@m@u@x_2_1_v
-Z90 !s108 1582465581.287000
-Z91 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v|
+R2
+n@m@u@x_2_1_v
+!s100 V0zIQY65Qi:3c^DRa_ZLI0
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v|
+!s108 1582511822.913000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vMUX_4_1_2_bit_tb_v
-Z92 !s100 NI:LzPF`6eY^4k3[UgIa@3
-Z93 I1Pf4B]J^b9UgJBDceUMDD1
-Z94 VYP6ScB[B3[Kz[e1`99GbT2
+Emux_4_1
+Z43 w1582487595
 R4
-Z95 w1582461172
-Z96 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v
-Z97 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v
+R5
+R6
+Z44 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1.vhd
+Z45 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1.vhd
+l0
+L5
+VGbPffnFN>WnJ<:WabYOKH2
+R9
+32
+Z46 !s108 1582511825.553000
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1.vhd|
+Z48 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1.vhd|
+R13
+R14
+!s100 gESVBadMAUoGiIIDF18DQ0
+!i10b 1
+Aequation
+R4
+R5
+DEx4 work 7 mux_4_1 0 22 GbPffnFN>WnJ<:WabYOKH2
+l17
+L16
+VhPihRmD6UROfG6h[kRdmd1
+R9
+32
+R46
+R47
+R48
+R13
+R14
+!s100 6NAXVVOWlGkzCP<H<ZbIT3
+!i10b 1
+Emux_4_1_2_bit
+Z49 w1582490610
+R4
+R5
+R6
+Z50 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit.vhd
+Z51 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit.vhd
+l0
+L6
+V;`gRm>_:16_CbOb@mN9VP2
+R9
+32
+Z52 !s108 1582511825.858000
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit.vhd|
+Z54 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit.vhd|
+R13
+R14
+!s100 ]7Z_BY_0l@cSAWZSSKLR73
+!i10b 1
+Aequation
+R4
+R5
+Z55 DEx4 work 13 mux_4_1_2_bit 0 22 ;`gRm>_:16_CbOb@mN9VP2
+l33
+L20
+V;_m30Zc[Ebd6]GTiId:LH0
+R9
+32
+R52
+R53
+R54
+R13
+R14
+!s100 l[PMa9_SjOP2V]A<8DmBY0
+!i10b 1
+Emux_4_1_2_bit_tb
+Z56 w1582485671
+R17
+R18
+R4
+R5
+R6
+Z57 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit_tb.vhd
+Z58 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit_tb.vhd
+l0
+L8
+Vl4b1bV5zn3JX6GFM:mnUA1
+R9
+32
+Z59 !s108 1582511826.077000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit_tb.vhd|
+Z61 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit_tb.vhd|
+R13
+R14
+!s100 CB:Yfc8?8e[>]k@1Tib4>2
+!i10b 1
+Averify
+R55
+R17
+R18
+R4
+R5
+DEx4 work 16 mux_4_1_2_bit_tb 0 22 l4b1bV5zn3JX6GFM:mnUA1
+l27
+L11
+V`O6jE6g7RAj4[mgQnbihB2
+R9
+32
+R59
+R60
+R61
+R13
+R14
+!s100 R;?dIagGOUS2FE_goH8Ag2
+!i10b 1
+vMUX_4_1_2_bit_tb_v
+I1Pf4B]J^b9UgJBDceUMDD1
+VYP6ScB[B3[Kz[e1`99GbT2
+R6
+w1582461172
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v
 L0 7
-R8
+R1
 r1
 31
-Z98 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v|
-R10
-Z99 n@m@u@x_4_1_2_bit_tb_v
-Z100 !s108 1582465581.674000
-Z101 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v|
+R2
+n@m@u@x_4_1_2_bit_tb_v
+!s100 NI:LzPF`6eY^4k3[UgIa@3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v|
+!s108 1582511823.439000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_4_1_2_bit_v
-Z102 !s100 j;1^1WSC3eF8@:[c[Rk_71
-Z103 Ig@kG>KbKnVGSa@KUBQY_83
-Z104 V`hYVPQN_iYX:bRQ421UjI1
-R4
-Z105 w1582461151
-Z106 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v
-Z107 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v
+Ig@kG>KbKnVGSa@KUBQY_83
+V`hYVPQN_iYX:bRQ421UjI1
+R6
+w1582484659
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v
 L0 6
-R8
+R1
 r1
 31
-Z108 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v|
-R10
-Z109 n@m@u@x_4_1_2_bit_v
-Z110 !s108 1582465581.846000
-Z111 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v|
+R2
+n@m@u@x_4_1_2_bit_v
+!s100 j;1^1WSC3eF8@:[c[Rk_71
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v|
+!s108 1582511823.599000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_4_1_8_bit_tb_v
-Z112 !s100 SBQbT@P:HaCB@:MZ4W^X<2
-Z113 IEV=Xb<`:deTlSi4=lTBN;2
-Z114 V`]KgmnmA=d=e602ENbA<D3
-R4
-Z115 w1582459767
-Z116 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v
-Z117 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v
+IEV=Xb<`:deTlSi4=lTBN;2
+V`]KgmnmA=d=e602ENbA<D3
+R6
+w1582459767
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v
 L0 6
-R8
+R1
 r1
 31
-Z118 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v|
-R10
-Z119 n@m@u@x_4_1_8_bit_tb_v
-Z120 !s108 1582465581.420000
-Z121 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v|
+R2
+n@m@u@x_4_1_8_bit_tb_v
+!s100 SBQbT@P:HaCB@:MZ4W^X<2
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v|
+!s108 1582511823.105000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_4_1_8_bit_v
-Z122 !s100 nT^86oZQU?7@goJZCobcN1
-Z123 IfBfFf75C9I:<22Tljz9aB2
-Z124 Vd;CzjU:^i6XXPd[zcAW<T2
-R4
-Z125 w1582459045
-Z126 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v
-Z127 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v
+IfBfFf75C9I:<22Tljz9aB2
+Vd;CzjU:^i6XXPd[zcAW<T2
+R6
+w1582459045
+Z62 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v
+Z63 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v
 L0 6
-R8
+R1
 r1
 31
-Z128 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v|
-R10
-Z129 n@m@u@x_4_1_8_bit_v
-Z130 !s108 1582465581.541000
-Z131 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v|
+Z64 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v|
+R2
+n@m@u@x_4_1_8_bit_v
+Z65 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v|
+!s100 nT^86oZQU?7@goJZCobcN1
+!s108 1582511823.289000
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_4_1_8_bit_v__behavior
-Z132 !s100 I:M5Tf^`FoJ>0iY6P9nJQ1
-Z133 IKE`dYDhi1@VH2V[e`4BcZ3
-Z134 VmcMFcG;TdOE<zBTXAnQNS2
-R4
-Z135 w1582456849
-R126
-R127
+IKE`dYDhi1@VH2V[e`4BcZ3
+VmcMFcG;TdOE<zBTXAnQNS2
+R6
+w1582456849
+R62
+R63
 L0 8
-R8
+R1
 r1
 31
-Z136 !s108 1582457110.107000
-R131
-R128
-R10
-Z137 n@m@u@x_4_1_8_bit_v__behavior
+R65
+R64
+R2
+n@m@u@x_4_1_8_bit_v__behavior
+!s100 I:M5Tf^`FoJ>0iY6P9nJQ1
+!s108 1582457110.107000
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_4_1_8_bit_v__cmpnt
-Z138 !s100 GcOJz8FLJFC:adQTFfGD63
-Z139 IG^NnbDlBnmc36_O4=i:I;1
-Z140 VYhN3>`SG3Y9NjR5oBaeGE0
-R4
-Z141 w1582458909
-R126
-R127
+IG^NnbDlBnmc36_O4=i:I;1
+VYhN3>`SG3Y9NjR5oBaeGE0
+R6
+w1582458909
+R62
+R63
 L0 48
-R8
+R1
 r1
 31
-Z142 !s108 1582458964.908000
-R131
-R128
-R10
-Z143 n@m@u@x_4_1_8_bit_v__cmpnt
+R65
+R64
+R2
+n@m@u@x_4_1_8_bit_v__cmpnt
+!s100 GcOJz8FLJFC:adQTFfGD63
+!s108 1582458964.908000
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_4_1_v
-Z144 !s100 5<_9cPJMo<RCnoF]6jKfc1
-Z145 ISmMg95[j=7lcVA[mG@[mL2
-Z146 V8blO:]75MSO4F?82H05`W1
-R4
-Z147 w1582460564
-Z148 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v
-Z149 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v
+ISmMg95[j=7lcVA[mG@[mL2
+V8blO:]75MSO4F?82H05`W1
+R6
+w1582460564
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v
 L0 6
-R8
+R1
 r1
 31
-Z150 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v|
-R10
-Z151 n@m@u@x_4_1_v
-Z152 !s108 1582465581.961000
-Z153 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v|
+R2
+n@m@u@x_4_1_v
+!s100 5<_9cPJMo<RCnoF]6jKfc1
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v|
+!s108 1582511823.768000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_8_1_tb_v
-Z154 !s100 ;P=KeA>4VXVOB[YRRQ3Qb3
-Z155 IhBm_z<Pj_<GWGm^m91P_P3
-Z156 VO^2M?^Y7E2@0lRQK2^?TU1
-R4
-Z157 w1582455722
-Z158 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v
-Z159 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v
+IhBm_z<Pj_<GWGm^m91P_P3
+VO^2M?^Y7E2@0lRQK2^?TU1
+R6
+w1582455722
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v
 L0 6
-R8
+R1
 r1
 31
-Z160 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v|
-R10
-Z161 n@m@u@x_8_1_tb_v
-Z162 !s108 1582465581.007000
-Z163 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v|
+R2
+n@m@u@x_8_1_tb_v
+!s100 ;P=KeA>4VXVOB[YRRQ3Qb3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v|
+!s108 1582511822.369000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_8_1_v__behavior
-Z164 !s100 ?gF9Z`Ebn5RLIE;TO:oGf0
-Z165 IX<fI4>oaDl_RS_SUC2_[U3
-Z166 VJBEjh7^=0Ko7nR45kk_NZ2
-R4
-Z167 w1582460606
-Z168 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v
-Z169 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v
+IX<fI4>oaDl_RS_SUC2_[U3
+VJBEjh7^=0Ko7nR45kk_NZ2
+R6
+Z66 w1582460606
+Z67 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v
+Z68 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v
 L0 7
-R8
+R1
 r1
 31
-Z170 !s108 1582465581.129000
-Z171 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v|
-Z172 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v|
-R10
-Z173 n@m@u@x_8_1_v__behavior
+Z69 !s108 1582511822.584000
+Z70 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v|
+Z71 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_v.v|
+R2
+n@m@u@x_8_1_v__behavior
+!s100 ?gF9Z`Ebn5RLIE;TO:oGf0
 !i10b 1
 !s85 0
 !s101 -O0
 vMUX_8_1_v__cmpnt
-Z174 !s100 zm5aQ>LFL1ZZYF=P=o5V_3
-Z175 IOZNV4jS64X]9XchVQ4OWm3
-Z176 VC[5iRnBVGlF0ONBOL5:^S1
-R4
-R167
-R168
-R169
+IOZNV4jS64X]9XchVQ4OWm3
+VC[5iRnBVGlF0ONBOL5:^S1
+R6
+R66
+R67
+R68
 L0 31
-R8
+R1
 r1
 31
-R170
-R171
-R172
-R10
-Z177 n@m@u@x_8_1_v__cmpnt
+R69
+R70
+R71
+R2
+n@m@u@x_8_1_v__cmpnt
+!s100 zm5aQ>LFL1ZZYF=P=o5V_3
 !i10b 1
 !s85 0
 !s101 -O0
 Enand2
-Z178 w1581303519
-Z179 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
-Z180 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z72 w1581303519
 R4
-Z181 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2.vhd
-Z182 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2.vhd
+R5
+R6
+Z73 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd
+Z74 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd
 l0
 L6
-Z183 V62KL@iQ5^5z]Nb`Qh:4?B0
-Z184 OV;C;10.1b;51
+V62KL@iQ5^5z]Nb`Qh:4?B0
+R9
 32
-Z185 !s108 1582383843.609000
-Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2.vhd|
-Z187 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2.vhd|
-Z188 o-work work -2002 -explicit -O0
-Z189 tExplicit 1
-Z190 !s100 j41TzfIKRT3:7SHlYQ2Q:1
+Z75 !s108 1582511827.502000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd|
+Z77 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd|
+R13
+R14
+!s100 j41TzfIKRT3:7SHlYQ2Q:1
 !i10b 1
 Aequation
-R179
-R180
-Z191 DEx4 work 5 nand2 0 22 62KL@iQ5^5z]Nb`Qh:4?B0
+R4
+R5
+DEx4 work 5 nand2 0 22 62KL@iQ5^5z]Nb`Qh:4?B0
 l13
 L12
-Z192 V;;z=l^<dXhC1cMbza68[d3
-R184
+V;;z=l^<dXhC1cMbza68[d3
+R9
 32
-R185
-R186
-R187
-R188
-R189
-Z193 !s100 ImXdTCCn::8ACM`J>YDnZ3
+R75
+R76
+R77
+R13
+R14
+!s100 ImXdTCCn::8ACM`J>YDnZ3
 !i10b 1
 vNAND2_v
-Z194 !s100 DT;C2nFFfLFNKXhD3KRm?2
-Z195 I?ZNZn^N@_e[:?STAiE^i_2
-Z196 VV0DUXZjo<8<Nn><bY>5DA1
-R4
-Z197 w1582389188
-Z198 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v
-Z199 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v
+I?ZNZn^N@_e[:?STAiE^i_2
+VV0DUXZjo<8<Nn><bY>5DA1
+R6
+w1582389188
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v
 L0 3
-R8
+R1
 r1
 31
-Z200 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v|
-R10
-Z201 n@n@a@n@d2_v
-Z202 !s108 1582465579.121000
-Z203 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v|
+R2
+n@n@a@n@d2_v
+!s100 DT;C2nFFfLFNKXhD3KRm?2
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v|
+!s108 1582511819.496000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND2_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 Enand4
-Z204 w1581304086
-R179
-R180
+Z78 w1581304086
 R4
-Z205 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4.vhd
-Z206 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4.vhd
+R5
+R6
+Z79 8C:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_1_simple_gates_using_vhdl\NAND4.vhd
+Z80 FC:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_1_simple_gates_using_vhdl\NAND4.vhd
 l0
 L6
-Z207 ViBY7dL?ZCNT=GahoKWEX13
-R184
+ViBY7dL?ZCNT=GahoKWEX13
+R9
 32
-Z208 !s108 1581794884.601000
-Z209 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4.vhd|
-Z210 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4.vhd|
-R188
-R189
-Z211 !s100 KHXlfVC2I=V8MCg6F_aGD3
+Z81 !s108 1582511827.769000
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_1_simple_gates_using_vhdl\NAND4.vhd|
+Z83 !s107 C:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_1_simple_gates_using_vhdl\NAND4.vhd|
+R13
+R14
+!s100 KHXlfVC2I=V8MCg6F_aGD3
 !i10b 1
 Acmpnt_self
-R179
-R180
-Z212 DEx4 work 5 nand4 0 22 iBY7dL?ZCNT=GahoKWEX13
+R4
+R5
+Z84 DEx4 work 5 nand4 0 22 iBY7dL?ZCNT=GahoKWEX13
 l85
 L72
-Z213 VcQNGRCYALI9hJ6M<NiV<J0
-R184
+VcQNGRCYALI9hJ6M<NiV<J0
+!s100 `<1g13obKU3liaDNUWTYM2
+R9
 32
-R208
-R209
-R210
-R188
-R189
-Z214 !s100 `<1g13obKU3liaDNUWTYM2
+R81
+R82
+R83
+R13
+R14
 !i10b 1
 Acmpnt_prim
-R179
-R180
-R212
+R4
+R5
+R84
 l61
 L44
-Z215 V<KBk]_8EWA^kO?DnMHQ?A1
-R184
+V<KBk]_8EWA^kO?DnMHQ?A1
+!s100 Ce9K67`T`VY[N:SF`XOne0
+R9
 32
-R208
-R209
-R210
-R188
-R189
-Z216 !s100 Ce9K67`T`VY[N:SF`XOne0
+R81
+R82
+R83
+R13
+R14
 !i10b 1
 Abehavior
-R179
-R180
-R212
+R4
+R5
+R84
 l30
 L29
-Z217 VDj`YkmW8m>M2O]gjg`MYS1
-R184
+VDj`YkmW8m>M2O]gjg`MYS1
+!s100 fezJZ9:7jH9bHYZ[M9Ci22
+R9
 32
-R208
-R209
-R210
-R188
-R189
-Z218 !s100 fezJZ9:7jH9bHYZ[M9Ci22
+R81
+R82
+R83
+R13
+R14
 !i10b 1
 Aequation
-R179
-R180
-R212
+R4
+R5
+R84
 l20
 L19
-Z219 VN4]LB7`l`^ecTE1=JmK><3
-R184
+VN4]LB7`l`^ecTE1=JmK><3
+!s100 bY?TELK`P>UC3]ZV<gWT=0
+R9
 32
-R208
-R209
-R210
-R188
-R189
-Z220 !s100 bY?TELK`P>UC3]ZV<gWT=0
+R81
+R82
+R83
+R13
+R14
 !i10b 1
 Enand4_tb
-Z221 w1581303814
-Z222 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
-Z223 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
-R179
-R180
+Z85 w1581798029
+R17
+R18
 R4
-Z224 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb.vhd
-Z225 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb.vhd
+R5
+R6
+Z86 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4_tb.vhd
+Z87 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4_tb.vhd
 l0
-L8
-Z226 VF2P<gib5EO>;X;<KFVdWI3
-R184
+L10
+VF2P<gib5EO>;X;<KFVdWI3
+!s100 APj^FXbNo?FHe_FL]elG63
+R9
 32
-Z227 !s108 1582383843.912000
-Z228 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb.vhd|
-Z229 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb.vhd|
-R188
-R189
-Z230 !s100 @eO;5M1eWWHRzXk`YYD_J1
 !i10b 1
+Z88 !s108 1582511828.201000
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4_tb.vhd|
+Z90 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4_tb.vhd|
+R13
+R14
 Averify
-R212
-R222
-R223
-R179
-R180
-Z231 DEx4 work 8 nand4_tb 0 22 F2P<gib5EO>;X;<KFVdWI3
-l19
-L11
-Z232 Vi<`m;XiIlWUL<@Hm]7VRN3
-R184
-32
-R227
-R228
-R229
-R188
-R189
-Z233 !s100 HUnR>SWYDl^bQYhCfML0Z1
-!i10b 1
-vNAND4_tb_v
-Z234 !s100 3j;m7e^eDYZ9j?gMfN5o>3
-Z235 IhL9:Y:YPOG8O^a^@1k;=z1
-Z236 V0[^TBI8;gzg?K??XCm14J1
+R84
+R17
+R18
 R4
-Z237 w1582394153
-Z238 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v
-Z239 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v
+R5
+Z91 DEx4 work 8 nand4_tb 0 22 F2P<gib5EO>;X;<KFVdWI3
+l20
+L13
+Z92 Vi<`m;XiIlWUL<@Hm]7VRN3
+Z93 !s100 VO4@gPB9=ZIKd`XLe^b0?3
+R9
+32
+!i10b 1
+R88
+R89
+R90
+R13
+R14
+vNAND4_tb_v
+IhL9:Y:YPOG8O^a^@1k;=z1
+V0[^TBI8;gzg?K??XCm14J1
+R6
+w1582394153
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v
 L0 6
-R8
+R1
 r1
 31
-Z240 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v|
-R10
-Z241 n@n@a@n@d4_tb_v
-Z242 !s108 1582465578.758000
-Z243 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v|
+R2
+n@n@a@n@d4_tb_v
+!s100 3j;m7e^eDYZ9j?gMfN5o>3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v|
+!s108 1582511819.346000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vNAND4_v__behavior
-Z244 !s100 UESb4zdXIe9dXL6ojb3G32
-Z245 IQla>`:QK@ajA[;j48VClK3
-Z246 V_ROoI>ZndASndYh9a[;W^1
-R4
-Z247 w1582390718
-Z248 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v
-Z249 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v
+IQla>`:QK@ajA[;j48VClK3
+V_ROoI>ZndASndYh9a[;W^1
+R6
+Z94 w1582390718
+Z95 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v
+Z96 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v
 L0 18
-R8
+R1
 r1
 31
-Z250 !s108 1582465578.875000
-Z251 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v|
-Z252 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v|
-R10
-Z253 n@n@a@n@d4_v__behavior
+Z97 !s108 1582483586.540000
+Z98 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v|
+Z99 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_v.v|
+R2
+n@n@a@n@d4_v__behavior
+!s100 UESb4zdXIe9dXL6ojb3G32
 !i10b 1
 !s85 0
 !s101 -O0
 vNAND4_v__cmpnt_prim
-Z254 !s100 d;_dehfXF`5;I6d[?8ojT3
-Z255 ITNjOV8zjOQU2<aRaASXNg1
-Z256 V[NKGaFkonW;hZQbg361GG0
-R4
-R247
-R248
-R249
+ITNjOV8zjOQU2<aRaASXNg1
+V[NKGaFkonW;hZQbg361GG0
+R6
+R94
+R95
+R96
 L0 51
-R8
+R1
 r1
 31
-R250
-R251
-R252
-R10
-Z257 n@n@a@n@d4_v__cmpnt_prim
+R97
+R98
+R99
+R2
+n@n@a@n@d4_v__cmpnt_prim
+!s100 d;_dehfXF`5;I6d[?8ojT3
 !i10b 1
 !s85 0
 !s101 -O0
 vNAND4_v__cmpnt_self
-Z258 !s100 j7fO5^m:OY4=^R6DG2<jQ3
-Z259 IFa]LLUn7ie?F?iYE@8?`;3
-Z260 VGfk9JGNhzKFlcECJPB;nG0
-R4
-R247
-R248
-R249
+IFa]LLUn7ie?F?iYE@8?`;3
+VGfk9JGNhzKFlcECJPB;nG0
+R6
+R94
+R95
+R96
 L0 33
-R8
+R1
 r1
 31
-R250
-R251
-R252
-R10
-Z261 n@n@a@n@d4_v__cmpnt_self
+R97
+R98
+R99
+R2
+n@n@a@n@d4_v__cmpnt_self
+!s100 j7fO5^m:OY4=^R6DG2<jQ3
 !i10b 1
 !s85 0
 !s101 -O0
 vNAND4_v__equation
-Z262 !s100 lQzVz5JoV0GmD@=o=BUhR2
-Z263 I_8A>f9gUANDAEOiM]4m;L3
-Z264 V@D_KBeK7jY<Da0<L64@?T0
-R4
-R247
-R248
-R249
+I_8A>f9gUANDAEOiM]4m;L3
+V@D_KBeK7jY<Da0<L64@?T0
+R6
+R94
+R95
+R96
 L0 6
-R8
+R1
 r1
 31
-R250
-R251
-R252
-R10
-Z265 n@n@a@n@d4_v__equation
+R99
+R2
+n@n@a@n@d4_v__equation
+R98
+!s100 lQzVz5JoV0GmD@=o=BUhR2
+!s108 1582483732.772000
 !i10b 1
 !s85 0
 !s101 -O0
 vNOT1_v
-Z266 !s100 Y6jDn8lz4NZoHW`1i4=@[1
-Z267 I]`9D:G^hhFCf@IDSY_COF2
-Z268 VN5AU`leSoDal`3]knMclz0
-R4
-Z269 w1582389975
-Z270 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v
-Z271 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v
+I]`9D:G^hhFCf@IDSY_COF2
+VN5AU`leSoDal`3]knMclz0
+R6
+w1582389975
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v
 L0 3
-R8
+R1
 r1
 31
-Z272 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v|
-R10
-Z273 n@n@o@t1_v
-Z274 !s108 1582465579.378000
-Z275 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v|
+R2
+n@n@o@t1_v
+!s100 Y6jDn8lz4NZoHW`1i4=@[1
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v|
+!s108 1582511820.033000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 Eor2
-Z276 w1581275987
-R179
-R180
+Z100 w1581275987
 R4
-Z277 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd
-Z278 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd
+R5
+R6
+Z101 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd
+Z102 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd
 l0
 L6
-Z279 VC5o:^HU?O:Pfg9]aIdS4L1
-R184
+VC5o:^HU?O:Pfg9]aIdS4L1
+R9
 32
-Z280 !s108 1582384280.284000
-Z281 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd|
-Z282 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd|
-R188
-R189
-Z283 !s100 XCJ[RRnLQm6Td=hN[8>PG0
+Z103 !s108 1582384280.284000
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd|
+Z105 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR2.vhd|
+R13
+R14
+!s100 XCJ[RRnLQm6Td=hN[8>PG0
 !i10b 1
 Aequation
-R179
-R180
-Z284 DEx4 work 3 or2 0 22 C5o:^HU?O:Pfg9]aIdS4L1
+R4
+R5
+DEx4 work 3 or2 0 22 C5o:^HU?O:Pfg9]aIdS4L1
 l13
 L12
-Z285 VaWUOM_9h`A0HhGb2TJGjK3
-R184
+VaWUOM_9h`A0HhGb2TJGjK3
+R9
 32
-R280
-R281
-R282
-R188
-R189
-Z286 !s100 8R2Pe`Enf:^lEzcO6JHz52
+R103
+R104
+R105
+R13
+R14
+!s100 8R2Pe`Enf:^lEzcO6JHz52
 !i10b 1
 vOR2_v
-Z287 !s100 mcFOU@^PB?NXdZMWH0Szk3
-Z288 I6BZoX49Bg2k<1DV3kAB=d0
-Z289 VUj3OMa6W^l`^W?DhYTN8@3
-R4
-Z290 w1581879189
-Z291 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v
-Z292 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v
+I6BZoX49Bg2k<1DV3kAB=d0
+VUj3OMa6W^l`^W?DhYTN8@3
+R6
+w1581879189
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v
 L0 4
-R8
+R1
 r1
 31
-Z293 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v|
-R10
-Z294 n@o@r2_v
-Z295 !s108 1582465578.330000
-Z296 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v|
+R2
+n@o@r2_v
+!s100 mcFOU@^PB?NXdZMWH0Szk3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v|
+!s108 1582511818.702000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 Eor4
-Z297 w1581297453
-R179
-R180
+Z106 w1581297453
 R4
-Z298 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd
-Z299 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd
+R5
+R6
+Z107 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd
+Z108 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd
 l0
 L6
-Z300 VAYMdd8]hGlHYH4_VUmlgn0
-R184
+VAYMdd8]hGlHYH4_VUmlgn0
+R9
 32
-Z301 !s108 1582384280.433000
-Z302 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd|
-Z303 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd|
-R188
-R189
-Z304 !s100 836i:Q=2]a>h5J6e25?z`1
+Z109 !s108 1582384280.433000
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd|
+Z111 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4.vhd|
+R13
+R14
+!s100 836i:Q=2]a>h5J6e25?z`1
 !i10b 1
 Acmpnt
-R179
-R180
-Z305 DEx4 work 3 or4 0 22 AYMdd8]hGlHYH4_VUmlgn0
-l55
-L43
-Z306 VX0YZA=2gc<O8XSNj]8S3e3
-R184
+w1582487277
+R4
+R5
+Z112 DEx4 work 3 or4 0 22 AYMdd8]hGlHYH4_VUmlgn0
+R50
+R51
+l35
+L23
+VX0YZA=2gc<O8XSNj]8S3e3
+R9
 32
-R301
-R302
-R303
-R188
-R189
-Z307 !s100 GoH6mbSLnC>?ighF5aJSZ0
+R53
+R54
+R13
+R14
+!s108 1582487291.095000
+!s100 YRcKeTFRFkKi0`>Ya`]`>0
 !i10b 1
 Abehavior
-R179
-R180
-R305
+R4
+R5
+R112
 l28
 L27
-Z308 V>aW4HW5_Z?Q=IDQEUa@[90
-R184
+V>aW4HW5_Z?Q=IDQEUa@[90
+R9
 32
-R301
-R302
-R303
-R188
-R189
-Z309 !s100 <UR32gGHkD7e6>CR>FAd42
+R109
+R110
+R111
+R13
+R14
+!s100 <UR32gGHkD7e6>CR>FAd42
 !i10b 1
 Aequation
-R179
-R180
-R305
+R4
+R5
+R112
 l19
 L18
-Z310 Vb?2aaMnlHKKnh:fkb6MWa3
-R184
+Vb?2aaMnlHKKnh:fkb6MWa3
+R9
 32
-R301
-R302
-R303
-R188
-R189
-Z311 !s100 6AK8b0hCcSC>kn1=XaWlL3
+R109
+R110
+R111
+R13
+R14
+!s100 6AK8b0hCcSC>kn1=XaWlL3
 !i10b 1
 Eor4_tb
-Z312 w1581298242
-R222
-R223
-R179
-R180
+Z113 w1581298242
+R17
+R18
 R4
-Z313 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd
-Z314 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd
+R5
+R6
+Z114 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd
+Z115 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd
 l0
 L8
-Z315 ViDKH5DPec7<66[dfBFBA50
-R184
+ViDKH5DPec7<66[dfBFBA50
+R9
 32
-Z316 !s108 1582384280.651000
-Z317 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd|
-Z318 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd|
-R188
-R189
-Z319 !s100 8BI:n:Ba[Y@HPFFIQ]SF:1
+Z116 !s108 1582384280.651000
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd|
+Z118 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/OR4_tb.vhd|
+R13
+R14
+!s100 8BI:n:Ba[Y@HPFFIQ]SF:1
 !i10b 1
 Averify
-R305
-R222
-R223
-R179
-R180
-Z320 DEx4 work 6 or4_tb 0 22 iDKH5DPec7<66[dfBFBA50
+R112
+R17
+R18
+R4
+R5
+DEx4 work 6 or4_tb 0 22 iDKH5DPec7<66[dfBFBA50
 l19
 L11
-Z321 VMiLA1<Q<`@LR[eKmJ7ZO41
-Z322 !s100 AGgibAzZaL@RMYbn:PiQe2
-R184
+VMiLA1<Q<`@LR[eKmJ7ZO41
+R9
 32
-R316
-R317
-R318
-R188
-R189
+R116
+R117
+R118
+R13
+R14
+!s100 AGgibAzZaL@RMYbn:PiQe2
 !i10b 1
 vOR4_tb_v
-Z323 !s100 2f8^non<jlRn[g0;KOfnV1
-Z324 IYFTRE88:dU3:7C@Qg0Y6k0
-Z325 V9HR@SLh78OG`UcEV@YGML3
-R4
-Z326 w1582394263
-Z327 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
-Z328 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
+IYFTRE88:dU3:7C@Qg0Y6k0
+V9HR@SLh78OG`UcEV@YGML3
+R6
+w1582394263
+Z119 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
+Z120 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
 L0 6
-R8
+R1
 r1
 31
-Z329 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v|
-R10
-Z330 n@o@r4_tb_v
-Z331 !s108 1582465578.457000
-Z332 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v|
+Z121 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v|
+R2
+n@o@r4_tb_v
+Z122 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v|
+!s100 2f8^non<jlRn[g0;KOfnV1
+!s108 1582511818.880000
 !i10b 1
 !s85 0
 !s101 -O0
 vOR4_tb_v_TEST
-Z333 !s100 NM:ThX>TChRf[ncS[@aT82
-Z334 IUSFdn@QLRJHQIgWjBZ7Mi2
-Z335 V29_7f6[KdF@5@AK6F1IRl0
-R4
-Z336 w1582385313
-R327
-R328
+IUSFdn@QLRJHQIgWjBZ7Mi2
+V29_7f6[KdF@5@AK6F1IRl0
+R6
+w1582385313
+R119
+R120
 L0 6
-R8
+R1
 r1
 31
-R329
-R10
-Z337 n@o@r4_tb_v_@t@e@s@t
-Z338 !s108 1582385376.104000
-R332
+R121
+R2
+n@o@r4_tb_v_@t@e@s@t
+R122
+!s100 NM:ThX>TChRf[ncS[@aT82
+!s108 1582385376.104000
 !i10b 1
 !s85 0
 !s101 -O0
 vOR4_v
-Z339 !s100 1h`CBARL@ek[[[RMa>6G90
-Z340 Ide38Am;c3MZTL[T7Xc<lz0
-Z341 Vn<C1kRGCjRkd@8Q9J1UE?3
-R4
-Z342 w1582385303
-Z343 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v
-Z344 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v
+Ide38Am;c3MZTL[T7Xc<lz0
+Vn<C1kRGCjRkd@8Q9J1UE?3
+R6
+Z123 w1582385303
+Z124 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v
+Z125 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v
 L0 1
-R8
+R1
 r1
 31
-Z345 !s108 1582385539.295000
-Z346 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v|
-Z347 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v|
-R10
-Z348 n@o@r4_v
+Z126 !s108 1582385539.295000
+Z127 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v|
+Z128 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v|
+R2
+n@o@r4_v
+!s100 1h`CBARL@ek[[[RMa>6G90
 !i10b 1
 !s85 0
 !s101 -O0
 vOR4_v__behavior
-Z349 !s100 GMU:WdB3>BijaY7We:N290
-Z350 IRLHcV7?d:hn9eGb1bI=Gj3
-Z351 VFUT1Of;@aI^`M4YU;C<:41
-R4
-Z352 w1582388875
-R343
-R344
+IRLHcV7?d:hn9eGb1bI=Gj3
+VFUT1Of;@aI^`M4YU;C<:41
+R6
+Z129 w1582388875
+R124
+R125
 L0 18
-R8
+R1
 r1
 31
-Z353 !s108 1582465578.578000
-R346
-R347
-R10
-Z354 n@o@r4_v__behavior
+Z130 !s108 1582511819.068000
+R127
+R128
+R2
+n@o@r4_v__behavior
+!s100 GMU:WdB3>BijaY7We:N290
 !i10b 1
 !s85 0
 !s101 -O0
 vOR4_v__cmpnt_self
-Z355 !s100 kHzCOVd0[:>R=f6QXf5BR3
-Z356 IUZ3=X1N3HGVTaBmAXF<HP2
-Z357 VK`0fhz=FBjTnVFFXNK<MO1
-R4
-R352
-R343
-R344
+IUZ3=X1N3HGVTaBmAXF<HP2
+VK`0fhz=FBjTnVFFXNK<MO1
+R6
+R129
+R124
+R125
 L0 32
-R8
+R1
 r1
 31
-R353
-R346
-R347
-R10
-Z358 n@o@r4_v__cmpnt_self
+R130
+R127
+R128
+R2
+n@o@r4_v__cmpnt_self
+!s100 kHzCOVd0[:>R=f6QXf5BR3
 !i10b 1
 !s85 0
 !s101 -O0
 vOR4_v__equation
-Z359 !s100 lTF:C@01c>AZFRQ5VO0V@3
-Z360 I56RH2S>U3d_7nLP@j1V6V0
-Z361 VX9zRQUGVco?5E0UT_mF;E0
-R4
-R352
-R343
-R344
+I56RH2S>U3d_7nLP@j1V6V0
+VX9zRQUGVco?5E0UT_mF;E0
+R6
+R129
+R124
+R125
 L0 6
-R8
+R1
 r1
 31
-R353
-R346
-R347
-R10
-Z362 n@o@r4_v__equation
+R130
+R127
+R128
+R2
+n@o@r4_v__equation
+!s100 lTF:C@01c>AZFRQ5VO0V@3
 !i10b 1
 !s85 0
 !s101 -O0
 vOR4_v_TEST
-Z363 !s100 6MEGGk12O`XP:ej0ZS?FV2
-Z364 IA>mkDB42_jG>ckgaU:PB]3
-Z365 VzTfF8_m6CYFPd<bDa7zfY1
-R4
-R342
-R343
-R344
+IA>mkDB42_jG>ckgaU:PB]3
+VzTfF8_m6CYFPd<bDa7zfY1
+R6
+R123
+R124
+R125
 L0 11
-R8
+R1
 r1
 31
-R345
-R346
-R347
-R10
-Z366 n@o@r4_v_@t@e@s@t
+R126
+R127
+R128
+R2
+n@o@r4_v_@t@e@s@t
+!s100 6MEGGk12O`XP:ej0ZS?FV2
 !i10b 1
 !s85 0
 !s101 -O0
+Epriority_enc_2_1
+Z131 w1582507947
+R4
+R5
+R6
+Z132 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_2_1.vhd
+Z133 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_2_1.vhd
+l0
+L7
+V7J<L4:Q71WS:>6YKd]8Lz2
+R9
+32
+Z134 !s108 1582508595.316000
+Z135 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_2_1.vhd|
+Z136 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_2_1.vhd|
+R13
+R14
+!s100 @f^EX_3Y4OlDA@TX`S2k73
+!i10b 1
+Aequation
+R4
+R5
+DEx4 work 16 priority_enc_2_1 0 22 7J<L4:Q71WS:>6YKd]8Lz2
+l17
+L16
+VNMmJMTA`4dQQ`_Jk6^50g2
+R9
+32
+R134
+R135
+R136
+R13
+R14
+!s100 E?o><CkPA>VeJad@HHMWi1
+!i10b 1
 vpriority_enc_2_1_v
-Z367 Io?a?;biRU[j@8NXAU4hXP2
-Z368 VPnV7QT?]3CX?4lR[NX2P50
-R4
-Z369 w1582464638
-Z370 8C:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_2_combinational_circuits_Datapath_components\hdl\verilog\priority_enc_2_1_v.v
-Z371 FC:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_2_combinational_circuits_Datapath_components\hdl\verilog\priority_enc_2_1_v.v
+IEKHaGTL_PL<A>T3`=3:zb2
+VPnV7QT?]3CX?4lR[NX2P50
+R6
+w1582464638
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v
 L0 4
-R8
+R1
 r1
 31
-R10
-Z372 !s100 O@zGV_hRWgL?A4C>BH0aZ0
-Z373 !s108 1582465582.325000
-Z374 !s107 C:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_2_combinational_circuits_Datapath_components\hdl\verilog\priority_enc_2_1_v.v|
-Z375 !s90 -reportprogress|300|-work|work|C:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_2_combinational_circuits_Datapath_components\hdl\verilog\priority_enc_2_1_v.v|
+R2
+!s100 Y`N1^5MW2QcC?Ngd2;;E13
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v|
+!s108 1582511824.355000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
-vpriority_enc_4_2_tb_v
-Z376 !s100 e52e`DkLgKi8z9]FXnNJk3
-Z377 I7UhFKz?KS04TDgn6eKL@73
-Z378 V2GJMnOnJ6JL98occ<;g160
+Epriority_enc_4_2
+Z137 w1582479162
 R4
-Z379 w1582429518
-Z380 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v
-Z381 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v
+R5
+R6
+Z138 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd
+Z139 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd
+l0
+L7
+VWdWK?XXgz8c2I@i><]@F00
+R9
+32
+Z140 !s108 1582511824.703000
+Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd|
+Z142 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd|
+R13
+R14
+!s100 ]UOkAXeIkZWPDKlR]kXbg2
+!i10b 1
+Aequation
+R4
+R5
+Z143 DEx4 work 16 priority_enc_4_2 0 22 WdWK?XXgz8c2I@i><]@F00
+l17
+L16
+VJS[gnO=]EePUBBjaV_hjR0
+R9
+32
+R140
+R141
+R142
+R13
+R14
+!s100 JfImz[Og41l3zJAiFMWMk0
+!i10b 1
+Acmpnt
+R4
+R5
+Z144 DEx4 work 16 priority_enc_4_2 0 22 YNTVSYn=aFRdfghTHaUYz2
+l55
+L43
+VbdQ72bf2Hk`fh59@GONHn0
+R9
+32
+Z145 !s108 1582474942.919000
+R141
+R142
+R13
+R14
+Z146 w1582474110
+!s100 eHdeCTNFJWTOKBYJ;a_@X1
+!i10b 1
+Abehavior
+R4
+R5
+R144
+l28
+L27
+VljJReClYOM7OTSJZMJDWJ2
+R9
+32
+R145
+R141
+R142
+R13
+R14
+R146
+!s100 1HOmPCW_fN=HGlSN7>h]]0
+!i10b 1
+Epriority_enc_4_2_tb
+Z147 w1582511770
+R17
+R18
+R4
+R5
+R6
+Z148 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2_tb.vhd
+Z149 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2_tb.vhd
+l0
+L11
+VFE]GW2l3AMlT>V7^4[zKh0
+R9
+32
+Z150 !s108 1582511824.901000
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2_tb.vhd|
+Z152 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2_tb.vhd|
+R13
+R14
+!s100 6]_IjCOG[<8Z9l2jogQ4T3
+!i10b 1
+Averify
+R143
+R17
+R18
+R4
+R5
+DEx4 work 19 priority_enc_4_2_tb 0 22 FE]GW2l3AMlT>V7^4[zKh0
+l29
+L14
+V<d?lSCdlYYA5CG3`F5^ag2
+R9
+32
+R150
+R151
+R152
+R13
+R14
+!s100 U_e=[I]WThK@1bWIWU5@g3
+!i10b 1
+vpriority_enc_4_2_tb_v
+I7UhFKz?KS04TDgn6eKL@73
+V2GJMnOnJ6JL98occ<;g160
+R6
+Z153 w1582429518
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v
 L0 5
-R8
+R1
 r1
 31
-Z382 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v|
-R10
-Z383 !s108 1582465579.952000
-Z384 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v|
+R2
+!s100 e52e`DkLgKi8z9]FXnNJk3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v|
+!s108 1582511820.825000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vpriority_enc_4_2_v__always
-Z385 !s100 RFlX>=Wg1P<?Z27R6zPE90
-Z386 IX2hW;PAC]Kno;M<YgMPJL0
-Z387 Vc]CmFgbZUZ@dH`IzSSiY73
-R4
-Z388 w1582419715
-Z389 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v
-Z390 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v
-L0 30
-R8
+IMA9FPNlED7Cg[iImT8hgh0
+Vc]CmFgbZUZ@dH`IzSSiY73
+R6
+Z154 w1582478289
+Z155 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v
+Z156 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v
+L0 31
+R1
 r1
 31
-Z391 !s108 1582465580.063000
-Z392 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v|
-Z393 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v|
-R10
+Z157 !s108 1582511820.970000
+Z158 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v|
+Z159 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v|
+R2
+!s100 GhVaeH0m`aVzLdRaMW4nn1
 !i10b 1
 !s85 0
 !s101 -O0
 vpriority_enc_4_2_v__equation__no_always
-Z394 !s100 4TeOJCV=8WzeJfil3o?G83
-Z395 IiH0z<^>^HKV[@g<Y<Bne_2
-Z396 VlYdFO8A]b100Z6E7=5CgK3
-R4
-Z397 w1582401275
-R389
-R390
+IiH0z<^>^HKV[@g<Y<Bne_2
+VlYdFO8A]b100Z6E7=5CgK3
+R6
+w1582401275
+R155
+R156
 L0 6
-R8
+R1
 r1
 31
-R393
-R10
-Z398 !s108 1582402204.688000
-R392
+R159
+R2
+R158
+!s100 4TeOJCV=8WzeJfil3o?G83
+!s108 1582402204.688000
 !i10b 1
 !s85 0
 !s101 -O0
 vpriority_enc_4_2_v__no_always
-Z399 !s100 JeX>Voj[<nXf4aXOOeZ351
-Z400 IA<LM@jZB?n34`OURDb:870
-Z401 Vb_3d>]gS<J0Bd5nz3P96V3
-R4
-R388
-R389
-R390
+I143K0V8Z<VZY`:gOZKok73
+Vb_3d>]gS<J0Bd5nz3P96V3
+R6
+R154
+R155
+R156
 L0 6
-R8
+R1
 r1
 31
-R391
-R392
-R393
-R10
+R157
+R158
+R159
+R2
+!s100 5khL:9c>JO6j@;i[H_c<Y3
 !i10b 1
 !s85 0
 !s101 -O0
-vpriority_enc_8_3_tb_v
-Z402 !s100 XUb]_1GkG8gFEJkgKH`W_1
-Z403 Ib_Lji6RRz7lYbIV:`1JGj2
-Z404 VDM:GCc;W7I6_PfjF_IGdg1
+Epriority_enc_8_3
+Z160 w1582508237
 R4
-Z405 w1582465528
-Z406 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v
-Z407 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v
+R5
+R6
+Z161 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3.vhd
+Z162 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3.vhd
+l0
+L7
+V3b;h196^Va;0U:7]`CEO]1
+R9
+32
+Z163 !s108 1582508595.480000
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3.vhd|
+Z165 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3.vhd|
+R13
+R14
+!s100 =0cKN]CIXzlWh<cKjIfIQ0
+!i10b 1
+Aequation
+R4
+R5
+Z166 DEx4 work 16 priority_enc_8_3 0 22 3b;h196^Va;0U:7]`CEO]1
+l16
+L15
+V`khHYTZ]7Jd[22[e^;kD>0
+R9
+32
+R163
+R164
+R165
+R13
+R14
+!s100 UL=3LdLQP_<6fHH=K[CK]2
+!i10b 1
+Epriority_enc_8_3_tb
+Z167 w1582508583
+R17
+R18
+R4
+R5
+R6
+Z168 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3_tb.vhd
+Z169 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3_tb.vhd
+l0
+L8
+Vf>YXAzf6NVc>VX`15zdBn3
+R9
+32
+Z170 !s108 1582508595.645000
+Z171 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3_tb.vhd|
+Z172 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_8_3_tb.vhd|
+R13
+R14
+!s100 11f`W`jHXl=c5R<Bo35j<2
+!i10b 1
+Averify
+R166
+R17
+R18
+R4
+R5
+DEx4 work 19 priority_enc_8_3_tb 0 22 f>YXAzf6NVc>VX`15zdBn3
+l27
+L11
+V4VF<QfP76Wz:5X]7hCiVP2
+R9
+32
+R170
+R171
+R172
+R13
+R14
+!s100 URdLbcb28FVGAR9mTCPg80
+!i10b 1
+vpriority_enc_8_3_tb_v
+Ib_Lji6RRz7lYbIV:`1JGj2
+VDM:GCc;W7I6_PfjF_IGdg1
+R6
+w1582465528
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v
 L0 5
-R8
+R1
 r1
 31
-Z408 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v|
-R10
+R2
+!s100 XUb]_1GkG8gFEJkgKH`W_1
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v|
+!s108 1582511824.531000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v|
 !i10b 1
 !s85 0
-Z409 !s108 1582465582.463000
-Z410 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v|
 !s101 -O0
 vpriority_enc_8_3_v
-!i10b 1
-Z411 !s100 29AbNS65YD1`zQQ>@FEDa3
-Z412 Ige;Rb3ci=LTKbcIA?S9DL2
-Z413 VQ3NYfT36>:_g5n<2FNFF`2
-R4
-Z414 w1582465362
-Z415 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v
-Z416 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v
+IFcA6heBFDINc02:G[X;F`2
+VQ3NYfT36>:_g5n<2FNFF`2
+R6
+w1582479043
+Z173 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v
+Z174 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v
 L0 6
-R8
+R1
 r1
+31
+Z175 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v|
+R2
+Z176 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v|
+!s100 izF^2B41FDc<N3JA@NI?91
+!i10b 1
 !s85 0
-31
-!s108 1582465582.590000
-!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v|
-Z417 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v|
+!s108 1582511827.326000
 !s101 -O0
-R10
 vpriority_enc_8_3_v__always
-Z418 Ih70@f[eXMnLdNfFR[@ThE0
-Z419 VLhTjjB<WmY[^i=LVi<SM;2
-R4
-Z420 w1582464781
-R415
-R416
+Ih70@f[eXMnLdNfFR[@ThE0
+VLhTjjB<WmY[^i=LVi<SM;2
+R6
+Z177 w1582464781
+R173
+R174
 L0 30
-R8
+R1
 r1
 31
-Z421 !s108 1582464935.400000
-Z422 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v|
-R417
-R10
-Z423 !s100 JCj=4PEJgAcj3>?`>4[170
+Z178 !s108 1582464935.400000
+R176
+R175
+R2
+!s100 JCj=4PEJgAcj3>?`>4[170
 !i10b 1
 !s85 0
 !s101 -O0
 vpriority_enc_8_3_v__no_always
-Z424 InV]?;hASCV`>X0hdzbN<H2
-Z425 Vbc8nSG1;CnjnedeR4<g:@2
-R4
-R420
-R415
-R416
+InV]?;hASCV`>X0hdzbN<H2
+Vbc8nSG1;CnjnedeR4<g:@2
+R6
+R177
+R173
+R174
 L0 6
-R8
+R1
 r1
 31
-R421
-R422
-R417
-R10
-Z426 !s100 MgmCSG1m^F[RZGK`W81N<3
+R178
+R176
+R175
+R2
+!s100 MgmCSG1m^F[RZGK`W81N<3
 !i10b 1
 !s85 0
 !s101 -O0
-vSN74145_tb_v
-Z427 !s100 GLm9h]ned10:_clWbaGMY3
-Z428 Ic0Vnd=lPBdi03zH1dK?H52
-Z429 VB0EmnWzjQ6LOmV]JEZ^nD3
+Esn74145
+Z179 w1582483937
 R4
-R379
-Z430 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v
-Z431 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v
+R5
+R6
+Z180 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145.vhd
+Z181 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145.vhd
+l0
+L6
+VQKCJ88MbW5^X4cc4UZNL92
+R9
+32
+Z182 !s108 1582511825.120000
+Z183 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145.vhd|
+Z184 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145.vhd|
+R13
+R14
+!s100 AC7YFeb]MizP9ce5Yi:=I0
+!i10b 1
+Aequation
+R4
+R5
+Z185 DEx4 work 7 sn74145 0 22 QKCJ88MbW5^X4cc4UZNL92
+l33
+L32
+V;G:76nHVIbJ3];e7?XhO53
+R9
+32
+R182
+R183
+R184
+R13
+R14
+!s100 f8[If@k>dz_24d:?Dkc5M0
+!i10b 1
+Esn74145_tb
+Z186 w1582483947
+R17
+R18
+R4
+R5
+R6
+Z187 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145_tb.vhd
+Z188 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145_tb.vhd
+l0
+L8
+Vb@Cl^ARCT3U8G7SJE=jdX1
+R9
+32
+Z189 !s108 1582511825.348000
+Z190 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145_tb.vhd|
+Z191 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145_tb.vhd|
+R13
+R14
+!s100 =f?o?K:6;f2?nF>bYnVDf0
+!i10b 1
+Averify
+R185
+R17
+R18
+R4
+R5
+DEx4 work 10 sn74145_tb 0 22 b@Cl^ARCT3U8G7SJE=jdX1
+l34
+L11
+V@6f@BgU0WbWW9O43;KHoV1
+R9
+32
+R189
+R190
+R191
+R13
+R14
+!s100 z^OHRIeQ<f8AI?odABKE[0
+!i10b 1
+vSN74145_tb_v
+Ic0Vnd=lPBdi03zH1dK?H52
+VB0EmnWzjQ6LOmV]JEZ^nD3
+R6
+R153
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v
 L0 5
-R8
+R1
 r1
 31
-Z432 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v|
-R10
-Z433 n@s@n74145_tb_v
-Z434 !s108 1582465580.206000
-Z435 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v|
+R2
+n@s@n74145_tb_v
+!s100 GLm9h]ned10:_clWbaGMY3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v|
+!s108 1582511821.225000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vSN74145_v
-Z436 !s100 W5nEJW>F<;Z7GhFXBo_MS1
-Z437 IGV<[[09>baDT8:lcC?>A80
-Z438 VJMoiK4P@SY=ANGB<aEk791
-R4
-Z439 w1582424722
-Z440 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v
-Z441 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v
+IS8eX^@UgF9T3MK]L]IAaK1
+VJMoiK4P@SY=ANGB<aEk791
+R6
+w1582510636
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v
 L0 5
-R8
+R1
 r1
 31
-Z442 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v|
-R10
-Z443 n@s@n74145_v
-Z444 !s108 1582465580.340000
-Z445 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v|
+R2
+n@s@n74145_v
+!s100 Ph0=<_R_N4FV6iio[Kla;3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v|
+!s108 1582511821.414000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vXOR2_v
-Z446 !s100 DbW[LXK6:3Zgi3Ra5UNA=3
-Z447 IdWJnzM[eGm]RN9G9^0QS]2
-Z448 VY79czI0QhdSQei:SW2La20
-R4
-Z449 w1582393874
-Z450 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v
-Z451 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v
+IdWJnzM[eGm]RN9G9^0QS]2
+VY79czI0QhdSQei:SW2La20
+R6
+w1582393874
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v
 L0 3
-R8
+R1
 r1
 31
-Z452 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v|
-R10
-Z453 n@x@o@r2_v
-Z454 !s108 1582465579.831000
-Z455 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v|
+R2
+n@x@o@r2_v
+!s100 DbW[LXK6:3Zgi3Ra5UNA=3
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v|
+!s108 1582511820.643000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR2_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vXOR4_tb_v
-Z456 !s100 :F_OhzWD6[L?BI?zBjkFe0
-Z457 IKFlX]jol7507Ob6oj_]mN1
-Z458 VokP?f@o85Kzdm=X9g7B@R1
-R4
-Z459 w1582394000
-Z460 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v
-Z461 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v
+IKFlX]jol7507Ob6oj_]mN1
+VokP?f@o85Kzdm=X9g7B@R1
+R6
+w1582394000
+8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v
+FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v
 L0 6
-R8
+R1
 r1
 31
-Z462 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v|
-R10
-Z463 n@x@o@r4_tb_v
-Z464 !s108 1582465579.514000
-Z465 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v|
+R2
+n@x@o@r4_tb_v
+!s100 :F_OhzWD6[L?BI?zBjkFe0
+!s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v|
+!s108 1582511820.200000
+!s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vXOR4_v__behavior
-Z466 !s100 GQZ7?7K]`1om;JEJ]:oo=3
-Z467 Id:nUfNjoUGW8oAF6o9GIY2
-Z468 V5ES4O62B@Ao9RU:BS=Ml>1
-R4
-Z469 w1582393857
-Z470 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v
-Z471 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v
+Id:nUfNjoUGW8oAF6o9GIY2
+V5ES4O62B@Ao9RU:BS=Ml>1
+R6
+Z192 w1582393857
+Z193 8C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v
+Z194 FC:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v
 L0 18
-R8
+R1
 r1
 31
-Z472 !s108 1582465579.630000
-Z473 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v|
-Z474 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v|
-R10
-Z475 n@x@o@r4_v__behavior
+Z195 !s108 1582511820.371000
+Z196 !s107 C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v|
+Z197 !s90 -reportprogress|300|-work|work|C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_v.v|
+R2
+n@x@o@r4_v__behavior
+!s100 GQZ7?7K]`1om;JEJ]:oo=3
 !i10b 1
 !s85 0
 !s101 -O0
 vXOR4_v__cmpnt_self
-Z476 !s100 z^VL3<<zjSe;FTXW[Pao:0
-Z477 IVYk<o<<4W]YHCz>gMQ@6[1
-Z478 V^B=1VQ8fa;0GEe1WEFiP22
-R4
-R469
-R470
-R471
+IVYk<o<<4W]YHCz>gMQ@6[1
+V^B=1VQ8fa;0GEe1WEFiP22
+R6
+R192
+R193
+R194
 L0 38
-R8
+R1
 r1
 31
-R472
-R473
-R474
-R10
-Z479 n@x@o@r4_v__cmpnt_self
+R195
+R196
+R197
+R2
+n@x@o@r4_v__cmpnt_self
+!s100 z^VL3<<zjSe;FTXW[Pao:0
 !i10b 1
 !s85 0
 !s101 -O0
 vXOR4_v__equation
-Z480 !s100 Tg5PkPb^HHGnccIFhXjMI1
-Z481 IiXNKgV_n7TDA;EA:UV]9S3
-Z482 V;[7n94G=Gh;<4?Zj58kDV1
-R4
-R469
-R470
-R471
+IiXNKgV_n7TDA;EA:UV]9S3
+V;[7n94G=Gh;<4?Zj58kDV1
+R6
+R192
+R193
+R194
 L0 6
-R8
+R1
 r1
 31
-R472
-R473
-R474
-R10
-Z483 n@x@o@r4_v__equation
+R195
+R196
+R197
+R2
+n@x@o@r4_v__equation
+!s100 Tg5PkPb^HHGnccIFhXjMI1
 !i10b 1
 !s85 0
 !s101 -O0
