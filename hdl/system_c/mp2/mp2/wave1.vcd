@@ -1,5 +1,5 @@
 $date
-     Mar 08, 2020       12:06:52
+     Mar 08, 2020       13:27:31
 $end
 
 $version
@@ -11,9 +11,11 @@ $timescale
 $end
 
 $scope module SystemC $end
-$var wire    1  aaaaa  X       $end
-$var wire    1  aaaab  Y       $end
-$var wire    1  aaaac  F1       $end
+$var wire    1  aaaaa  i_a       $end
+$var wire    1  aaaab  i_b       $end
+$var wire    1  aaaac  i_c       $end
+$var wire    1  aaaad  i_d       $end
+$var wire    1  aaaae  o_f       $end
 $upscope $end
 $enddefinitions  $end
 
@@ -25,29 +27,14 @@ $dumpvars
 0aaaaa
 0aaaab
 0aaaac
+0aaaad
+1aaaae
 $end
 
 #10000
 1aaaaa
 1aaaab
-
-#20000
-0aaaaa
-0aaaab
-
-#30000
-1aaaaa
-1aaaab
-
-#40000
-0aaaaa
-0aaaab
-
-#60000
-1aaaaa
-1aaaab
-
-#70000
-0aaaaa
-0aaaab
+1aaaac
+1aaaad
+0aaaae
 

@@ -4,33 +4,40 @@
 #include "systemc.h"
 #include "_tb_master.h"
 
+
+#include <stdio.h> 
+#include <errno.h> 
+#include <string.h> 
+#include <stdlib.h> 
+
+
+
 SC_MODULE(nand4_gate) {
-    sc_in <bool> X, Y;
-    sc_out <bool> F1;
-
-
-
+    sc_in  <bool> i_a;
+    sc_in  <bool> i_b;
+    sc_in  <bool> i_c;
+    sc_in  <bool> i_d;
+    sc_out <bool> o_f;
 
     void p1()
     {
-
-
-
-        if (MODEL == "b")
+        /////////////////////////////////////////////////////
+        //  Exception Model
+        /////////////////////////////////////////////////////
+        if (MODEL == EQUATION_MODEL)
         {
-            F1.write(!(X.read() || Y.read()));
+            o_f.write(!(i_a.read() && i_b.read() && i_c.read() && i_d.read()));
         }
-        else
-        {
-            printf("  ERROR:  MODEL from _tb_master.h not recognized by nand4_gate.h, MODEL:  %s \n", MODEL);
-        }
+
+        // Error
+        else  {  printf("  ERROR:  MODEL from _tb_master.h not recognized by nand4_gate.h\n");  }
 
 
     }
 
     SC_CTOR(nand4_gate) {
         SC_METHOD(p1);
-        sensitive << X << Y;
+        sensitive << i_a << i_b << i_c << i_d;
     }
 };
 #endif
