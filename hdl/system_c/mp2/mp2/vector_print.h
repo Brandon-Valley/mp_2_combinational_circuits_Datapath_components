@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 using std::vector;
@@ -11,14 +12,16 @@ using std::vector;
 template <typename T>
 std::ostream& operator << (std::ostream& out, vector<T>& vec)
 {
+    /*vec = reverse(vec.begin(), vec.end());*/
+
     out << "[";
 
     for (int i = 0; i < vec.size(); i++)
     {
         if (i < vec.size() - 1)
-            out << vec.at(i) << ", ";
+            out << vec.at(vec.size() - 1 - i) << ", ";
         else
-            out << vec.at(i);
+            out << vec.at(vec.size() - 1 - i);
     }
     out << "]";
 
@@ -33,9 +36,9 @@ std::ostream& operator << (std::ostream& out, vector<string>& vec)
     for (int i = 0; i < vec.size(); i++)
     {
         if (i < vec.size() - 1)
-            out << "\"" << vec.at(i) << "\"" << ", ";
+            out << "\"" << vec.at(vec.size() - 1 - i) << "\"" << ", ";
         else
-            out << "\"" << vec.at(i) << "\"";
+            out << "\"" << vec.at(vec.size() - 1 - i) << "\"";
     }
     out << "]";
 
@@ -50,9 +53,9 @@ std::ostream& operator << (std::ostream& out, vector<char>& vec)
     for (int i = 0; i < vec.size(); i++)
     {
         if (i < vec.size() - 1)
-            out << "\'" << vec.at(i) << "\'" << ", ";
+            out << "\'" << vec.at(vec.size() - 1 - i) << "\'" << ", ";
         else
-            out << "\'" << vec.at(i) << "\'";
+            out << "\'" << vec.at(vec.size() - 1 - i) << "\'";
     }
     out << "]";
 
