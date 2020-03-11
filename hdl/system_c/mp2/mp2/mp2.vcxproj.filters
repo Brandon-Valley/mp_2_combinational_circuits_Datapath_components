@@ -30,6 +30,9 @@
     <ClInclude Include="nand4_gate__tb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="vector_print.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="run_main_tb.cpp">

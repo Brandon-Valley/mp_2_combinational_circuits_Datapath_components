@@ -143,6 +143,7 @@
     <ClInclude Include="nand2_tb_test.h" />
     <ClInclude Include="nand4_gate.h" />
     <ClInclude Include="nand4_gate__tb.h" />
+    <ClInclude Include="vector_print.h" />
     <ClInclude Include="_tb_master.h" />
   </ItemGroup>
   <ItemGroup>
