@@ -13,13 +13,20 @@ using namespace std;
 
 
 
-std::vector<int> to_binary(int n)
+std::vector<int> to_binary(int n, int num_bits)
 {
     std::vector<int> r;
     while (n != 0) 
     { 
         r.push_back(n % 2 == 0 ? 0 : 1);
         n /= 2; 
+    }
+
+    // fill the rest of the vetor with 0s
+    for (int i = 0; i < num_bits - r.size(); i++)
+    {
+        //r.insert(r.begin(), 0);
+        r.push_back(0);
     }
     return r;
 }
@@ -133,7 +140,7 @@ void nand4_gate__tb()
 
 
 
-    vector<int> b_v = to_binary(4);
+    vector<int> b_v = to_binary(4, 8);
 
     for (int i = 0; i < b_v.size(); i++)
     {
