@@ -13,24 +13,16 @@ using namespace std;
 
 
 
-//
-//template <typename T>
-//std::ostream& operator << (std::ostream& out, vector<T>& vec)
-//{
-//    out << "[";
-//
-//    for (int i = 0; i < vec.size(); i++)
-//    {
-//        if (i < vec.size() - 1)
-//            out << vec.at(i) << ", ";
-//        else
-//            out << vec.at(i);
-//    }
-//    out << "]";
-//
-//    return out;
-//}
-
+std::vector<int> to_binary(int n)
+{
+    std::vector<int> r;
+    while (n != 0) 
+    { 
+        r.push_back(n % 2 == 0 ? 0 : 1);
+        n /= 2; 
+    }
+    return r;
+}
 
 
 
@@ -94,17 +86,26 @@ void nand4_gate__tb()
     //}
 
 
-    int value = 0;  // assuming a 32 bit int
-    int i;
+ 
 
-
-    for (i = 0; i < 32; ++i) {
-        //a[i] = (value >> i) & 1;
+    //for (i = 0; i < 32; ++i) {
+    //    //a[i] = (value >> i) & 1;
 
 
 
-        cout << "test" << endl;
-    }
+    //    cout << "test" << endl;
+    //}
+
+    //vector<int> v;
+
+    //int value = 8;  // assuming a 32 bit int
+    //int i;
+
+    //for (i = 0; i < 32; ++i) {
+    //    v[i] = (value >> i) & 1;
+    //}
+
+    //cout << " converted vec:  " << v << endl;
 
 
 
@@ -132,11 +133,21 @@ void nand4_gate__tb()
 
 
 
+    vector<int> b_v = to_binary(4);
+
+    for (int i = 0; i < b_v.size(); i++)
+    {
+        cout << "index: " << i << "  " << b_v[i] << endl;
+    }
+
+
+    cout << "to binary vec:  " << b_v << endl;
+
+
+
+
+
     // last change that wont show on EDA plai_bground
-    
-
-
-
     sc_close_vcd_trace_file(fp1); // close(fp1)
 
 }
