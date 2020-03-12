@@ -67,23 +67,7 @@ using namespace std;
 
 std::vector<int> to_binary(int num_to_convert_to_binary, int num_bits_in_out_vec)
 {
-    // get num_bits_needed_to_represent_n
-    int num_bits_needed_to_represent_n = num_bits_in_out_vec;
-    if (num_to_convert_to_binary != 0)
-        num_bits_needed_to_represent_n = (int)log2(num_bits_in_out_vec) + 1;
-
     std::vector<int> r;
-
-    //// add the leading 0s
-    //for (int i = 0; i < num_bits_in_out_vec - num_bits_needed_to_represent_n; i++)
-    //    r.push_back(0);
-
-    //cout << "\nn: " << n << "  num_bits_needed_to_represent_n:  " << num_bits_needed_to_represent_n << endl;
-
-
-
-    //int i = 1;
-    //cout << "test:  " << i / 2 << "  " << i % 2 << endl;//````````````````````````````````````````````````
 
     // make binary vec of minimum size backwards (LSB at .end() and MSB at .begin())
     while (num_to_convert_to_binary > 0)
@@ -95,48 +79,10 @@ std::vector<int> to_binary(int num_to_convert_to_binary, int num_bits_in_out_vec
             r.push_back(1);
         num_to_convert_to_binary = num_to_convert_to_binary / 2;
     }
-    //cout << "out of loop" << endl;
-
-    //cout << " min testL:  " << r << endl;
 
     while(r.size() < num_bits_in_out_vec)
         r.push_back(0);
 
-
-    ////// add the binary representation of n to r
-    ////while (n != 0) 
-    ////{ 
-    ////    //r.push_back(n % 2 == 1 ? 0 : 1);
-
-    ////    if (n % 2 == 0)
-    ////        r.push_back(1);
-    ////    else
-    ////        r.push_back(0);
-
-    ////    n /= 2; 
-    ////}
-    //int number = n;
-    ////Allocate the vector with the number of digits of the number:
-    //std::vector<int> digits(std::log10(number) - 1);
-
-    //while (number / 10 > 0)
-    //{
-    //    digits.insert(digits.begin(), number % 10);
-    //    number /= 10;
-    //}
-    //return digits;
-
-
-    ////// fill the rest of the vetor with 0s
-    ////for (int i = 0; i < num_bits - r.size(); i++)
-    ////{
-    ////    //r.insert(r.begin(), 0);
-    ////    r.push_back(0);
-    ////}
-    ////return r;
-
-
-    //r.push_back(9);
     return r;
 }
 
@@ -274,7 +220,7 @@ void nand4_gate__tb()
 
 
 
-    vector<int> b_v = to_binary(2, 8);
+    vector<int> b_v = to_binary(6, 1);
 
     for (int i = 0; i < b_v.size(); i++)
     {
