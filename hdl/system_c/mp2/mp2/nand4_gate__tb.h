@@ -67,36 +67,41 @@ using namespace std;
 
 std::vector<int> to_binary(int num_to_convert_to_binary, int num_bits_in_out_vec)
 {
-    //// get num_bits_needed_to_represent_n
-    //int num_bits_needed_to_represent_n = num_bits;
-    //if (n != 0)
-    //    num_bits_needed_to_represent_n = (int)log2(n) + 1;
-
-    //cout << "\nn: " << n << "  num_bits_needed_to_represent_n:  " << num_bits_needed_to_represent_n << endl;
+    // get num_bits_needed_to_represent_n
+    int num_bits_needed_to_represent_n = num_bits_in_out_vec;
+    if (num_to_convert_to_binary != 0)
+        num_bits_needed_to_represent_n = (int)log2(num_bits_in_out_vec) + 1;
 
     std::vector<int> r;
 
-    int i = 1;
-    cout << "test:  " << i / 2 << "  " << i % 2 << endl;//````````````````````````````````````````````````
+    //// add the leading 0s
+    //for (int i = 0; i < num_bits_in_out_vec - num_bits_needed_to_represent_n; i++)
+    //    r.push_back(0);
+
+    //cout << "\nn: " << n << "  num_bits_needed_to_represent_n:  " << num_bits_needed_to_represent_n << endl;
+
+
+
+    //int i = 1;
+    //cout << "test:  " << i / 2 << "  " << i % 2 << endl;//````````````````````````````````````````````````
 
     // make binary vec of minimum size backwards (LSB at .end() and MSB at .begin())
     while (num_to_convert_to_binary > 0)
     {
-        cout << " top of loop" << endl;
+        //cout << " top of loop" << endl;
         if (num_to_convert_to_binary % 2 == 0)
             r.push_back(0);
         else
             r.push_back(1);
         num_to_convert_to_binary = num_to_convert_to_binary / 2;
     }
-    cout << "out of loop" << endl;
+    //cout << "out of loop" << endl;
 
     //cout << " min testL:  " << r << endl;
 
+    while(r.size() < num_bits_in_out_vec)
+        r.push_back(0);
 
-    ////// add the leading 0s
-    ////for (int i = 0; i < num_bits - num_bits_needed_to_represent_n; i++)
-    ////    r.push_back(0);
 
     ////// add the binary representation of n to r
     ////while (n != 0) 
@@ -131,7 +136,7 @@ std::vector<int> to_binary(int num_to_convert_to_binary, int num_bits_in_out_vec
     ////return r;
 
 
-    r.push_back(9);
+    //r.push_back(9);
     return r;
 }
 
@@ -269,12 +274,12 @@ void nand4_gate__tb()
 
 
 
-    //vector<int> b_v = to_binary(4, 8);
+    vector<int> b_v = to_binary(2, 8);
 
-    //for (int i = 0; i < b_v.size(); i++)
-    //{
-    //    cout << "index: " << i << "  " << b_v[i] << endl;
-    //}
+    for (int i = 0; i < b_v.size(); i++)
+    {
+        cout << "index: " << i << "  " << b_v[i] << endl;
+    }
 
     //cout << "b_v:  " << b_v << endl;
 
@@ -285,8 +290,11 @@ void nand4_gate__tb()
     int num_combos_to_test = 16;
 
     cout << " VVV real test VVV " << endl;
-    vector<int> sv = to_binary(1, 8); // simulation vector
-    cout << sv << endl;
+    //vector<int> sv = to_binary(1, 8); // simulation vector
+    //cout << sv << endl;
+
+
+
 
 
 
