@@ -4,6 +4,7 @@
 #include <systemc.h> 
 
 #include <vector>
+#include<cmath>
 
 //#include <bits/stdc++.h>
 
@@ -233,7 +234,10 @@ void nand4_gate__tb()
     ////cout << "to binary vec:  " << b_v << endl;
 
     int num_bits_needed_in_sim_vec = 4;
-    int num_combos_to_test = 16;
+    //int num_combos_to_test = 16;
+    //int num_combos_to_test = 2 ^ num_bits_needed_in_sim_vec + 2;
+    int num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2;
+    //cout << 2 ^ num_bits_needed_in_sim_vec + 2 << num_bits_needed_in_sim_vec + 2 << endl;
 
     cout << " VVV real test VVV " << endl;
     //vector<int> sv = to_binary(1, 8); // simulation vector
