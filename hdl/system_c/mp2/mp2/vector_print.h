@@ -1,3 +1,6 @@
+#ifndef VECTOR_PRINT_H
+#define VECTOR_PRINT_H
+
 
 #include <iostream>
 #include <vector>
@@ -66,6 +69,8 @@ std::ostream& operator << (std::ostream& out, vector<char>& vec)
 
 template <typename T>
 void print(vector<T> vec) { cout << content(vec) << endl; }
+
+
 //
 //int main()
 //{
@@ -77,3 +82,6 @@ void print(vector<T> vec) { cout << content(vec) << endl; }
 //    cout << v2 << endl;
 //    cout << v3 << endl;
 //}
+
+
+#endif
