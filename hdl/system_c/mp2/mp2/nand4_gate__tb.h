@@ -22,12 +22,13 @@ using namespace std;
 
 void nand4_gate__tb()
 {
-    long n = 5;
-    int base = 2;
+                                        //===============================================================//
+    int num_bits_needed_in_sim_vec = 4; // <----- SET THIS TO THE NUMBER OF INPUTS YOU NEED TO SIMULATE 
+                                        //===============================================================//        
 
-    // calling the method 
-    cout << "NUM DIGITS:  " << findNumberOfDigits(n, base) << endl;
-
+    //=============================//
+    //  Define IO Ports
+    //=============================//
     sc_signal<bool> i_a,
                     i_b,
                     i_c,
@@ -36,18 +37,24 @@ void nand4_gate__tb()
 
     nand4_gate DUT("nand4_gate.h");
 
-    // port map
+    //=============================//
+    //  Port Map
+    //=============================//
     DUT.i_a(i_a);
     DUT.i_b(i_b);
     DUT.i_c(i_c);
     DUT.i_d(i_d);
     DUT.o_f(o_f);
 
+
     // trace file to look at sim output
     sc_trace_file* fp1;  //create VCD file: file pointer fp1
     fp1 = sc_create_vcd_trace_file("wave1");  // open(fp1), create wave1.vcd file
 
-    // add signals to trace file
+
+    //=============================//
+    //  Add Signals to Trace File
+    //=============================//
     sc_trace(fp1, i_a, "i_a");
     sc_trace(fp1, i_b, "i_b");
     sc_trace(fp1, i_c, "i_c");
@@ -55,22 +62,19 @@ void nand4_gate__tb()
     sc_trace(fp1, o_f, "o_f");
 
 
-    /////////////////////////////////////////////////////
-    //  Simulation
-    /////////////////////////////////////////////////////
-
-
-    int num_bits_needed_in_sim_vec = 4; // <----- SET THIS TO THE NUMBER OF INPUTS YOU NEED TO SIMULATE // !!!!!
-
-
-    int num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2;
+    //--------------//
+    //  Simulation  //
+    //--------------//
+    int num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2; // run 2 extra so waveform always ends with all high, then all low
     for (int i = 0; i < num_combos_to_test; i++)
     {
-        cout << "running test, i = " << i << endl;
-        //vector<int> sv = to_binary(i, num_bits_needed_in_sim_vec); // simulation vector
         vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector
-        cout << sv << endl;
+        cout << "running test, i:" << i << "    sv:" << sv << endl;
 
+
+        //=============================//
+        //  Set Inputs      
+        //=============================//
         i_a = sv[0];
         i_b = sv[1];
         i_c = sv[2];
