@@ -149,19 +149,19 @@ void nand4_gate__tb()
     /////////////////////////////////////////////////////
     //  Simulation
     /////////////////////////////////////////////////////
-    i_a = false;
-    i_b = false;
-    i_c = false;
-    i_d = false;
+    //i_a = false;
+    //i_b = false;
+    //i_c = false;
+    //i_d = false;
 
-    sc_start(10, SC_NS); // run sim for 10 ns
+    //sc_start(10, SC_NS); // run sim for 10 ns
 
-    i_a = true;
-    i_b = true;
-    i_c = true;
-    i_d = true;
+    //i_a = true;
+    //i_b = true;
+    //i_c = true;
+    //i_d = true;
 
-    sc_start(10, SC_NS); // run sim for 10 ns
+    //sc_start(10, SC_NS); // run sim for 10 ns
 
     //for (int i = 0; i < 3; i++)
     //{
@@ -220,17 +220,17 @@ void nand4_gate__tb()
 
 
 
-    vector<int> b_v = to_binary(6, 1);
+    //vector<int> b_v = to_binary(6, 1);
 
-    for (int i = 0; i < b_v.size(); i++)
-    {
-        cout << "index: " << i << "  " << b_v[i] << endl;
-    }
+    //for (int i = 0; i < b_v.size(); i++)
+    //{
+    //    cout << "index: " << i << "  " << b_v[i] << endl;
+    //}
 
-    //cout << "b_v:  " << b_v << endl;
+    ////cout << "b_v:  " << b_v << endl;
 
 
-    //cout << "to binary vec:  " << b_v << endl;
+    ////cout << "to binary vec:  " << b_v << endl;
 
     int num_bits_needed_in_sim_vec = 4;
     int num_combos_to_test = 16;
@@ -251,17 +251,17 @@ void nand4_gate__tb()
         vector<int> sv = to_binary(i, 8); // simulation vector
         cout << sv << endl;
 
-        //i_a = sv[0];
-        //i_b = sv[1];
-        //i_c = sv[2];
-        //i_d = sv[3];
+        i_a = sv[0];
+        i_b = sv[1];
+        i_c = sv[2];
+        i_d = sv[3];
 
         //i_a = true;
         //i_b = true;
         //i_c = true;
         //i_d = true;
 
-        //sc_start(10, SC_NS); // run sim for 10 ns
+        sc_start(10, SC_NS); // run sim for 10 ns
 
     }
 
