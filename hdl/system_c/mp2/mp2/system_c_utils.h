@@ -23,10 +23,10 @@ int findNumberOfDigits(long n, int base)
     int dig = (int)(floor(log(n) /
         log(base)) + 1);
 
-    // printing output 
-    cout << "The Number of digits of "
-        << "Number " << n << " in base "
-        << base << " is " << dig;
+    //// printing output 
+    //cout << "The Number of digits of "
+    //    << "Number " << n << " in base "
+    //    << base << " is " << dig;
     return dig;
 }
 
@@ -70,5 +70,14 @@ vector<int> int_to_binary_vec__with_rollover(int num_to_convert_to_binary, int n
 }
 
 
+
+void print_model_not_found_error(const string module_name, const string model)
+{
+    cout << endl << "  ERROR:  MODEL from _tb_master.h not recognized by " << module_name << ".h    MODEL:  " << model << endl;
+    cout         << "          Possible reasons for this error:"                                                       << endl;
+    cout         << "               1.)  You haven't added this model to " << module_name << ".h"                      << endl;
+    cout         << "               2.)  You mislabled this model in "     << module_name << ".h"                      << endl;
+    cout         << "               3.)  You put in the wrong model for "  << module_name << " in _tb_master.h"        << endl << endl;
+}
 
 #endif

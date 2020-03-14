@@ -7,7 +7,7 @@
 #include<cmath>
 
 #include "vector_print.h"
-#include "tb_utils.h"
+#include "system_c_utils.h"
 
 #include "nand4_gate.h"
 
@@ -69,7 +69,7 @@ void nand4_gate__tb()
     for (int i = 0; i < num_combos_to_test; i++)
     {
         vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector
-        cout << "running test, i:" << i << "    sv:" << sv << endl;
+        cout << "In nand4_gate__tb.h, Sim:  i:" << i << "    sv:" << sv << endl;
 
 
         //=============================//
@@ -83,7 +83,6 @@ void nand4_gate__tb()
 
         sc_start(10, SC_NS); // run sim for 10 ns
     }
-
 
     // last change that wont show on EDA plai_bground
     sc_close_vcd_trace_file(fp1); // close(fp1)

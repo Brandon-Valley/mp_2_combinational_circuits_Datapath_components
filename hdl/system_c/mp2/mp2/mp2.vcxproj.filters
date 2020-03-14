@@ -33,7 +33,7 @@
     <ClInclude Include="vector_print.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="tb_utils.h">
+    <ClInclude Include="system_c_utils.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

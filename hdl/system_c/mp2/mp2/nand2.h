@@ -2,7 +2,7 @@
 // or browse Examples
 #ifndef nand2_H
 #define nand2_H
-                                    
+
 #include "systemc.h"
 #include "_tb_master.h"
  
@@ -10,13 +10,11 @@
 SC_MODULE(nand2) {                            
     sc_in <bool> X, Y;                        
     sc_out <bool> F1;                         
-                                               
-                                       
 
 
     void p1() 
     {
-
+        
 
         if (MODEL == "b")
         {
@@ -27,9 +25,7 @@ SC_MODULE(nand2) {
             F1.write(!(X.read() || Y.read()));
         }
         else
-        {
             printf("ERROR:  invalid input for MODEL");
-        }
 
 
     }
