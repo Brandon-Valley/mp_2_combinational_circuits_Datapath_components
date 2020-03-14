@@ -6,67 +6,12 @@
 #include<vector>
 #include<cmath>
 
-//#include <bits/stdc++.h>
-
-
 #include "vector_print.h"
 #include "tb_utils.h"
 
 #include "nand4_gate.h"
+
 using namespace std;
-
-
-//
-////std::vector<int> to_binary(int n, int num_bits)
-////{
-////    // get num_bits_needed_to_represent_n
-////    int num_bits_needed_to_represent_n = num_bits;
-////    if (n != 0)
-////        num_bits_needed_to_represent_n = (int)log2(n) + 1;
-////
-////    cout << "\nn: " << n << "  num_bits_needed_to_represent_n:  " << num_bits_needed_to_represent_n << endl;
-////
-////    std::vector<int> r;
-////
-////    //// add the leading 0s
-////    //for (int i = 0; i < num_bits - num_bits_needed_to_represent_n; i++)
-////    //    r.push_back(0);
-////
-////    //// add the binary representation of n to r
-////    //while (n != 0) 
-////    //{ 
-////    //    //r.push_back(n % 2 == 1 ? 0 : 1);
-////
-////    //    if (n % 2 == 0)
-////    //        r.push_back(1);
-////    //    else
-////    //        r.push_back(0);
-////
-////    //    n /= 2; 
-////    //}
-////    int number = n;
-////        //Allocate the vector with the number of digits of the number:
-////    std::vector<int> digits(std::log10(number) - 1);
-////
-////    while (number / 10 > 0)
-////    {
-////        digits.insert(digits.begin(), number % 10);
-////        number /= 10;
-////    }
-////    return digits;
-////    
-////
-////    //// fill the rest of the vetor with 0s
-////    //for (int i = 0; i < num_bits - r.size(); i++)
-////    //{
-////    //    //r.insert(r.begin(), 0);
-////    //    r.push_back(0);
-////    //}
-////    //return r;
-////}
-
-
-
 
 
 
@@ -77,6 +22,12 @@ using namespace std;
 
 void nand4_gate__tb()
 {
+    long n = 5;
+    int base = 2;
+
+    // calling the method 
+    cout << "NUM DIGITS:  " << findNumberOfDigits(n, base) << endl;
+
     sc_signal<bool> i_a,
                     i_b,
                     i_c,
@@ -117,7 +68,7 @@ void nand4_gate__tb()
     {
         cout << "running test, i = " << i << endl;
         //vector<int> sv = to_binary(i, num_bits_needed_in_sim_vec); // simulation vector
-        vector<int> sv = to_binary(i, 8); // simulation vector
+        vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector
         cout << sv << endl;
 
         i_a = sv[0];
