@@ -2,6 +2,11 @@
 
 #include <systemc.h>
 
+#include <cassert>
+
+// Use (void) to silent unused warnings.
+#define assertm(exp, msg) assert(((void)msg, exp))
+
 #include "_tb_master.h"
 
 #include "nand2_tb_test.h"
@@ -19,7 +24,11 @@ int sc_main(int argc, char* argv[])
     
 
 
-    else { printf("ERROR:  the given TB_TO_RUN from _tb_master.h does not match any in run_main_tb.cpp"); }
+    else 
+    { 
+        cout << "ERROR:  the given TB_TO_RUN from _tb_master.h does not match any in run_main_tb.cpp  TB_TO_RUN:  " << TB_TO_RUN << endl;
+        assertm(2+2==5, "Stop the program");
+    }
 
 
     return 0;
