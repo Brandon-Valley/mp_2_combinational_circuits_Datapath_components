@@ -65,7 +65,7 @@ void nand4_gate__tb()
     //--------------//
     //  Simulation  //
     //--------------//
-    int num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2; // run 2 extra so waveform always ends with all high, then all low
+    double num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2; // run 2 extra so waveform always ends with all high, then all low
     for (int i = 0; i < num_combos_to_test; i++)
     {
         vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector

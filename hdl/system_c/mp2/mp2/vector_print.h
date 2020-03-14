@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <vector>
+
 #include <algorithm>
 
 using namespace std;
@@ -19,7 +20,7 @@ std::ostream& operator << (std::ostream& out, vector<T>& vec)
 
     out << "[";
 
-    for (int i = 0; i < vec.size(); i++)
+    for (std::size_t i = 0; i < vec.size(); i++)
     {
         if (i < vec.size() - 1)
             out << vec.at(vec.size() - 1 - i) << ", ";
@@ -36,7 +37,7 @@ std::ostream& operator << (std::ostream& out, vector<string>& vec)
 {
     out << "[";
 
-    for (int i = 0; i < vec.size(); i++)
+    for (std::size_t i = 0; i < vec.size(); i++)
     {
         if (i < vec.size() - 1)
             out << "\"" << vec.at(vec.size() - 1 - i) << "\"" << ", ";
@@ -53,7 +54,7 @@ std::ostream& operator << (std::ostream& out, vector<char>& vec)
 {
     out << "[";
 
-    for (int i = 0; i < vec.size(); i++)
+    for (std::size_t i = 0; i < vec.size(); i++)
     {
         if (i < vec.size() - 1)
             out << "\'" << vec.at(vec.size() - 1 - i) << "\'" << ", ";

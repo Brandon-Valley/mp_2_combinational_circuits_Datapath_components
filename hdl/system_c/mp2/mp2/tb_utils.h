@@ -48,7 +48,7 @@ std::vector<int> int_to_binary_vec(int num_to_convert_to_binary, int num_bits_in
         num_to_convert_to_binary = num_to_convert_to_binary / 2;
     }
 
-    while (r.size() < num_bits_in_out_vec)
+    while (int(r.size()) < num_bits_in_out_vec)
         r.push_back(0);
 
     return r;
@@ -62,7 +62,7 @@ vector<int> int_to_binary_vec__with_rollover(int num_to_convert_to_binary, int n
     
     if (num_digits_needed > num_bits_in_out_vec)
     {
-        int largest_num_that_can_be_represented_by__num_bits_in_out_vec = pow(2, num_bits_in_out_vec) - 1;
+        int largest_num_that_can_be_represented_by__num_bits_in_out_vec = int(pow(2, num_bits_in_out_vec) - 1);
         num_to_convert_to_binary = num_to_convert_to_binary - largest_num_that_can_be_represented_by__num_bits_in_out_vec;
     }
 
