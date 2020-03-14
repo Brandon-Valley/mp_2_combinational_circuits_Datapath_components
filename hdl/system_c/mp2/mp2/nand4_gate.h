@@ -8,6 +8,12 @@
 #include <string.h> 
 #include <stdlib.h> 
 
+#include <cassert>
+
+// Use (void) to silent unused warnings.
+#define assertm(exp, msg) assert(((void)msg, exp))
+
+
 #include "_tb_master.h"
 using namespace std;
 
@@ -38,7 +44,11 @@ SC_MODULE(nand4_gate)
 
         // Module Not Found Error
         else
+        {
             print_model_not_found_error("nand4_gate", MODEL);
+            assertm(2+2==5, "Stop the program");
+        }
+            
     }
 
 

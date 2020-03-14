@@ -31,7 +31,7 @@ int findNumberOfDigits(long n, int base)
 }
 
 
-// Given an int, returns a vecor of ints (1 or 0) of the given int in binary, with the given number of bits
+// Given an int, returns a vector of ints (1 or 0) of the given int in binary, with the given number of bits
 // if you give an int of 1, the 1 will be in the 0th index of the returned vector
 std::vector<int> int_to_binary_vec(int num_to_convert_to_binary, int num_bits_in_out_vec)
 {
@@ -76,8 +76,35 @@ void print_model_not_found_error(const string module_name, const string model)
     cout << endl << "  ERROR:  MODEL from _tb_master.h not recognized by " << module_name << ".h    MODEL:  " << model << endl;
     cout         << "          Possible reasons for this error:"                                                       << endl;
     cout         << "               1.)  You haven't added this model to " << module_name << ".h"                      << endl;
-    cout         << "               2.)  You mislabled this model in "     << module_name << ".h"                      << endl;
+    cout         << "               2.)  You mislabeled this model in "    << module_name << ".h"                      << endl;
     cout         << "               3.)  You put in the wrong model for "  << module_name << " in _tb_master.h"        << endl << endl;
 }
 
+
+
+void print_sim_header(const string module_name)
+{
+    cout << "[ ==========================  Simulation Begin For " << module_name << "  ========================== ]" << endl;
+    cout << "\n\n\n\n\n\n\n";
+}
+
+
 #endif
+
+
+
+//#include <iostream>
+//// uncomment to disable assert()
+//// #define NDEBUG
+//#include <cassert>
+//
+//// Use (void) to silent unused warnings.
+//#define assertm(exp, msg) assert(((void)msg, exp))
+//
+//int main()
+//{
+//    assert(2+2==4);
+//    std::cout << "Execution continues past the first assert\n";
+//    assertm(2+2==5, "There are five lights");
+//    std::cout << "Execution continues past the second assert\n";
+//}

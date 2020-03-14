@@ -11,7 +11,7 @@
 
 int sc_main(int argc, char* argv[])
 {
-
+    
 
     if      (TB_TO_RUN == "nand2") {  nand2_tb();  }
     else if (TB_TO_RUN == "nand4_gate") {  nand4_gate__tb();  }
@@ -25,4 +25,33 @@ int sc_main(int argc, char* argv[])
     return 0;
 
 }
+
+
+
+
+//#include <iostream>
+//// uncomment to disable assert()
+//// #define NDEBUG
+//#include <cassert>
+//
+//// Use (void) to silent unused warnings.
+//#define assertm(exp, msg) assert(((void)msg, exp))
+//using namespace std;
+//
+//int main()
+//{
+//    int i = 5;
+//
+//    if (i == 6)
+//        cout << "yay, the program was a success!" << endl;
+//    assertm(2+2==5, "I want this error to work like the first one");
+//
+//}
+
+
+
+//int main()
+//{
+//	this line will throw an error in the way I want to replicate
+//}
 
