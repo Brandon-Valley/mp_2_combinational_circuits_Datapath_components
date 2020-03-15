@@ -158,13 +158,13 @@ SC_MODULE(nand4_cmpnt_prim)
 
     // Constructor
     SC_CTOR(nand4_cmpnt_prim) : 
-                                 and2_1("G1"),
-                                 and2_2("G2"),
-                                 and2_3("G3"),
-                                 not1_1("G4")
+                                 and2_1("G11"),
+                                 and2_2("G22"),
+                                 and2_3("G33"),
+                                 not1_1("G44")
     {
         and2_1(i_a, i_b, fi1);
-        and2_3(i_c, i_d, fi2);
+        and2_2(i_c, i_d, fi2);
         and2_3(fi1, fi2, fi3);
         not1_1(fi3,      o_f);
     }
