@@ -3,13 +3,6 @@
 
 #include "systemc.h"
 
-//#include <cassert>
-//
-//// Use (void) to silent unused warnings.
-//#define assertm(exp, msg) assert(((void)msg, exp))
-
-
-//#include "_tb_master.h"
 #include "nand2_gate.h"
 using namespace std;
 
@@ -19,9 +12,7 @@ using namespace std;
 /////////////////////////////////////////////////////
 SC_MODULE(nand4__equation) 
 {
-    //=============================//
     //  Define IO Ports
-    //=============================//
     sc_in  <bool> i_a;
     sc_in  <bool> i_b;
     sc_in  <bool> i_c;
@@ -29,26 +20,77 @@ SC_MODULE(nand4__equation)
     sc_out <bool> o_f;
 
 
+    //=======================================================//
+    // Architecture Statement - Similar to Process Statement
+    //=======================================================//
     void p1()
     {
         o_f.write(!(i_a.read() && i_b.read() && i_c.read() && i_d.read()));
     }
 
+
+    // Constructor
     SC_CTOR(nand4__equation) 
     {
         SC_METHOD(p1);
 
-        //=============================//
         //  Input Sensitivity List
-        //=============================//
         sensitive << i_a
-            << i_b
-            << i_c
-            << i_d
-            ;
+                  << i_b
+                  << i_c
+                  << i_d
+                  ;
     }
- 
 };
+
+
+
+/////////////////////////////////////////////////////
+//  Behavior Model
+/////////////////////////////////////////////////////
+SC_MODULE(nand4__behavior) 
+{
+    //  Define IO Ports
+    sc_in  <bool> i_a;
+    sc_in  <bool> i_b;
+    sc_in  <bool> i_c;
+    sc_in  <bool> i_d;
+    sc_out <bool> o_f;
+
+
+    //=======================================================//
+    // Architecture Statement - Similar to Process Statement
+    //=======================================================//
+    void p1()
+    {
+        if (i_a.read() && i_b.read() && i_c.read() && i_d.read())
+            o_f.write(0);
+        else
+            o_f.write(1);
+    }
+
+
+    // Constructor
+    SC_CTOR(nand4__behavior) 
+    {
+        SC_METHOD(p1);
+
+        //  Input Sensitivity List
+        sensitive << i_a
+                  << i_b
+                  << i_c
+                  << i_d
+                  ;
+    }
+};
+
+
+
+
+
+
+
+
 #endif
 
 
