@@ -10,7 +10,7 @@
 #include "system_c_utils.h"
 
 #include "nand4_gate.h"
-#include "nand4__cmpnt_self.h"
+//#include "nand4__cmpnt_self.h"
 
 using namespace std;
 
@@ -39,15 +39,9 @@ void nand4_gate__tb()
     //=============================//
     //  Select Which Model to Test
     //=============================//
-    //if      ( MODEL == BEHAVIOR_MODEL )
-    //    
-    //else if ( MODEL == COMPONENT_MODEL_SELF )
-    //    nand4_cmpnt_self DUT("nand4_cmpnt_self.h");
-
-
     //nand4__equation DUT("nand4_gate.h");
-    nand4__behavior DUT("nand4_gate.h");
-    //nand4_cmpnt_self DUT("nand4_cmpnt_self.h");
+    //nand4__behavior DUT("nand4_gate.h");
+    nand4_cmpnt_self DUT("nand4_cmpnt_self.h");
 
 
     //=============================//
