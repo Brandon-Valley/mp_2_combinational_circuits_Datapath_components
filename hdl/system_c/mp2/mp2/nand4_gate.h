@@ -3,7 +3,6 @@
 
 #include "systemc.h"
 
-#include "nand2_gate.h"
 using namespace std;
 
 
@@ -87,8 +86,10 @@ SC_MODULE(nand4__behavior)
 
 
 ///////////////////////////////////////////////////////
-////  Component Model - Self
+//  Component Model - Self
 ///////////////////////////////////////////////////////
+#include "nand2_gate.h"
+
 SC_MODULE(nand4_cmpnt_self) 
 {
     //  Define IO Ports
@@ -112,11 +113,12 @@ SC_MODULE(nand4_cmpnt_self)
     sc_signal <bool> fi4;
 
     // Constructor
-    SC_CTOR(nand4_cmpnt_self) : nand2_1("NAND2_1"),
-                                nand2_2("NAND2_2"),
-                                nand2_3("NAND2_3"),
-                                nand2_4("NAND2_4"),
-                                nand2_5("NAND2_5")
+    SC_CTOR(nand4_cmpnt_self) : 
+                                nand2_1("G1"),
+                                nand2_2("G2"),
+                                nand2_3("G3"),
+                                nand2_4("G4"),
+                                nand2_5("G5")
     {
         nand2_1(i_a, i_b, fi1);
         nand2_2(fi1, fi1, fi2); // NOT
@@ -128,247 +130,47 @@ SC_MODULE(nand4_cmpnt_self)
 
 
 
+///////////////////////////////////////////////////////
+//  Component Model - Primitive
+///////////////////////////////////////////////////////
+#include  "and2_gate.h"
+#include  "not1_gate.h"
+
+SC_MODULE(nand4_cmpnt_prim) 
+{
+    //  Define IO Ports
+    sc_in  <bool> i_a;
+    sc_in  <bool> i_b;
+    sc_in  <bool> i_c;
+    sc_in  <bool> i_d;
+    sc_out <bool> o_f;
+
+    //  Component Instances
+    and2_gate and2_1;
+    and2_gate and2_2;
+    and2_gate and2_3;
+    not1_gate not1_1;
+
+    //  Internal Signals
+    sc_signal <bool> fi1;
+    sc_signal <bool> fi2;
+    sc_signal <bool> fi3;
+
+    // Constructor
+    SC_CTOR(nand4_cmpnt_prim) : 
+                                 and2_1("G1"),
+                                 and2_2("G2"),
+                                 and2_3("G3"),
+                                 not1_1("G4")
+    {
+        and2_1(i_a, i_b, fi1);
+        and2_3(i_c, i_d, fi2);
+        and2_3(fi1, fi2, fi3);
+        not1_1(fi3,      o_f);
+    }
+};
+
 
 
 
 #endif
-
-
-
-        ///////////////////////////////////////////////////////
-        ////  Component Model - Self
-        ///////////////////////////////////////////////////////
-        //else if (MODEL == COMPONENT_MODEL_SELF)
-        //{
-        //    //nand2_gate nand2_0, nand2_1;
-        //    ////nand2_gate nand2_1;
-        //    ////nand2_gate nand2_2;
-        //    ////nand2_gate nand2_3;
-        //    ////nand2_gate nand2_4;
-
-        //    //SC_CTOR(nand4_gate) : nand2_0("n0")
-        //    //{
-        //    //    nand2_0.i_a(i_a);
-        //    //    nand2_0.i_b(i_b);
-        //    //    nand2_0.o_f(o_f);
-        //    //}
-
-
-        //}
-
-
-        //// Module Not Found Error
-        //else
-        //{
-        //    //model_not_found = true;
-
-        //    print_model_not_found_error("nand4_gate", MODEL);
-        //    assertm(2+2==5, "Stop the program");
-        //    //static_assert(!model_not_found,"yay");
-
-
-
-
-        //}
-            
-//    }
-//
-//
-//};
-//#endif
-
-
-
-
-
-        ///////////////////////////////////////////////////////
-        ////  Behavior Model
-        ///////////////////////////////////////////////////////
-        //else if (MODEL == BEHAVIOR_MODEL)
-        //{
-        //    if (i_a.read() && i_b.read() && i_c.read() && i_d.read())
-        //        o_f.write(0);
-        //    else
-        //        o_f.write(1);
-
-        //    //SC_CTOR(nand4_gate) 
-        //    //{
-        //    //    SC_METHOD(p1);
-
-        //    //    //=============================//
-        //    //    //  Input Sensitivity List
-        //    //    //=============================//
-        //    //    sensitive << i_a
-        //    //        << i_b
-        //    //        << i_c
-        //    //        << i_d
-        //    //        ;
-        //    //}
-        //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//#ifndef nand4_gate_H
-//#define nand4_gate_H
-//
-//#include "systemc.h"
-//
-//#include <cassert>
-//
-//// Use (void) to silent unused warnings.
-//#define assertm(exp, msg) assert(((void)msg, exp))
-//
-//
-//#include "_tb_master.h"
-//#include "nand2_gate.h"
-//using namespace std;
-//
-//
-///////////////////////////////////////////////////////
-////  Equation Model
-///////////////////////////////////////////////////////
-//SC_MODULE(nand4__equation) 
-//{
-//    //=============================//
-//    //  Define IO Ports
-//    //=============================//
-//    sc_in  <bool> i_a;
-//    sc_in  <bool> i_b;
-//    sc_in  <bool> i_c;
-//    sc_in  <bool> i_d;
-//    sc_out <bool> o_f;
-//
-//    nand2_gate nand2_0;
-//    //nand2_gate nand2_1;
-//    //nand2_gate nand2_2;
-//    //nand2_gate nand2_3;
-//    //nand2_gate nand2_4;
-//
-//    sc_signal <bool> fi0;
-//
-//    SC_CTOR(nand4_gate) : nand2_0("NAND2_0")
-//    {
-//        nand2_0.i_a(i_a);
-//        nand2_0.i_b(i_b);
-//        nand2_0.o_f(o_f);
-//    }
-//
-//    //bool model_not_found = false;
-//
-//    void p1()
-//    {
-//        /////////////////////////////////////////////////////
-//        //  Equation Model
-//        /////////////////////////////////////////////////////
-//        if (MODEL == EQUATION_MODEL)
-//        {
-//            o_f.write(!(i_a.read() && i_b.read() && i_c.read() && i_d.read()));
-//        }
-//
-//
-//        /////////////////////////////////////////////////////
-//        //  Behavior Model
-//        /////////////////////////////////////////////////////
-//        else if (MODEL == BEHAVIOR_MODEL)
-//        {
-//            if (i_a.read() && i_b.read() && i_c.read() && i_d.read())
-//                o_f.write(0);
-//            else
-//                o_f.write(1);
-//
-//            //SC_CTOR(nand4_gate) 
-//            //{
-//            //    SC_METHOD(p1);
-//
-//            //    //=============================//
-//            //    //  Input Sensitivity List
-//            //    //=============================//
-//            //    sensitive << i_a
-//            //        << i_b
-//            //        << i_c
-//            //        << i_d
-//            //        ;
-//            //}
-//        }
-//
-//
-//        /////////////////////////////////////////////////////
-//        //  Component Model - Self
-//        /////////////////////////////////////////////////////
-//        else if (MODEL == COMPONENT_MODEL_SELF)
-//        {
-//            //nand2_gate nand2_0, nand2_1;
-//            ////nand2_gate nand2_1;
-//            ////nand2_gate nand2_2;
-//            ////nand2_gate nand2_3;
-//            ////nand2_gate nand2_4;
-//
-//            //SC_CTOR(nand4_gate) : nand2_0("n0")
-//            //{
-//            //    nand2_0.i_a(i_a);
-//            //    nand2_0.i_b(i_b);
-//            //    nand2_0.o_f(o_f);
-//            //}
-//
-//
-//        }
-//
-//
-//        // Module Not Found Error
-//        else
-//        {
-//            //model_not_found = true;
-//
-//            print_model_not_found_error("nand4_gate", MODEL);
-//            assertm(2+2==5, "Stop the program");
-//            //static_assert(!model_not_found,"yay");
-//
-//
-//
-//
-//        }
-//
-//    }
-//
-//
-//    //SC_CTOR(nand4_gate) 
-//    //{
-//    //    SC_METHOD(p1);
-//
-//    //    //=============================//
-//    //    //  Input Sensitivity List
-//    //    //=============================//
-//    //    sensitive << i_a
-//    //              << i_b
-//    //              << i_c
-//    //              << i_d
-//    //              ;
-//    //}
-//};
-//#endif

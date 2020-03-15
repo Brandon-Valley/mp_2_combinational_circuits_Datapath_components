@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="and2_gate.h" />
     <ClInclude Include="nand2_gate.h" />
     <ClInclude Include="nand2_tb_test.h" />
     <ClInclude Include="nand4_gate.h" />
     <ClInclude Include="nand4_gate__tb.h" />
     <ClInclude Include="nand4__cmpnt_self.h" />
+    <ClInclude Include="not1_gate.h" />
     <ClInclude Include="system_c_utils.h" />
     <ClInclude Include="vector_print.h" />
     <ClInclude Include="_tb_master.h" />

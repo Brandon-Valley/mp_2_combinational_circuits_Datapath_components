@@ -39,6 +39,12 @@
     <ClInclude Include="nand4__cmpnt_self.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="and2_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="not1_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="run_main_tb.cpp">
