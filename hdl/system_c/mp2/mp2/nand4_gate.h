@@ -91,36 +91,39 @@ SC_MODULE(nand4__behavior)
 ///////////////////////////////////////////////////////
 SC_MODULE(nand4_cmpnt_self) 
 {
-    //=============================//
     //  Define IO Ports
-    //=============================//
     sc_in  <bool> i_a;
     sc_in  <bool> i_b;
     sc_in  <bool> i_c;
     sc_in  <bool> i_d;
     sc_out <bool> o_f;
 
-    //=============================//
     //  Component Instances
-    //=============================//
-    nand2_gate nand2_0;
-    //nand2_gate nand2_1;
-    //nand2_gate nand2_2;
-    //nand2_gate nand2_3;
-    //nand2_gate nand2_4;
+    nand2_gate nand2_1;
+    nand2_gate nand2_2;
+    nand2_gate nand2_3;
+    nand2_gate nand2_4;
+    nand2_gate nand2_5;
 
-    // Internal Signals
-    sc_signal <bool> fi0;
+    //  Internal Signals
+    sc_signal <bool> fi1;
+    sc_signal <bool> fi2;
+    sc_signal <bool> fi3;
+    sc_signal <bool> fi4;
 
     // Constructor
-    SC_CTOR(nand4_cmpnt_self) : nand2_0("NAND2_0")
+    SC_CTOR(nand4_cmpnt_self) : nand2_1("NAND2_1"),
+                                nand2_2("NAND2_2"),
+                                nand2_3("NAND2_3"),
+                                nand2_4("NAND2_4"),
+                                nand2_5("NAND2_5")
     {
-        //nand2_0.i_a(i_a);
-        //nand2_0.i_b(i_b);
-        //nand2_0.o_f(o_f);
-        nand2_0(i_a, i_b, o_f);
+        nand2_1(i_a, i_b, fi1);
+        nand2_2(fi1, fi1, fi2); // NOT
+        nand2_3(i_c, i_d, fi3);
+        nand2_4(fi3, fi3, fi4); // NOT
+        nand2_5(fi2, fi4, o_f);
     }
-
 };
 
 

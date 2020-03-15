@@ -5,7 +5,8 @@
 #include "systemc.h"
  
 
-SC_MODULE(nand2_gate) {                            
+SC_MODULE(nand2_gate) 
+{                            
     sc_in  <bool> i_a;                        
     sc_in  <bool> i_b;                        
     sc_out <bool> o_f;                         
@@ -13,7 +14,7 @@ SC_MODULE(nand2_gate) {
 
     void p1() 
     {
-        o_f.write(!(i_a.read() || i_b.read()));
+        o_f.write(!(i_a.read() && i_b.read()));
     }
 
     SC_CTOR(nand2_gate) 
