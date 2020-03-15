@@ -1,15 +1,15 @@
-#ifndef NAND2_TB_TEST
-#define NAND2_TB_TEST
+#ifndef nand2_gate_TB_TEST
+#define nand2_gate_TB_TEST
 
 #include <systemc.h>
-#include "nand2.h"
+#include "nand2_gate.h"
 
 
-void nand2_tb()
+void nand2_gate_tb()
 {
     sc_signal<bool> X, Y, F1;
 
-    nand2 DUT("nand2.h");
+    nand2_gate DUT("nand2_gate.h");
 
     // port map
     DUT.X(X);

@@ -9,8 +9,9 @@
 
 #include "_tb_master.h"
 
-#include "nand2_tb_test.h"
+//#include "nand2_gate_tb_test.h"
 #include "nand4_gate__tb.h"
+#include "nand4__cmpnt_self.h"
 
 
 
@@ -18,8 +19,9 @@ int sc_main(int argc, char* argv[])
 {
     
 
-    if      (TB_TO_RUN == "nand2")      {  nand2_tb();  }
-    else if (TB_TO_RUN == "nand4_gate") {  nand4_gate__tb();  }
+
+    
+    if (TB_TO_RUN == "nand4_gate") {  nand4_gate__tb();  }
 
     
 
@@ -58,9 +60,16 @@ int sc_main(int argc, char* argv[])
 //}
 
 
-
+//
+//#include <iostream>
+//
+//using namespace std;
+//const int i = 1;
 //int main()
 //{
-//	this line will throw an error in the way I want to replicate
+//	cout << "hi <=" << endl;
+//	//int i = 1;
+//	//static_assert(i == 0,"Swap requires copying");
+//	static_assert((i == 0),"Swap requires copying");
 //}
 

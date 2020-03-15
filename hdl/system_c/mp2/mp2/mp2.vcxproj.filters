@@ -18,9 +18,6 @@
     <ClInclude Include="_tb_master.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="nand2.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="nand2_tb_test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -34,6 +31,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="system_c_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nand2_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nand4__cmpnt_self.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
