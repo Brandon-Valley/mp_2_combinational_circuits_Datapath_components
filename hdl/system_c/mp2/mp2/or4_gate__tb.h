@@ -15,11 +15,6 @@ using namespace std;
 
 
 
-
-
-
-
-
 void or4_gate__tb()
 {
                                         //===============================================================//
@@ -38,10 +33,10 @@ void or4_gate__tb()
     //=============================//
     //  Select Which Model to Test
     //=============================//
-    //or4__equation DUT("or4_gate.h");
+    or4__equation DUT("or4_gate.h");
     //or4__behavior DUT("or4_gate.h");
     //or4_cmpnt_self DUT("or4_gate.h");
-    or4_cmpnt_prim DUT("or4_gate.h");
+    //or4_cmpnt_prim DUT("or4_gate.h");
 
 
     //=============================//

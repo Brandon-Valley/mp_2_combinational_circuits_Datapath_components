@@ -1,5 +1,5 @@
 $date
-     Mar 15, 2020       13:15:24
+     Mar 15, 2020       13:22:53
 $end
 
 $version
@@ -28,11 +28,12 @@ $dumpvars
 0aaaab
 0aaaac
 0aaaad
-1aaaae
+0aaaae
 $end
 
 #10000
 1aaaaa
+1aaaae
 
 #20000
 0aaaaa
@@ -86,15 +87,15 @@ $end
 
 #150000
 1aaaaa
-0aaaae
 
 #160000
+0aaaaa
 0aaaab
 0aaaac
 0aaaad
-1aaaae
+0aaaae
 
 #170000
-0aaaaa
-1aaaab
+1aaaaa
+1aaaae
 
