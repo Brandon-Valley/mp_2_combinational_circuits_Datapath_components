@@ -30,5 +30,6 @@ SC_MODULE(and2_gate)
                   << i_b
                   ;
     }
+
 };
 #endif

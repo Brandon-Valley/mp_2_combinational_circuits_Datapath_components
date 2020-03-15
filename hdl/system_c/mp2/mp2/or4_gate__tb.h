@@ -1,5 +1,5 @@
-#ifndef nand4_gate_TB_TEST
-#define nand4_gate_TB_TEST
+#ifndef or4_gate_TB_TEST
+#define or4_gate_TB_TEST
 
 #include <systemc.h> 
 
@@ -9,7 +9,7 @@
 #include "vector_print.h"
 #include "system_c_utils.h"
 
-#include "nand4_gate.h"
+#include "or4_gate.h"
 
 using namespace std;
 
@@ -20,7 +20,7 @@ using namespace std;
 
 
 
-void nand4_gate__tb()
+void or4_gate__tb()
 {
                                         //===============================================================//
     int num_bits_needed_in_sim_vec = 4; // <----- SET THIS TO THE NUMBER OF INPUTS YOU NEED TO SIMULATE 
@@ -38,10 +38,10 @@ void nand4_gate__tb()
     //=============================//
     //  Select Which Model to Test
     //=============================//
-    //nand4__equation DUT("nand4_gate.h");
-    //nand4__behavior DUT("nand4_gate.h");
-    //nand4_cmpnt_self DUT("nand4_gate.h");
-    nand4_cmpnt_prim DUT("nand4_gate.h");
+    //or4__equation DUT("or4_gate.h");
+    //or4__behavior DUT("or4_gate.h");
+    //or4_cmpnt_self DUT("or4_gate.h");
+    or4_cmpnt_prim DUT("or4_gate.h");
 
 
     //=============================//
@@ -72,13 +72,13 @@ void nand4_gate__tb()
     //--------------//
     //  Simulation  //
     //--------------//
-    print_sim_header("nand4_gate");
+    print_sim_header("or4_gate");
     double num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2; // run 2 extra so waveform always ends with all high, then all low
 
     for (int i = 0; i < num_combos_to_test; i++)
     {
         vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector
-        cout << "In nand4_gate__tb.h, Sim:  i:" << i << "    sv:" << sv << endl;
+        cout << "In or4_gate__tb.h, Sim:  i:" << i << "    sv:" << sv << endl;
 
 
         //=============================//
