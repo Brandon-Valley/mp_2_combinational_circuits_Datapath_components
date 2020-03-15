@@ -9,6 +9,7 @@ using namespace std;
 char const EQUATION_MODEL[]       = "EQUATION_MODEL__KEY";
 char const BEHAVIOR_MODEL[]       = "BEHAVIOR_MODEL__KEY";
 char const COMPONENT_MODEL_SELF[] = "COMPONENT_MODEL_SELF__KEY";
+char const COMPONENT_MODEL_PRIM[] = "COMPONENT_MODEL_PRIM__KEY";
 
 
 //==================================================//

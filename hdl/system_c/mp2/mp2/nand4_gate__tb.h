@@ -36,8 +36,18 @@ void nand4_gate__tb()
                     i_d,
                     o_f;
 
-    //nand4_gate DUT("nand4_gate.h");
-    nand4_cmpnt_self DUT("nand4_cmpnt_self.h");
+    //=============================//
+    //  Select Which Model to Test
+    //=============================//
+    //if      ( MODEL == BEHAVIOR_MODEL )
+    //    
+    //else if ( MODEL == COMPONENT_MODEL_SELF )
+    //    nand4_cmpnt_self DUT("nand4_cmpnt_self.h");
+
+
+    nand4__equation DUT("nand4_gate.h");
+    //nand4_cmpnt_self DUT("nand4_cmpnt_self.h");
+
 
     //=============================//
     //  Port Map
