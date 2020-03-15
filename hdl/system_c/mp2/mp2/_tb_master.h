@@ -13,7 +13,8 @@ char const BEHAVIOR_MODEL[] = "BEHAVIOR_MODEL__KEY";
 //==================================================//
 //  Define which test-bench to run with which model
 //==================================================//
-string const TB_TO_RUN = "nand4_gate";  string const MODEL = EQUATION_MODEL;
+//string const TB_TO_RUN = "nand4_gate";  string const MODEL = EQUATION_MODEL;
+string const TB_TO_RUN = "nand4_gate";  string const MODEL = BEHAVIOR_MODEL;
 
 
 
@@ -21,3 +22,4 @@ string const TB_TO_RUN = "nand4_gate";  string const MODEL = EQUATION_MODEL;
 #endif
 
 
+    

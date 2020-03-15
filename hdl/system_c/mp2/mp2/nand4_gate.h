@@ -3,10 +3,10 @@
 
 #include "systemc.h"
 
-#include <stdio.h> 
-#include <errno.h> 
-#include <string.h> 
-#include <stdlib.h> 
+//#include <stdio.h> 
+//#include <errno.h> 
+//#include <string.h> 
+//#include <stdlib.h> 
 
 #include <cassert>
 
@@ -41,6 +41,20 @@ SC_MODULE(nand4_gate)
         {
             o_f.write(!(i_a.read() && i_b.read() && i_c.read() && i_d.read()));
         }
+        
+
+        /////////////////////////////////////////////////////
+        //  Behavior Model
+        /////////////////////////////////////////////////////
+        else if (MODEL == BEHAVIOR_MODEL)
+        {
+            //o_f.write(!(i_a.read() && i_b.read() && i_c.read() && i_d.read()));
+            if (i_a.read() && i_b.read() && i_c.read() && i_d.read())
+                o_f.write(0);
+            else
+                o_f.write(1);
+        }
+
 
         // Module Not Found Error
         else

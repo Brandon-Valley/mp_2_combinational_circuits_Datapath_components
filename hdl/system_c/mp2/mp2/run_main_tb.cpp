@@ -18,7 +18,7 @@ int sc_main(int argc, char* argv[])
 {
     
 
-    if      (TB_TO_RUN == "nand2") {  nand2_tb();  }
+    if      (TB_TO_RUN == "nand2")      {  nand2_tb();  }
     else if (TB_TO_RUN == "nand4_gate") {  nand4_gate__tb();  }
 
     
