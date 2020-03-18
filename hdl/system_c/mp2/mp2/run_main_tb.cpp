@@ -3,13 +3,14 @@
 #include "nand4_gate__tb.h"
 #include "or4_gate__tb.h"
 #include "xor_gate__tb.h"
-
+#include "priority_enc_4_2__tb.h"
 
 int sc_main(int argc, char* argv[])
 {
     //nand4_gate__tb();
     //or4_gate__tb();
-    xor4_gate__tb();
+    //xor4_gate__tb();
+    priority_enc_4_2__tb();
 
     return 0;
 }

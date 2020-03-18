@@ -30,9 +30,6 @@
     <ClInclude Include="nand2_gate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="nand4__cmpnt_self.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="and2_gate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -55,6 +52,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="xor2_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_enc_4_2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_enc_4_2__tb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
