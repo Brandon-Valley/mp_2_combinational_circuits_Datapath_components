@@ -33,8 +33,8 @@ void xor4_gate__tb()
     //=============================//
     //  Select Which Model to Test
     //=============================//
-    xor4__equation DUT("xor4_gate.h");
-    //xor4__behavior DUT("xor4_gate.h");
+    //xor4__equation DUT("xor4_gate.h");
+    xor4__behavior DUT("xor4_gate.h");
     //xor4_cmpnt_self DUT("xor4_gate.h");
     //xor4_cmpnt_prim DUT("xor4_gate.h");
 

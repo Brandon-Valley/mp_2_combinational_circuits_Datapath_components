@@ -62,10 +62,18 @@ SC_MODULE(xor4__behavior)
     //=======================================================//
     void p1()
     {
-        if (i_a.read() && i_b.read() && i_c.read() && i_d.read())
-            o_f.write(0);
-        else
+        if ( 
+               i_a.read() &&   i_b.read() &&   i_c.read() && ! i_d.read()  ||
+               i_a.read() &&   i_b.read() && ! i_c.read() &&   i_d.read()  ||
+               i_a.read() && ! i_b.read() &&   i_c.read() &&   i_d.read()  ||
+             ! i_a.read() &&   i_b.read() &&   i_c.read() &&   i_d.read()  ||
+             ! i_a.read() && ! i_b.read() && ! i_c.read() &&   i_d.read()  ||
+             ! i_a.read() && ! i_b.read() &&   i_c.read() && ! i_d.read()  ||
+             ! i_a.read() &&   i_b.read() && ! i_c.read() && ! i_d.read()  ||
+               i_a.read() && ! i_b.read() && ! i_c.read() && ! i_d.read()    )
             o_f.write(1);
+        else
+            o_f.write(0);
     }
 
 
