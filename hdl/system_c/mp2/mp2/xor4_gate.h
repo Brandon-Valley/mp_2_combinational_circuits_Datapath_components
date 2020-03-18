@@ -24,7 +24,7 @@ SC_MODULE(xor4__equation)
     //=======================================================//
     void p1()
     {
-        o_f.write(!(i_a.read() && i_b.read() && i_c.read() && i_d.read()));
+        o_f.write( (i_a.read() ^ i_b.read()) ^ (i_c.read() ^ i_d.read()) );
     }
 
 
