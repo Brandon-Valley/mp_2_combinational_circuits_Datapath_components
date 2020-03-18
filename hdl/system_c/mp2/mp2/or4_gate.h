@@ -5,7 +5,7 @@
 
 using namespace std;
 
-
+   
 /////////////////////////////////////////////////////
 //  Equation Model
 /////////////////////////////////////////////////////
@@ -85,48 +85,40 @@ SC_MODULE(or4__behavior)
 
 
 
-/////////////////////////////////////////////////////////
-////  Component Model - Self
-/////////////////////////////////////////////////////////
-//#include "nand2_gate.h"
-//
-//SC_MODULE(or4_cmpnt_self) 
-//{
-//    //  Define IO Ports
-//    sc_in  <bool> i_a;
-//    sc_in  <bool> i_b;
-//    sc_in  <bool> i_c;
-//    sc_in  <bool> i_d;
-//    sc_out <bool> o_f;
-//
-//    //  Component Instances
-//    nand2_gate nand2_1;
-//    nand2_gate nand2_2;
-//    nand2_gate nand2_3;
-//    nand2_gate nand2_4;
-//    nand2_gate nand2_5;
-//
-//    //  Internal Signals
-//    sc_signal <bool> fi1;
-//    sc_signal <bool> fi2;
-//    sc_signal <bool> fi3;
-//    sc_signal <bool> fi4;
-//
-//    // Constructor
-//    SC_CTOR(or4_cmpnt_self) : 
-//                                nand2_1("G1"),
-//                                nand2_2("G2"),
-//                                nand2_3("G3"),
-//                                nand2_4("G4"),
-//                                nand2_5("G5")
-//    {
-//        nand2_1(i_a, i_b, fi1);
-//        nand2_2(fi1, fi1, fi2); // NOT
-//        nand2_3(i_c, i_d, fi3);
-//        nand2_4(fi3, fi3, fi4); // NOT
-//        nand2_5(fi2, fi4, o_f);
-//    }
-//};
+///////////////////////////////////////////////////////
+//  Component Model - Self
+///////////////////////////////////////////////////////
+#include "or2_gate.h"
+
+SC_MODULE(or4_cmpnt_self) 
+{
+    //  Define IO Ports
+    sc_in  <bool> i_a;
+    sc_in  <bool> i_b;
+    sc_in  <bool> i_c;
+    sc_in  <bool> i_d;
+    sc_out <bool> o_f;
+
+    //  Component Instances
+    or2_gate or2_1;
+    or2_gate or2_2;
+    or2_gate or2_3;
+
+    //  Internal Signals
+    sc_signal <bool> fi1;
+    sc_signal <bool> fi2;
+
+    // Constructor
+    SC_CTOR(or4_cmpnt_self) : 
+                                or2_1("G1"),
+                                or2_2("G2"),
+                                or2_3("G3")
+    {
+        or2_1(i_a, i_b, fi1);
+        or2_2(i_c, i_d, fi2);
+        or2_3(fi1, fi2, o_f);
+    }
+};
 //
 //
 //
