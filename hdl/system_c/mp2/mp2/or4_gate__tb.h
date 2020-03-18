@@ -36,7 +36,6 @@ void or4_gate__tb()
     //or4__equation DUT("or4_gate.h");
     //or4__behavior DUT("or4_gate.h");
     or4_cmpnt_self DUT("or4_gate.h");
-    //or4_cmpnt_prim DUT("or4_gate.h");
 
 
     //=============================//
