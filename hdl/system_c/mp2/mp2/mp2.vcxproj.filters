@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="_tb_master.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="nand2_tb_test.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="nand4_gate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -52,6 +46,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="or2_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor4_gate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor_gate__tb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xor2_gate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

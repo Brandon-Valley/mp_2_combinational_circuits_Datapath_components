@@ -86,7 +86,7 @@ SC_MODULE(or4__behavior)
 
 
 ///////////////////////////////////////////////////////
-//  Component Model - Self
+//  Component Model - Self and Primitive 
 ///////////////////////////////////////////////////////
 #include "or2_gate.h"
 
@@ -119,48 +119,6 @@ SC_MODULE(or4_cmpnt_self)
         or2_3(fi1, fi2, o_f);
     }
 };
-//
-//
-//
-/////////////////////////////////////////////////////////
-////  Component Model - Primitive
-/////////////////////////////////////////////////////////
-//#include  "and2_gate.h"
-//#include  "not1_gate.h"
-//
-//SC_MODULE(or4_cmpnt_prim) 
-//{
-//    //  Define IO Ports
-//    sc_in  <bool> i_a;
-//    sc_in  <bool> i_b;
-//    sc_in  <bool> i_c;
-//    sc_in  <bool> i_d;
-//    sc_out <bool> o_f;
-//
-//    //  Component Instances
-//    and2_gate and2_1;
-//    and2_gate and2_2;
-//    and2_gate and2_3;
-//    not1_gate not1_1;
-//
-//    //  Internal Signals
-//    sc_signal <bool> fi1;
-//    sc_signal <bool> fi2;
-//    sc_signal <bool> fi3;
-//
-//    // Constructor
-//    SC_CTOR(or4_cmpnt_prim) : 
-//                                 and2_1("G11"),
-//                                 and2_2("G22"),
-//                                 and2_3("G33"),
-//                                 not1_1("G44")
-//    {
-//        and2_1(i_a, i_b, fi1);
-//        and2_2(i_c, i_d, fi2);
-//        and2_3(fi1, fi2, fi3);
-//        not1_1(fi3,      o_f);
-//    }
-//};
 
 
 
