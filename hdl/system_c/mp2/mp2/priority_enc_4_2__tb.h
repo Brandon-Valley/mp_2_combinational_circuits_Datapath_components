@@ -25,10 +25,9 @@ void priority_enc_4_2__tb()
     //  Define IO Ports
     //=============================//
     sc_signal<sc_lv<4>> i_code;
-    sc_signal<bool> i_b;
-    sc_signal<bool> i_c;
-    sc_signal<bool> i_d;
-    sc_signal<bool> o_f;
+    sc_signal<sc_lv<2>> o_code;
+    sc_signal<bool> o_valid;
+
 
     //=============================//
     //  Select Which Model to Test
@@ -43,10 +42,8 @@ void priority_enc_4_2__tb()
     //  Port Map
     //=============================//
     DUT.i_code(i_code);
-    DUT.i_b(i_b);
-    DUT.i_c(i_c);
-    DUT.i_d(i_d);
-    DUT.o_f(o_f);
+    DUT.o_code(o_code);
+    DUT.o_valid(o_valid);
 
 
     // trace file to look at sim output
@@ -57,11 +54,9 @@ void priority_enc_4_2__tb()
     //=============================//
     //  Add Signals to Trace File
     //=============================//
-    sc_trace(fp1, i_code, "i_code");
-    sc_trace(fp1, i_b, "i_b");
-    sc_trace(fp1, i_c, "i_c");
-    sc_trace(fp1, i_d, "i_d");
-    sc_trace(fp1, o_f, "o_f");
+    sc_trace(fp1, i_code,  "i_code");
+    sc_trace(fp1, o_code,  "o_code");
+    sc_trace(fp1, o_valid, "o_valid");
 
 
     //--------------//
@@ -81,15 +76,15 @@ void priority_enc_4_2__tb()
         //=============================//
         //i_code[0] = sv[0];
         i_code = i;
-        //i_b = sv[1];
-        //i_c = sv[2];
+        //o_code = sv[1];
+        //o_valid = sv[2];
         //i_d = sv[3];
 
 
         sc_start(10, SC_NS); // run sim for 10 ns
     }
 
-    // last change that wont show on EDA plai_bground
+    // last change that wont show on EDA plao_codeground
     sc_close_vcd_trace_file(fp1); // close(fp1)
 }
 #endif  
