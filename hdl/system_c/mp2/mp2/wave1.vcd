@@ -1,5 +1,5 @@
 $date
-     Mar 18, 2020       18:49:25
+     Mar 18, 2020       20:48:33
 $end
 
 $version
@@ -11,7 +11,7 @@ $timescale
 $end
 
 $scope module SystemC $end
-$var wire    1  aaaaa  i_a       $end
+$var wire    4  aaaaa  i_code [3:0]  $end
 $var wire    1  aaaab  i_b       $end
 $var wire    1  aaaac  i_c       $end
 $var wire    1  aaaad  i_d       $end
@@ -24,77 +24,63 @@ All initial values are dumped below at time 0 sec = 0 timescale units.
 $end
 
 $dumpvars
-0aaaaa
+b0 aaaaa
 0aaaab
 0aaaac
 0aaaad
-1aaaae
+0aaaae
 $end
 
 #10000
-1aaaaa
+b1 aaaaa
 
 #20000
-0aaaaa
-1aaaab
+b10 aaaaa
 
 #30000
-1aaaaa
+b11 aaaaa
 
 #40000
-0aaaaa
-0aaaab
-1aaaac
+b100 aaaaa
 
 #50000
-1aaaaa
+b101 aaaaa
 
 #60000
-0aaaaa
-1aaaab
+b110 aaaaa
 
 #70000
-1aaaaa
+b111 aaaaa
 
 #80000
-0aaaaa
-0aaaab
-0aaaac
-1aaaad
-
-#90000
-1aaaaa
-
-#100000
-0aaaaa
-1aaaab
-
-#110000
-1aaaaa
-
-#120000
-0aaaaa
-0aaaab
-1aaaac
-
-#130000
-1aaaaa
-
-#140000
-0aaaaa
-1aaaab
-
-#150000
-1aaaaa
-0aaaae
-
-#160000
-0aaaaa
-0aaaab
-0aaaac
-0aaaad
+b1000 aaaaa
 1aaaae
 
+#90000
+b1001 aaaaa
+
+#100000
+b1010 aaaaa
+
+#110000
+b1011 aaaaa
+
+#120000
+b1100 aaaaa
+
+#130000
+b1101 aaaaa
+
+#140000
+b1110 aaaaa
+
+#150000
+b1111 aaaaa
+
+#160000
+b0 aaaaa
+0aaaae
+
 #170000
-1aaaaa
+b1 aaaaa
 

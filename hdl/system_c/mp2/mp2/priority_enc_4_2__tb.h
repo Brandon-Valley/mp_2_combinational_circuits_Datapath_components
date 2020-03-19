@@ -24,25 +24,25 @@ void priority_enc_4_2__tb()
     //=============================//
     //  Define IO Ports
     //=============================//
-    sc_signal<bool> i_a,
-                    i_b,
-                    i_c,
-                    i_d,
-                    o_f;
+    sc_signal<sc_lv<4>> i_code;
+    sc_signal<bool> i_b;
+    sc_signal<bool> i_c;
+    sc_signal<bool> i_d;
+    sc_signal<bool> o_f;
 
     //=============================//
     //  Select Which Model to Test
     //=============================//
-    //nand4__equation DUT("priority_enc_4_2.h");
-    //nand4__behavior DUT("priority_enc_4_2.h");
-    //nand4_cmpnt_self DUT("priority_enc_4_2.h");
-    nand4_cmpnt_prim DUT("priority_enc_4_2.h");
+    priority_enc_4_2__equation DUT("priority_enc_4_2.h");
+    //priority_enc_4_2__behavior DUT("priority_enc_4_2.h");
+    //priority_enc_4_2_cmpnt_self DUT("priority_enc_4_2.h");
+    //priority_enc_4_2_cmpnt_prim DUT("priority_enc_4_2.h");
 
 
     //=============================//
     //  Port Map
     //=============================//
-    DUT.i_a(i_a);
+    DUT.i_code(i_code);
     DUT.i_b(i_b);
     DUT.i_c(i_c);
     DUT.i_d(i_d);
@@ -57,7 +57,7 @@ void priority_enc_4_2__tb()
     //=============================//
     //  Add Signals to Trace File
     //=============================//
-    sc_trace(fp1, i_a, "i_a");
+    sc_trace(fp1, i_code, "i_code");
     sc_trace(fp1, i_b, "i_b");
     sc_trace(fp1, i_c, "i_c");
     sc_trace(fp1, i_d, "i_d");
@@ -79,10 +79,11 @@ void priority_enc_4_2__tb()
         //=============================//
         //  Set Inputs      
         //=============================//
-        i_a = sv[0];
-        i_b = sv[1];
-        i_c = sv[2];
-        i_d = sv[3];
+        //i_code[0] = sv[0];
+        i_code = i;
+        //i_b = sv[1];
+        //i_c = sv[2];
+        //i_d = sv[3];
 
 
         sc_start(10, SC_NS); // run sim for 10 ns
