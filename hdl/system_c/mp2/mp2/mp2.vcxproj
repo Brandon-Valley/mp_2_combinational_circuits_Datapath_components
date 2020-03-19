@@ -142,6 +142,8 @@
     <ClInclude Include="and2_gate.h" />
     <ClInclude Include="decoder_2_4_active_low_out.h" />
     <ClInclude Include="decoder_2_4_active_low_out__tb.h" />
+    <ClInclude Include="deMUX_1_8.h" />
+    <ClInclude Include="deMUX_1_8__tb.h" />
     <ClInclude Include="nand2_gate.h" />
     <ClInclude Include="nand4_gate.h" />
     <ClInclude Include="nand4_gate__tb.h" />
