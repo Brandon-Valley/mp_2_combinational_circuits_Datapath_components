@@ -151,6 +151,8 @@
     <ClInclude Include="or4_gate__tb.h" />
     <ClInclude Include="priority_enc_4_2.h" />
     <ClInclude Include="priority_enc_4_2__tb.h" />
+    <ClInclude Include="SN74145.h" />
+    <ClInclude Include="SN74145__tb.h" />
     <ClInclude Include="system_c_utils.h" />
     <ClInclude Include="vector_print.h" />
     <ClInclude Include="xor2_gate.h" />

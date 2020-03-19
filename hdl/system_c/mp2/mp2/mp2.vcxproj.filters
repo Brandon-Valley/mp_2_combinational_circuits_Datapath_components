@@ -66,6 +66,12 @@
     <ClInclude Include="decoder_2_4_active_low_out__tb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SN74145.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SN74145__tb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="run_main_tb.cpp">
