@@ -18,8 +18,17 @@ SC_MODULE(priority_enc_4_2__equation)
     // Architecture Statement - Similar to Process Statement
     void p1()
     {
-        //o_f.write(!(i_code.read() && i_b.read() && i_c.read() && i_d.read()));
-        o_valid.write(i_code.read()[3].to_bool());
+        if      (i_code.read()[0].to_bool())  o_code.write("00");
+        else if (i_code.read()[1].to_bool())  o_code.write("01");
+        else if (i_code.read()[2].to_bool())  o_code.write("10");
+        else if (i_code.read()[3].to_bool())  o_code.write("11");
+        else                                  o_code.write("00");        
+
+
+        o_valid.write(i_code.read()[0].to_bool() ||
+                      i_code.read()[1].to_bool() ||
+                      i_code.read()[2].to_bool() ||
+                      i_code.read()[3].to_bool() );
     }
 
 

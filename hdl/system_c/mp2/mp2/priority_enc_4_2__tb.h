@@ -65,18 +65,20 @@ void priority_enc_4_2__tb()
     print_sim_header("priority_enc_4_2");
     double num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2; // run 2 extra so waveform always ends with all high, then all low
 
-    for (int i = 0; i < num_combos_to_test; i++)
+    for (int i = 0; i < pow(4, 2) + 1; i++)
     {
         vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector
         cout << "In priority_enc_4_2__tb.h, Sim:  i:" << i << "    sv:" << sv << endl;
+
+        i_code = i;
+
 
 
         //=============================//
         //  Set Inputs      
         //=============================//
         //i_code[0] = sv[0];
-        i_code = i;
-        //o_code = sv[1];
+        //i_code = i;
         //o_valid = sv[2];
         //i_d = sv[3];
 
