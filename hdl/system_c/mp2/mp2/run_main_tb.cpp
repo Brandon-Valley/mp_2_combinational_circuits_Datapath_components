@@ -6,6 +6,7 @@
 #include "priority_enc_4_2__tb.h"
 #include "decoder_2_4_active_low_out__tb.h"
 
+
 int sc_main(int argc, char* argv[])
 {
     //nand4_gate__tb();

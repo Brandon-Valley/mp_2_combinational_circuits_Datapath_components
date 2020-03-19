@@ -24,18 +24,17 @@ void decoder_2_4_active_low_out__tb()
     //=============================//
     //  Define IO Ports
     //=============================//
-    sc_signal<sc_lv<4>> i_code;
-    sc_signal<sc_lv<2>> o_code;
+    sc_signal<sc_lv<2>> i_code;
+    sc_signal<sc_lv<4>> o_code;
     sc_signal<bool> o_valid;
 
 
     //=============================//
     //  Select Which Model to Test
     //=============================//
-    decoder_2_4_active_low_out__equation DUT("decoder_2_4_active_low_out.h");
-    //decoder_2_4_active_low_out__behavior DUT("decoder_2_4_active_low_out.h");
-    //decoder_2_4_active_low_out_cmpnt_self DUT("decoder_2_4_active_low_out.h");
-    //decoder_2_4_active_low_out_cmpnt_prim DUT("decoder_2_4_active_low_out.h");
+    //decoder_2_4_active_low_out__equation DUT("decoder_2_4_active_low_out.h");
+    decoder_2_4_active_low_out__behavior DUT("decoder_2_4_active_low_out.h");
+
 
 
     //=============================//
@@ -43,7 +42,6 @@ void decoder_2_4_active_low_out__tb()
     //=============================//
     DUT.i_code(i_code);
     DUT.o_code(o_code);
-    DUT.o_valid(o_valid);
 
 
     // trace file to look at sim output
@@ -56,7 +54,6 @@ void decoder_2_4_active_low_out__tb()
     //=============================//
     sc_trace(fp1, i_code,  "i_code");
     sc_trace(fp1, o_code,  "o_code");
-    sc_trace(fp1, o_valid, "o_valid");
 
 
     //--------------//

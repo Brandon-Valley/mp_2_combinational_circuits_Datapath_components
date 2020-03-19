@@ -1,5 +1,5 @@
 $date
-     Mar 18, 2020       22:09:18
+     Mar 18, 2020       22:32:57
 $end
 
 $version
@@ -11,9 +11,8 @@ $timescale
 $end
 
 $scope module SystemC $end
-$var wire    4  aaaaa  i_code [3:0]  $end
-$var wire    2  aaaab  o_code [1:0]  $end
-$var wire    1  aaaac  o_valid       $end
+$var wire    2  aaaaa  i_code [1:0]  $end
+$var wire    4  aaaab  o_code [3:0]  $end
 $upscope $end
 $enddefinitions  $end
 
@@ -23,71 +22,70 @@ $end
 
 $dumpvars
 b0 aaaaa
-b0 aaaab
-0aaaac
+b1110 aaaab
 $end
 
 #10000
 b1 aaaaa
-1aaaac
+b1101 aaaab
 
 #20000
 b10 aaaaa
-b1 aaaab
+b1011 aaaab
 
 #30000
 b11 aaaaa
-b0 aaaab
+b111 aaaab
 
 #40000
-b100 aaaaa
-b10 aaaab
+b0 aaaaa
+b1110 aaaab
 
 #50000
-b101 aaaaa
-b0 aaaab
+b1 aaaaa
+b1101 aaaab
 
 #60000
-b110 aaaaa
-b1 aaaab
+b10 aaaaa
+b1011 aaaab
 
 #70000
-b111 aaaaa
-b0 aaaab
+b11 aaaaa
+b111 aaaab
 
 #80000
-b1000 aaaaa
-b11 aaaab
+b0 aaaaa
+b1110 aaaab
 
 #90000
-b1001 aaaaa
-b0 aaaab
+b1 aaaaa
+b1101 aaaab
 
 #100000
-b1010 aaaaa
-b1 aaaab
+b10 aaaaa
+b1011 aaaab
 
 #110000
-b1011 aaaaa
-b0 aaaab
+b11 aaaaa
+b111 aaaab
 
 #120000
-b1100 aaaaa
-b10 aaaab
+b0 aaaaa
+b1110 aaaab
 
 #130000
-b1101 aaaaa
-b0 aaaab
+b1 aaaaa
+b1101 aaaab
 
 #140000
-b1110 aaaaa
-b1 aaaab
+b10 aaaaa
+b1011 aaaab
 
 #150000
-b1111 aaaaa
-b0 aaaab
+b11 aaaaa
+b111 aaaab
 
 #160000
 b0 aaaaa
-0aaaac
+b1110 aaaab
 
