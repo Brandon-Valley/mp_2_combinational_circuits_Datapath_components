@@ -4,13 +4,16 @@
 #include "or4_gate__tb.h"
 #include "xor_gate__tb.h"
 #include "priority_enc_4_2__tb.h"
+#include "decoder_2_4_active_low_out__tb.h"
 
 int sc_main(int argc, char* argv[])
 {
     //nand4_gate__tb();
     //or4_gate__tb();
     //xor4_gate__tb();
-    priority_enc_4_2__tb();
+
+    //priority_enc_4_2__tb();
+    decoder_2_4_active_low_out__tb();
 
     return 0;
 }

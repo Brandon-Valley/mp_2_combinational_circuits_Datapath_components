@@ -60,6 +60,12 @@
     <ClInclude Include="priority_enc_4_2__tb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="decoder_2_4_active_low_out.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="decoder_2_4_active_low_out__tb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="run_main_tb.cpp">
