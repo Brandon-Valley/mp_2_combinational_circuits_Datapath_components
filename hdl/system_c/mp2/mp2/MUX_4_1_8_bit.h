@@ -1,12 +1,12 @@
-#ifndef deMUX_1_8_H
-#define deMUX_1_8_H
+#ifndef MUX_4_1_8_bit_H
+#define MUX_4_1_8_bit_H
 
 #include "systemc.h"
 
 using namespace std;
 
 
-SC_MODULE(deMUX_1_8__behavior) 
+SC_MODULE(MUX_4_1_8_bit__behavior) 
 {
     //  Define IO Ports
     sc_in  <bool>     i_a       ;
@@ -23,7 +23,7 @@ SC_MODULE(deMUX_1_8__behavior)
 
 
     // Constructor
-    SC_CTOR(deMUX_1_8__behavior) 
+    SC_CTOR(MUX_4_1_8_bit__behavior) 
     {
         SC_METHOD(p1);
 

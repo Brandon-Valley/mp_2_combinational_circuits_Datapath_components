@@ -7,6 +7,7 @@
 #include "decoder_2_4_active_low_out__tb.h"
 #include "SN74145__tb.h"
 #include "deMUX_1_8__tb.h"
+#include "MUX_4_1_8_bit__tb.h"
 
 
 int sc_main(int argc, char* argv[])
@@ -18,7 +19,8 @@ int sc_main(int argc, char* argv[])
     //priority_enc_4_2__tb();
     //decoder_2_4_active_low_out__tb();
     //SN74145__tb();
-    deMUX_1_8__tb();
+    //deMUX_1_8__tb();
+    MUX_4_1_8_bit__tb();
 
     return 0;
 }

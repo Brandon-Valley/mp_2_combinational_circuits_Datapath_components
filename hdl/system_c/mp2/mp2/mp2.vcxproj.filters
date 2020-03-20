@@ -78,6 +78,12 @@
     <ClInclude Include="deMUX_1_8__tb.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MUX_4_1_8_bit__tb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MUX_4_1_8_bit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="run_main_tb.cpp">
