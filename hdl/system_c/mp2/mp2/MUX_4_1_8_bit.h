@@ -9,16 +9,26 @@ using namespace std;
 SC_MODULE(MUX_4_1_8_bit__behavior) 
 {
     //  Define IO Ports
-    sc_in  <bool>     i_a       ;
-    sc_in  <sc_lv<8>> i_sel_code;
+    sc_in  <bool>     i_en      ;
+    sc_in  <sc_lv<8>> i_code_0  ;
+    sc_in  <sc_lv<8>> i_code_1  ;
+    sc_in  <sc_lv<8>> i_code_2  ;
+    sc_in  <sc_lv<8>> i_code_3  ;
+    sc_in  <sc_lv<2>> i_sel_code;
     sc_out <sc_lv<8>> o_code    ;
+
+
 
 
     // Architecture Statement - Similar to Process Statement
     void p1()
     {
-        if (i_a)
-            o_code = i_sel_code;   
+        //if (i_a)
+        //    o_code = i_sel_code;   
+        o_code = "00010000";
+
+
+
     }
 
 
@@ -28,8 +38,13 @@ SC_MODULE(MUX_4_1_8_bit__behavior)
         SC_METHOD(p1);
 
         //  Input Sensitivity List
-        sensitive << i_a       
+        sensitive << i_en      
+                  << i_code_0  
+                  << i_code_1  
+                  << i_code_2  
+                  << i_code_3  
                   << i_sel_code
+                  << o_code    
                   ;
     }
 };
