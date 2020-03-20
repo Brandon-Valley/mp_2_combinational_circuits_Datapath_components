@@ -24,9 +24,9 @@ void deMUX_1_8__tb()
     //=============================//
     //  Define IO Ports
     //=============================//
-    sc_signal<sc_lv<2>> i_code;
-    sc_signal<sc_lv<4>> o_code;
-    sc_signal<bool> o_valid;
+    sc_signal <bool>     i_a       ;
+    sc_signal <sc_lv<8>> i_sel_code;
+    sc_signal <sc_lv<8>> o_code    ;
 
 
     //=============================//
@@ -40,8 +40,9 @@ void deMUX_1_8__tb()
     //=============================//
     //  Port Map
     //=============================//
-    DUT.i_code(i_code);
-    DUT.o_code(o_code);
+    DUT.i_a       (i_a       );
+    DUT.i_sel_code(i_sel_code);
+    DUT.o_code    (o_code    );
 
 
     // trace file to look at sim output
@@ -52,8 +53,9 @@ void deMUX_1_8__tb()
     //=============================//
     //  Add Signals to Trace File
     //=============================//
-    sc_trace(fp1, i_code,  "i_code");
-    sc_trace(fp1, o_code,  "o_code");
+    sc_trace(fp1, i_a       ,  "i_a");
+    sc_trace(fp1, i_sel_code,  "i_sel_code");
+    sc_trace(fp1, o_code    ,  "o_code");
 
 
     //--------------//
@@ -62,12 +64,14 @@ void deMUX_1_8__tb()
     print_sim_header("deMUX_1_8");
     double num_combos_to_test = pow(num_bits_needed_in_sim_vec, 2) + 2; // run 2 extra so waveform always ends with all high, then all low
 
-    for (int i = 0; i < pow(4, 2) + 1; i++)
+    for (int i = 0; i < pow(9, 2) + 1; i++)
     {
         vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector
         cout << "In deMUX_1_8__tb.h, Sim:  i:" << i << "    sv:" << sv << endl;
 
-        i_code = i;
+        i_a = i % 2;
+
+        i_sel_code = i - 1;
 
 
 
