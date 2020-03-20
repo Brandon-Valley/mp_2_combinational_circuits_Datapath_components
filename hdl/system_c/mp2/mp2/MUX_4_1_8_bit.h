@@ -25,10 +25,17 @@ SC_MODULE(MUX_4_1_8_bit__behavior)
     {
         //if (i_a)
         //    o_code = i_sel_code;   
-        o_code = "00010000";
+        //o_code = "00010000";
 
-
-
+        if (i_en)
+        {
+            if (i_sel_code.read() == "00")  o_code = i_code_0;
+            if (i_sel_code.read() == "01")  o_code = i_code_1;
+            if (i_sel_code.read() == "10")  o_code = i_code_2;
+            if (i_sel_code.read() == "11")  o_code = i_code_3;
+        }
+        else
+            o_code = "00000000";
     }
 
 

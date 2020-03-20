@@ -84,6 +84,7 @@ void MUX_4_1_8_bit__tb()
         //i_sel_code = i - 1;
 
         i_sel_code = i;
+        i_en = i % 2;
 
         i_code_0 = i + 0;
         i_code_1 = i + 1;

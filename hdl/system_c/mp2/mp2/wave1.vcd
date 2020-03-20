@@ -1,5 +1,5 @@
 $date
-     Mar 19, 2020       22:30:29
+     Mar 19, 2020       22:34:21
 $end
 
 $version
@@ -32,69 +32,87 @@ b1 aaaac
 b10 aaaad
 b11 aaaae
 b0 aaaaf
-b10000 aaaag
+b0 aaaag
 $end
 
 #10000
+1aaaaa
 b1 aaaab
 b10 aaaac
 b11 aaaad
 b100 aaaae
 b1 aaaaf
+b10 aaaag
 
 #20000
+0aaaaa
 b10 aaaab
 b11 aaaac
 b100 aaaad
 b101 aaaae
 b10 aaaaf
+b0 aaaag
 
 #30000
+1aaaaa
 b11 aaaab
 b100 aaaac
 b101 aaaad
 b110 aaaae
 b11 aaaaf
+b110 aaaag
 
 #40000
+0aaaaa
 b100 aaaab
 b101 aaaac
 b110 aaaad
 b111 aaaae
 b0 aaaaf
+b0 aaaag
 
 #50000
+1aaaaa
 b101 aaaab
 b110 aaaac
 b111 aaaad
 b1000 aaaae
 b1 aaaaf
+b110 aaaag
 
 #60000
+0aaaaa
 b110 aaaab
 b111 aaaac
 b1000 aaaad
 b1001 aaaae
 b10 aaaaf
+b0 aaaag
 
 #70000
+1aaaaa
 b111 aaaab
 b1000 aaaac
 b1001 aaaad
 b1010 aaaae
 b11 aaaaf
+b1010 aaaag
 
 #80000
+0aaaaa
 b1000 aaaab
 b1001 aaaac
 b1010 aaaad
 b1011 aaaae
 b0 aaaaf
+b0 aaaag
 
 #90000
+1aaaaa
 b1001 aaaab
 b1010 aaaac
 b1011 aaaad
 b1100 aaaae
 b1 aaaaf
+b1010 aaaag
 
