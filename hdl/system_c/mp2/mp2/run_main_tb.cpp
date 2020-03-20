@@ -9,6 +9,7 @@
 #include "deMUX_1_8__tb.h"
 #include "MUX_4_1_8_bit__tb.h"
 #include "micro__tb.h"
+#include "MUX_4_1__tb.h"
 
 
 int sc_main(int argc, char* argv[])
@@ -22,7 +23,8 @@ int sc_main(int argc, char* argv[])
     //SN74145__tb();
     //deMUX_1_8__tb();
     //MUX_4_1_8_bit__tb();
-    micro__tb();
+    //micro__tb();
+    MUX_4_1__tb();
 
     return 0;
 }

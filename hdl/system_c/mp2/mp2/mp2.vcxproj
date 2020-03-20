@@ -146,8 +146,10 @@
     <ClInclude Include="deMUX_1_8__tb.h" />
     <ClInclude Include="micro.h" />
     <ClInclude Include="micro__tb.h" />
+    <ClInclude Include="MUX_4_1.h" />
     <ClInclude Include="MUX_4_1_8_bit.h" />
     <ClInclude Include="MUX_4_1_8_bit__tb.h" />
+    <ClInclude Include="MUX_4_1__tb.h" />
     <ClInclude Include="nand2_gate.h" />
     <ClInclude Include="nand4_gate.h" />
     <ClInclude Include="nand4_gate__tb.h" />
