@@ -26,9 +26,9 @@ void micro__tb()
     //=============================//
     sc_signal <bool>     i_en  ;
     sc_signal <sc_lv<4>> i_code;
-    sc_signal <bool>     o_A   ;
-    sc_signal <bool>     o_L   ;
-    sc_signal <bool>     o_B   ;
+    sc_signal <sc_logic> o_A   ;
+    sc_signal <sc_logic> o_L   ;
+    sc_signal <sc_logic> o_B   ;
 
 
     //=============================//
@@ -73,9 +73,13 @@ void micro__tb()
         vector<int> sv = int_to_binary_vec__with_rollover(i, num_bits_needed_in_sim_vec); // simulation vector
         cout << "In micro__tb.h, Sim:  i:" << i << "    sv:" << sv << endl;
 
-        i_en = i % 2;
+        i_en = 0;
         i_code = i;
 
+        sc_start(10, SC_NS); // run sim for 10 ns
+
+        i_en = 1;
+        i_code = i;
 
 
 

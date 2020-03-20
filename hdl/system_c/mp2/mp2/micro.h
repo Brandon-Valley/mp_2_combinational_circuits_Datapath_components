@@ -11,12 +11,9 @@ SC_MODULE(micro__behavior)
     //  Define IO Ports
     sc_in  <bool>     i_en  ;
     sc_in  <sc_lv<4>> i_code;
-    sc_out <bool>     o_A   ;
-    sc_out <bool>     o_L   ;
-    sc_out <bool>     o_B   ;
-
-
-
+    sc_out <sc_logic>     o_A   ;
+    sc_out <sc_logic>     o_L   ;
+    sc_out <sc_logic>     o_B   ;
 
 
     // Architecture Statement - Similar to Process Statement
@@ -33,9 +30,50 @@ SC_MODULE(micro__behavior)
         //else
         //    o_code = "00000000";
 
-        o_A = "1";
-        o_L = "0";
-        o_B = "1";
+        //o_A = "1";
+        //o_L = "0";
+        //o_B = "1";
+
+        //o_A = SC_LOGIC_0;
+        //o_B = SC_LOGIC_1;
+        ////o_L.write('0');
+        ////o_B.write('Z');
+
+        ////o_L = '0';
+        ////o_B.write('z');
+        //o_B = SC_LOGIC_Z;
+
+
+
+        if (!i_en)
+        {
+            o_A = SC_LOGIC_Z;
+            o_L = SC_LOGIC_Z;
+            o_B = SC_LOGIC_Z;
+        }
+        else
+        {
+            if ( i_code.read() == "1010" ||
+                 i_code.read() == "1011" ||
+                 i_code.read() == "1100")
+                                            o_A = SC_LOGIC_1;
+            else
+                                            o_A = SC_LOGIC_0;
+
+            if ( i_code.read() == "0011" ||
+                 i_code.read() == "0100" ||
+                 i_code.read() == "0010" ||
+                 i_code.read() == "1110")
+                                            o_L = SC_LOGIC_1;
+            else
+                                            o_L = SC_LOGIC_0;
+
+            if (i_code.read() == "1111")
+                                            o_B = SC_LOGIC_1;
+            else
+                                            o_B = SC_LOGIC_0;
+
+        }
 
 
     }
@@ -48,10 +86,7 @@ SC_MODULE(micro__behavior)
 
         //  Input Sensitivity List
         sensitive << i_en  
-                  << i_code
-                  << o_A   
-                  << o_L   
-                  << o_B   
+                  << i_code 
                   ;
     }
 };
