@@ -29,7 +29,19 @@ SC_MODULE(MUX_4_1__behavior)
         //else
         //    o_code = "00000000";
 
-        o_f.write(1);
+        //o_f.write(1);
+
+        if ( ! i_en )
+            o_f.write(0);
+        else
+        {
+            if      ( i_sel_code.read() == "00" && i_code.read()[0].to_bool() )  o_f.write(1);
+            else if ( i_sel_code.read() == "01" && i_code.read()[1].to_bool() )  o_f.write(1);
+            else if ( i_sel_code.read() == "10" && i_code.read()[2].to_bool() )  o_f.write(1);
+            else if ( i_sel_code.read() == "11" && i_code.read()[3].to_bool() )  o_f.write(1);
+            else                                                                 o_f.write(0);
+        }
+
 
 
     }

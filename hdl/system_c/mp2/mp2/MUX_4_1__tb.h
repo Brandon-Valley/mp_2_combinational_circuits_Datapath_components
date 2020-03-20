@@ -75,6 +75,33 @@ void MUX_4_1__tb()
         //  Set Inputs      
         //=============================//
         
+        i_en = 0;
+
+        i_sel_code = 0;
+        i_code = i;
+
+        sc_start(10, SC_NS); // run sim for 10 ns
+        
+        i_sel_code = 1;
+        i_code = i;
+
+        sc_start(10, SC_NS); // run sim for 10 ns
+        
+        i_sel_code = 2;
+        i_code = i;
+
+        sc_start(10, SC_NS); // run sim for 10 ns
+        
+        i_sel_code = 3;
+        i_code = i;
+
+        sc_start(10, SC_NS); // run sim for 10 ns
+
+
+
+
+        i_en = 1;
+
         i_sel_code = 0;
         i_code = i;
 
