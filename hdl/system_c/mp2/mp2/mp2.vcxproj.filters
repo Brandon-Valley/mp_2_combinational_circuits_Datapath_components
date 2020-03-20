@@ -84,6 +84,12 @@
     <ClInclude Include="MUX_4_1_8_bit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="micro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="micro__tb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="run_main_tb.cpp">

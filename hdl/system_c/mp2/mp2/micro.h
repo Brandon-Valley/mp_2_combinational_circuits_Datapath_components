@@ -1,12 +1,12 @@
-#ifndef MUX_4_1_8_bit_H
-#define MUX_4_1_8_bit_H
+#ifndef micro_H
+#define micro_H
 
 #include "systemc.h"
 
 using namespace std;
 
 
-SC_MODULE(MUX_4_1_8_bit__behavior) 
+SC_MODULE(micro__behavior) 
 {
     //  Define IO Ports
     sc_in  <bool>     i_en      ;
@@ -37,7 +37,7 @@ SC_MODULE(MUX_4_1_8_bit__behavior)
 
 
     // Constructor
-    SC_CTOR(MUX_4_1_8_bit__behavior) 
+    SC_CTOR(micro__behavior) 
     {
         SC_METHOD(p1);
 
