@@ -1,5 +1,5 @@
 $date
-     Mar 19, 2020       23:53:26
+     Mar 20, 2020       00:01:22
 $end
 
 $version
@@ -12,12 +12,9 @@ $end
 
 $scope module SystemC $end
 $var wire    1  aaaaa  i_en       $end
-$var wire    8  aaaab  i_code_0 [7:0]  $end
-$var wire    8  aaaac  i_code_1 [7:0]  $end
-$var wire    8  aaaad  i_code_2 [7:0]  $end
-$var wire    8  aaaae  i_code_3 [7:0]  $end
-$var wire    2  aaaaf  i_sel_code [1:0]  $end
-$var wire    8  aaaag  o_code [7:0]  $end
+$var wire    4  aaaab  i_code [3:0]  $end
+$var wire    2  aaaac  i_sel_code [1:0]  $end
+$var wire    1  aaaad  o_f       $end
 $upscope $end
 $enddefinitions  $end
 
@@ -28,91 +25,224 @@ $end
 $dumpvars
 0aaaaa
 b0 aaaab
-b1 aaaac
-b10 aaaad
-b11 aaaae
-b0 aaaaf
-b0 aaaag
+b0 aaaac
+1aaaad
 $end
 
 #10000
-1aaaaa
-b1 aaaab
-b10 aaaac
-b11 aaaad
-b100 aaaae
-b1 aaaaf
-b10 aaaag
+b1 aaaac
 
 #20000
-0aaaaa
-b10 aaaab
-b11 aaaac
-b100 aaaad
-b101 aaaae
-b10 aaaaf
-b0 aaaag
+b10 aaaac
 
 #30000
-1aaaaa
-b11 aaaab
-b100 aaaac
-b101 aaaad
-b110 aaaae
-b11 aaaaf
-b110 aaaag
+b11 aaaac
 
 #40000
-0aaaaa
-b100 aaaab
-b101 aaaac
-b110 aaaad
-b111 aaaae
-b0 aaaaf
-b0 aaaag
+b1 aaaab
+b0 aaaac
 
 #50000
-1aaaaa
-b101 aaaab
-b110 aaaac
-b111 aaaad
-b1000 aaaae
-b1 aaaaf
-b110 aaaag
+b1 aaaac
 
 #60000
-0aaaaa
-b110 aaaab
-b111 aaaac
-b1000 aaaad
-b1001 aaaae
-b10 aaaaf
-b0 aaaag
+b10 aaaac
 
 #70000
-1aaaaa
-b111 aaaab
-b1000 aaaac
-b1001 aaaad
-b1010 aaaae
-b11 aaaaf
-b1010 aaaag
+b11 aaaac
 
 #80000
-0aaaaa
-b1000 aaaab
-b1001 aaaac
-b1010 aaaad
-b1011 aaaae
-b0 aaaaf
-b0 aaaag
+b10 aaaab
+b0 aaaac
 
 #90000
-1aaaaa
+b1 aaaac
+
+#100000
+b10 aaaac
+
+#110000
+b11 aaaac
+
+#120000
+b11 aaaab
+b0 aaaac
+
+#130000
+b1 aaaac
+
+#140000
+b10 aaaac
+
+#150000
+b11 aaaac
+
+#160000
+b100 aaaab
+b0 aaaac
+
+#170000
+b1 aaaac
+
+#180000
+b10 aaaac
+
+#190000
+b11 aaaac
+
+#200000
+b101 aaaab
+b0 aaaac
+
+#210000
+b1 aaaac
+
+#220000
+b10 aaaac
+
+#230000
+b11 aaaac
+
+#240000
+b110 aaaab
+b0 aaaac
+
+#250000
+b1 aaaac
+
+#260000
+b10 aaaac
+
+#270000
+b11 aaaac
+
+#280000
+b111 aaaab
+b0 aaaac
+
+#290000
+b1 aaaac
+
+#300000
+b10 aaaac
+
+#310000
+b11 aaaac
+
+#320000
+b1000 aaaab
+b0 aaaac
+
+#330000
+b1 aaaac
+
+#340000
+b10 aaaac
+
+#350000
+b11 aaaac
+
+#360000
 b1001 aaaab
-b1010 aaaac
-b1011 aaaad
-b1100 aaaae
-b1 aaaaf
-b1010 aaaag
+b0 aaaac
+
+#370000
+b1 aaaac
+
+#380000
+b10 aaaac
+
+#390000
+b11 aaaac
+
+#400000
+b1010 aaaab
+b0 aaaac
+
+#410000
+b1 aaaac
+
+#420000
+b10 aaaac
+
+#430000
+b11 aaaac
+
+#440000
+b1011 aaaab
+b0 aaaac
+
+#450000
+b1 aaaac
+
+#460000
+b10 aaaac
+
+#470000
+b11 aaaac
+
+#480000
+b1100 aaaab
+b0 aaaac
+
+#490000
+b1 aaaac
+
+#500000
+b10 aaaac
+
+#510000
+b11 aaaac
+
+#520000
+b1101 aaaab
+b0 aaaac
+
+#530000
+b1 aaaac
+
+#540000
+b10 aaaac
+
+#550000
+b11 aaaac
+
+#560000
+b1110 aaaab
+b0 aaaac
+
+#570000
+b1 aaaac
+
+#580000
+b10 aaaac
+
+#590000
+b11 aaaac
+
+#600000
+b1111 aaaab
+b0 aaaac
+
+#610000
+b1 aaaac
+
+#620000
+b10 aaaac
+
+#630000
+b11 aaaac
+
+#640000
+b0 aaaab
+b0 aaaac
+
+#650000
+b1 aaaac
+
+#660000
+b10 aaaac
+
+#670000
+b11 aaaac
 
