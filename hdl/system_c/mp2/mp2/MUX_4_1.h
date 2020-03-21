@@ -18,19 +18,6 @@ SC_MODULE(MUX_4_1__behavior)
     // Architecture Statement - Similar to Process Statement
     void p1()
     {
-
-        //if (i_en)
-        //{
-        //    if (i_sel_code.read() == "00")  o_code = i_code_0;
-        //    if (i_sel_code.read() == "01")  o_code = i_code_1;
-        //    if (i_sel_code.read() == "10")  o_code = i_code_2;
-        //    if (i_sel_code.read() == "11")  o_code = i_code_3;
-        //}
-        //else
-        //    o_code = "00000000";
-
-        //o_f.write(1);
-
         if ( ! i_en )
             o_f.write(0);
         else
@@ -41,9 +28,6 @@ SC_MODULE(MUX_4_1__behavior)
             else if ( i_sel_code.read() == "11" && i_code.read()[3].to_bool() )  o_f.write(1);
             else                                                                 o_f.write(0);
         }
-
-
-
     }
 
 

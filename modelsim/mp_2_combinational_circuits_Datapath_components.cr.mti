@@ -1,12 +1,4 @@
-C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145.vhd
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity SN74145
--- Compiling architecture equation of SN74145
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v
+C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling module priority_enc_4_2_v__no_always
 -- Compiling module priority_enc_4_2_v__always
@@ -43,7 +35,7 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 Top level modules:
 	XOR2_v
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4.vhd {1 {vcom -work work -2002 -explicit {C:\Users\Brandon\Documents\CpE_5220_Digital_Systems_Modeling\mp_1_simple_gates_using_vhdl\NAND4.vhd}
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -75,6 +67,18 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 Top level modules:
 	MUX_4_1_2_bit_v
 
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2_tb.vhd {2 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity priority_enc_4_2_tb
+-- Compiling architecture verify of priority_enc_4_2_tb
+-- Loading entity priority_enc_4_2
+** Warning: [4] C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2_tb.vhd(89): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/AND2_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling module AND2_v
@@ -93,6 +97,15 @@ Top level modules:
 	XOR4_v__behavior
 	XOR4_v__cmpnt_self
 
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v {2 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module deMUX_1_8_tb_v
+** Warning: C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v(32): (vlog-2576) [BSOB] - Bit-select into 'i_sel_code' is out of bounds.
+
+
+Top level modules:
+	deMUX_1_8_tb_v
+
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out_tb.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Loading package STANDARD
@@ -104,21 +117,13 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling architecture verify of decoder_2_4_active_low_out_tb
 -- Loading entity decoder_2_4_active_low_out
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v {2 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module deMUX_1_8_tb_v
-** Warning: C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_tb_v.v(32): (vlog-2576) [BSOB] - Bit-select into 'i_sel_code' is out of bounds.
-
-
-Top level modules:
-	deMUX_1_8_tb_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module priority_enc_8_3_v
-
-Top level modules:
-	priority_enc_8_3_v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity priority_enc_4_2
+-- Compiling architecture equation of priority_enc_4_2
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/SN74145_tb.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -131,13 +136,19 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling architecture verify of SN74145_tb
 -- Loading entity SN74145
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/priority_enc_4_2.vhd
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity priority_enc_4_2
--- Compiling architecture equation of priority_enc_4_2
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module priority_enc_8_3_v
+
+Top level modules:
+	priority_enc_8_3_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module MUX_4_1_2_bit_tb_v
+
+Top level modules:
+	MUX_4_1_2_bit_tb_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit.vhd {2 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -163,12 +174,33 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 ** Warning: [9] C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit.vhd(31): (vcom-1013) Initial value of "fi1" depends on value of signal "i_code_3".
 
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_2_bit_tb_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module MUX_4_1_2_bit_tb_v
+-- Compiling module micro_v
 
 Top level modules:
-	MUX_4_1_2_bit_tb_v
+	micro_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module MUX_4_1_8_bit_v
+
+Top level modules:
+	MUX_4_1_8_bit_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module NOT1_v
+
+Top level modules:
+	NOT1_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module OR4_tb_v
+
+Top level modules:
+	OR4_tb_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/decoder_2_4_active_low_out.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -178,33 +210,12 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling entity decoder_2_4_active_low_out
 -- Compiling architecture equation of decoder_2_4_active_low_out
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_tb_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module OR4_tb_v
+-- Compiling module MUX_2_1_v
 
 Top level modules:
-	OR4_tb_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NOT1_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module NOT1_v
-
-Top level modules:
-	NOT1_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module MUX_4_1_8_bit_v
-
-Top level modules:
-	MUX_4_1_8_bit_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module micro_v
-
-Top level modules:
-	micro_v
+	MUX_2_1_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR2_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
@@ -213,12 +224,19 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 Top level modules:
 	OR2_v
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_2_1_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module MUX_2_1_v
+-- Compiling module priority_enc_8_3_tb_v
 
 Top level modules:
-	MUX_2_1_v
+	priority_enc_8_3_tb_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module MUX_4_1_v
+
+Top level modules:
+	MUX_4_1_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/OR4_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
@@ -231,26 +249,19 @@ Top level modules:
 	OR4_v__behavior
 	OR4_v__cmpnt_self
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module MUX_4_1_v
+-- Compiling module MUX_8_1_tb_v
 
 Top level modules:
-	MUX_4_1_v
+	MUX_8_1_tb_v
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_8_3_tb_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module priority_enc_8_3_tb_v
+-- Compiling module deMUX_1_4_v
 
 Top level modules:
-	priority_enc_8_3_tb_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module SN74145_v
-
-Top level modules:
-	SN74145_v
+	deMUX_1_4_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit_tb.vhd {2 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit_tb.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -265,19 +276,26 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 ** Warning: [14] C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1_2_bit_tb.vhd(66): (vcom-1272) Length of expected is 3; length of actual is 4.
 
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_4_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/SN74145_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module deMUX_1_4_v
+-- Compiling module SN74145_v
 
 Top level modules:
-	deMUX_1_4_v
+	SN74145_v
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_8_1_tb_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module MUX_8_1_tb_v
+-- Compiling module micro_tb_v
 
 Top level modules:
-	MUX_8_1_tb_v
+	micro_tb_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module MUX_4_1_8_bit_tb_v
+
+Top level modules:
+	MUX_4_1_8_bit_tb_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/micro.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -287,19 +305,12 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling entity micro
 -- Compiling architecture equation of micro
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/MUX_4_1_8_bit_tb_v.v
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module MUX_4_1_8_bit_tb_v
+-- Compiling module priority_enc_2_1_v
 
 Top level modules:
-	MUX_4_1_8_bit_tb_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/micro_tb_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module micro_tb_v
-
-Top level modules:
-	micro_tb_v
+	priority_enc_2_1_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_4_2_tb_v.v
 Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
@@ -307,13 +318,6 @@ Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
 
 Top level modules:
 	priority_enc_4_2_tb_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/priority_enc_2_1_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module priority_enc_2_1_v
-
-Top level modules:
-	priority_enc_2_1_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4_tb.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND4_tb.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -335,13 +339,28 @@ Top level modules:
 	MUX_8_1_v__behavior
 	MUX_8_1_v__cmpnt
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd
-Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity NAND2
--- Compiling architecture equation of NAND2
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module deMUX_1_8_v__behavior
+-- Compiling module deMUX_1_8_v__cmpnt
+
+Top level modules:
+	deMUX_1_8_v__behavior
+	deMUX_1_8_v__cmpnt
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module NAND4_tb_v
+
+Top level modules:
+	NAND4_tb_v
+
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module XOR4_tb_v
+
+Top level modules:
+	XOR4_tb_v
 
 } {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/vhdl/MUX_4_1.vhd
 Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
@@ -351,27 +370,12 @@ Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
 -- Compiling entity MUX_4_1
 -- Compiling architecture equation of MUX_4_1
 
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/XOR4_tb_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module XOR4_tb_v
-
-Top level modules:
-	XOR4_tb_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/NAND4_tb_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module NAND4_tb_v
-
-Top level modules:
-	NAND4_tb_v
-
-} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v {1 {vlog -work work C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_2_combinational_circuits_Datapath_components/hdl/verilog/deMUX_1_8_v.v
-Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
--- Compiling module deMUX_1_8_v__behavior
--- Compiling module deMUX_1_8_v__cmpnt
-
-Top level modules:
-	deMUX_1_8_v__behavior
-	deMUX_1_8_v__cmpnt
+} {} {}} C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd {1 {vcom -work work -2002 -explicit C:/Users/Brandon/Documents/CpE_5220_Digital_Systems_Modeling/mp_1_simple_gates_using_vhdl/NAND2.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity NAND2
+-- Compiling architecture equation of NAND2
 
 } {} {}}
